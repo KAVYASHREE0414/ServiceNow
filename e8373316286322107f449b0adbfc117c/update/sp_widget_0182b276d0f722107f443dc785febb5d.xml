@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* Full width background */&#13;
+.clean-theme {&#13;
+  width: 100vw;&#13;
+  height:500px;&#13;
+  margin: 0;&#13;
+  padding: 0;&#13;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;&#13;
+  background: #f5f7fa;&#13;
+  color: #2c3e50;&#13;
+}&#13;
+&#13;
+/* Hero */&#13;
+.hero {&#13;
+  background: linear-gradient(135deg, #1f2c3f, #2c3e50);&#13;
+  color: white;&#13;
+  text-align: center;&#13;
+  padding: 100px 20px;&#13;
+}&#13;
+&#13;
+.hero-title {&#13;
+  font-size: 42px;&#13;
+  font-weight: 700;&#13;
+  margin-bottom: 15px;&#13;
+}&#13;
+&#13;
+.hero-subtitle {&#13;
+  font-size: 18px;&#13;
+  margin-bottom: 30px;&#13;
+  color: #dcdde1;&#13;
+}&#13;
+&#13;
+.hero-buttons .btn {&#13;
+  margin: 0 10px;&#13;
+  padding: 12px 28px;&#13;
+  font-size: 16px;&#13;
+  border-radius: 30px;&#13;
+  font-weight: 600;&#13;
+}&#13;
+&#13;
+.btn-primary {&#13;
+  background: #3498db;&#13;
+  color: white;&#13;
+  border: none;&#13;
+  transition: all 0.3s ease;&#13;
+}&#13;
+&#13;
+.btn-primary:hover {&#13;
+  background: #2980b9;&#13;
+}&#13;
+&#13;
+.btn-outline {&#13;
+  border: 2px solid white;&#13;
+  color: white;&#13;
+  background: transparent;&#13;
+  transition: all 0.3s ease;&#13;
+}&#13;
+&#13;
+.btn-outline:hover {&#13;
+  background: white;&#13;
+  color: #2c3e50;&#13;
+}&#13;
+&#13;
+/* Features */&#13;
+.features {&#13;
+  display: flex;&#13;
+  justify-content: center;&#13;
+  gap: 40px;&#13;
+  padding: 60px 20px;&#13;
+  background: #ffffff;&#13;
+}&#13;
+&#13;
+.feature {&#13;
+  text-align: center;&#13;
+  max-width: 300px;&#13;
+}&#13;
+&#13;
+.feature-icon {&#13;
+  font-size: 40px;&#13;
+  color: #3498db;&#13;
+  margin-bottom: 15px;&#13;
+}&#13;
+&#13;
+.feature h3 {&#13;
+  font-size: 20px;&#13;
+  font-weight: 600;&#13;
+  margin-bottom: 10px;&#13;
+}&#13;
+&#13;
+.feature p {&#13;
+  font-size: 14px;&#13;
+  color: #7f8c8d;&#13;
+}&#13;
+&#13;
+/* CTA Section */&#13;
+.cta {&#13;
+  text-align: center;&#13;
+  background: #2c3e50;&#13;
+  color: white;&#13;
+  padding: 80px 20px;&#13;
+}&#13;
+&#13;
+.cta h2 {&#13;
+  font-size: 28px;&#13;
+  margin-bottom: 15px;&#13;
+}&#13;
+&#13;
+.cta p {&#13;
+  font-size: 16px;&#13;
+  margin-bottom: 30px;&#13;
+  color: #dcdde1;&#13;
+}&#13;
+&#13;
+.btn-lg {&#13;
+  font-size: 18px;&#13;
+  padding: 14px 36px;&#13;
+}&#13;
+&#13;
+/* Footer */&#13;
+.footer {&#13;
+  text-align: center;&#13;
+  background: #1f2c3f;&#13;
+  color: #bdc3c7;&#13;
+  padding: 20px;&#13;
+  font-size: 14px;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>naresh4</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>naresh4</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-09 08:51:24</sys_created_on>
+        <sys_id>0182b276d0f722107f443dc785febb5d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>naresh4</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_0182b276d0f722107f443dc785febb5d</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-09 09:07:01</sys_updated_on>
+        <template><![CDATA[<div class="residents-landing clean-theme">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Welcome to the Residents Portal</h1>
+      <p class="hero-subtitle">Your digital gateway to community living</p>
+      <div class="hero-buttons">
+        <a href="javascript:void(0)" class="btn btn-primary">Explore Services</a>
+        <a href="javascript:void(0)" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="feature">
+      <i class="fa fa-home feature-icon"></i>
+      <h3>Community Services</h3>
+      <p>Access all essential services tailored to residents in one place.</p>
+    </div>
+    <div class="feature">
+      <i class="fa fa-book feature-icon"></i>
+      <h3>Knowledge Hub</h3>
+      <p>Find quick answers, FAQs, and community guidelines.</p>
+    </div>
+    <div class="feature">
+      <i class="fa fa-cogs feature-icon"></i>
+      <h3>Self Service</h3>
+      <p>Request amenities, raise issues, or track your requests easily.</p>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <h2>Get the most out of your community living</h2>
+    <p>Start exploring the services, knowledge, and tools we’ve designed for you.</p>
+    <a href="javascript:void(0)" class="btn btn-primary btn-lg">Get Started</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Residents Portal. All rights reserved.</p>
+  </footer>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>0182b276d0f722107f443dc785febb5d</id>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-09 08:49:49</sys_created_on>
+        <sys_id>65c23276d0f722107f443dc785febb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-09 08:49:49</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

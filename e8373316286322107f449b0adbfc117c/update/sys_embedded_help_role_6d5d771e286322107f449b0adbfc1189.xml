@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="u_parking_slot_user" name="u_parking_slot_user">a15d7bda286322107f449b0adbfc110b</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+        <sys_created_on>2025-08-26 14:42:55</sys_created_on>
+        <sys_id>6d5d771e286322107f449b0adbfc1189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a15d7bda286322107f449b0adbfc110b</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_embedded_help_role_6d5d771e286322107f449b0adbfc1189</sys_update_name>
+        <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+        <sys_updated_on>2025-08-26 14:42:55</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

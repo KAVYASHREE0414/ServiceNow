@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-12 05:36:13</sys_created_on>
+        <sys_id>0b33e5b34cf322107f4404918c7d2242</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_conversations.u_conversations_user</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_security_acl display_value="u_conversations">f233e5b34cf322107f4404918c7d223b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0b33e5b34cf322107f4404918c7d2242</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-12 05:36:13</sys_updated_on>
+        <sys_user_role display_value="u_conversations_user" name="u_conversations_user">fa3321b34cf322107f4404918c7d2214</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

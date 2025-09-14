@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>HH:mm:ss</date_format>
+        <map display_value="CMT staff availabilities TM">3b86bdeca5b322107f44045be81579c9</map>
+        <reference_value_field/>
+        <source_field>u_start_time</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>u_cmt_staff_shifts</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-02 04:42:08</sys_created_on>
+        <sys_id>45e6f120a5f322107f44045be8157993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_start_time</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_transform_entry_45e6f120a5f322107f44045be8157993</sys_update_name>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-02 04:42:08</sys_updated_on>
+        <target_field>u_shift_start</target_field>
+        <target_table>u_staff_availability</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

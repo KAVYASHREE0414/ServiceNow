@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>sp_platform</category>
+        <client_script><![CDATA[function CommunityFormController($scope, spModal, $location) {
+    var c = this;
+    
+    // Initialize form data
+    c.data = {
+        table: 'community',
+        sys_id: $location.search().sys_id || -1,
+        view: 'Default view'
+    };
+    
+    // Handle form submission
+    c.onSubmit = function() {
+        if (c.data.sys_id == -1) {
+            // Creating new record
+            spModal.alert('Record created successfully!');
+        } else {
+            // Updating existing record
+            spModal.alert('Record updated successfully!');
+        }
+        // Optionally redirect after submission
+        // $location.path('/community_list');
+    };
+    
+    // Handle form cancel
+    c.onCancel = function() {
+        $location.path('/'); // Redirect to home or previous page
+    };
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.community-form {&#13;
+    .panel-heading {&#13;
+        background-color: #337ab7;&#13;
+        color: white;&#13;
+        &#13;
+        .panel-title {&#13;
+            font-size: 18px;&#13;
+            font-weight: 500;&#13;
+        }&#13;
+    }&#13;
+    &#13;
+    .form-actions {&#13;
+        margin-top: 20px;&#13;
+        padding-top: 15px;&#13;
+        border-top: 1px solid #eee;&#13;
+        &#13;
+        .btn {&#13;
+            margin-right: 10px;&#13;
+        }&#13;
+    }&#13;
+    &#13;
+    .form-group {&#13;
+        margin-bottom: 15px;&#13;
+    }&#13;
+    &#13;
+    .alert {&#13;
+        margin-top: 10px;&#13;
+    }&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>copy_form</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  // Optional: add custom behavior here
+}
+]]></link>
+        <name>Copy of Form</name>
+        <option_schema/>
+        <public>false</public>
+        <roles>snc_external,snc_internal</roles>
+        <script><![CDATA[(function() {
+    // Get table schema information
+    data.table = 'community';
+    data.sys_id = $sp.getParameter('sys_id') || -1;
+    data.view = $sp.getParameter('view') || 'Default view';
+    
+    // Set form action based on sys_id
+    if (data.sys_id && data.sys_id != -1) {
+        data.action = 'update';
+        data.page_title = 'Edit Community';
+    } else {
+        data.action = 'insert';
+        data.page_title = 'New Community';
+    }
+    
+    // Get current user info if needed
+    data.user = gs.getUser();
+    
+    // Optional: Get community table fields for dynamic form building
+    var communityGR = new GlideRecord('community');
+    if (communityGR.isValid()) {
+        data.table_exists = true;
+        
+        // Get first record to understand table structure (optional)
+        communityGR.setLimit(1);
+        communityGR.query();
+        if (communityGR.next()) {
+            data.sample_fields = [];
+            var fields = communityGR.getFields();
+            for (var i = 0; i < fields.size(); i++) {
+                var field = fields.get(i);
+                if (!field.toString().startsWith('sys_') && field.toString() != 'number') {
+                    data.sample_fields.push({
+                        name: field.toString(),
+                        label: field.getLabel(),
+                        type: field.getED().getInternalType()
+                    });
+                }
+            }
+        }
+    } else {
+        data.table_exists = false;
+        data.error = 'Community table not found';
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-06 22:06:19</sys_created_on>
+        <sys_id>334c0a0e853322107f44250dfc00e235</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Copy of Form</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_334c0a0e853322107f44250dfc00e235</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-06 22:32:59</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            <i class="fa fa-users"></i> {{::data.page_title}}
+        </h3>
+    </div>
+    
+    <div class="panel-body" ng-if="data.table_exists">
+        <!-- Standard ServiceNow Form -->
+        <sp-model 
+            table="data.table" 
+            sys-id="data.sys_id" 
+            display-value="record" 
+            display-fields="display_fields">
+        </sp-model>
+        
+        <form name="communityForm" role="form">
+            <!-- Using sp-variable for form fields -->
+            <sp-variable 
+                field="record" 
+                name="data.table">
+            </sp-variable>
+        </form>
+        
+        <!-- Alternative: Manual form if you need custom layout -->
+        <!-- 
+        <div class="form-group">
+            <label for="name">Community Name</label>
+            <input type="text" 
+                   class="form-control" 
+                   id="name" 
+                   ng-model="record.name" 
+                   placeholder="Enter community name"
+                   required>
+        </div>
+        
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea class="form-control" 
+                      id="description" 
+                      ng-model="record.description" 
+                      rows="3" 
+                      placeholder="Enter description">
+            </textarea>
+        </div>
+        -->
+        
+        <!-- Form Actions -->
+        <div class="form-actions">
+            <button type="button" 
+                    class="btn btn-primary" 
+                    ng-click="c.onSubmit()"
+                    ng-disabled="communityForm.$invalid">
+                <i class="fa fa-save"></i> 
+                {{data.action == 'insert' ? 'Create' : 'Update'}}
+            </button>
+            
+            <button type="button" 
+                    class="btn btn-default" 
+                    ng-click="c.onCancel()">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </div>
+    </div>
+    
+    <!-- Error state -->
+    <div class="panel-body" ng-if="!data.table_exists">
+        <div class="alert alert-danger">
+            <i class="fa fa-exclamation-triangle"></i>
+            {{data.error}}
+        </div>
+    </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

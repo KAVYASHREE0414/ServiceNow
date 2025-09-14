@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
+    <kb_uc_can_read_mtom action="INSERT_OR_UPDATE">
+        <kb_knowledge_base display_value="Community Amenities KB">95af071354eb22107f44a1aea5d10ded</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-04 08:24:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b00df455f9b722107f44424c54af5c1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Community Amenities KB.Residents Only</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>kb_uc_can_read_mtom_b00df455f9b722107f44424c54af5c1f</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-04 08:24:25</sys_updated_on>
+        <user_criteria display_value="Residents Only">1f9857dc2c3f22107f442c9c5a417fdf</user_criteria>
+    </kb_uc_can_read_mtom>
+</record_update>

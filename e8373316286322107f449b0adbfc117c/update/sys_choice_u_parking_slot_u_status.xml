@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status" table="u_parking_slot" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <name>u_parking_slot</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-08-28 14:12:39</sys_created_on>
+            <sys_id>2d990607752722107f44452dbe5dbeb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status</sys_name>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_choice_u_parking_slot_u_status</sys_update_name>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-08-28 14:12:39</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Available</label>
+            <language>en</language>
+            <name>u_parking_slot</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-08-30 12:44:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd984cf3fd6322107f44e5e3c770b29c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-08-30 12:44:48</sys_updated_on>
+            <value>available</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Available</label>
+            <language>en</language>
+            <name>u_parking_slot</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-08-30 12:45:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37a8ccf3fd6322107f44e5e3c770b26c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-08-30 12:45:49</sys_updated_on>
+            <value>NA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reserved</label>
+            <language>en</language>
+            <name>u_parking_slot</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-08-30 13:45:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>258694f7fda322107f44e5e3c770b24c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-08-30 13:45:49</sys_updated_on>
+            <value>reserved</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

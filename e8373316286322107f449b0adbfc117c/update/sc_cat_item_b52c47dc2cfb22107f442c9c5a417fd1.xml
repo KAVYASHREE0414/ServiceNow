@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Hardware">d258b953c611227a0146101fb1be7c31</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>Energy-efficient LED street lights and pole-mounted lights. Provides enhanced safety and visibility in community common areas. Includes installation and maintenance support.</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow display_value="Item Request">76e94877fd6322107f44e5e3c770b2f2</flow_designer_flow>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Street Lights / Pole Lights</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Bud Richman">46c6f9efa9fe198101ddf5eed9adf6e7</owner>
+        <picture>419c43dc2cfb22107f442c9c5a417f85</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=b52c47dc2cfb22107f442c9c5a417fd1&amp;sysparm_preview=true", "summary");</preview>
+        <price>50</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method>submit</request_method>
+        <roles>snc_internal</roles>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Outdoor lighting fixtures for community streets and pathways.</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:17:36</sys_created_on>
+        <sys_id>b52c47dc2cfb22107f442c9c5a417fd1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Street Lights / Pole Lights</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sc_cat_item_b52c47dc2cfb22107f442c9c5a417fd1</sys_update_name>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-11 05:56:30</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>7</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=b52c47dc2cfb22107f442c9c5a417fd1"/>
+    <fx_price action="delete_multiple" query="id=b52c47dc2cfb22107f442c9c5a417fd1"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>50</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>b52c47dc2cfb22107f442c9c5a417fd1</id>
+        <parent/>
+        <reference_amount>50</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:17:36</sys_created_on>
+        <sys_id>7a8c47dc2cfb22107f442c9c5a417f4f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>bud.richman</sys_updated_by>
+        <sys_updated_on>2025-09-01 16:18:00</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>b52c47dc2cfb22107f442c9c5a417fd1</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:17:36</sys_created_on>
+        <sys_id>b28c47dc2cfb22107f442c9c5a417f50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bud.richman</sys_updated_by>
+        <sys_updated_on>2025-09-01 16:17:36</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#cfcfd2</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>picture</file_name>
+        <hash>83371f28bde4c75882a9c15c5e6c256e08b3809df70b4a1a4be3dd133ea3f064</hash>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>7433</size_bytes>
+        <size_compressed>7242</size_compressed>
+        <state/>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:17:45</sys_created_on>
+        <sys_id>419c43dc2cfb22107f442c9c5a417f85</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>bud.richman</sys_updated_by>
+        <sys_updated_on>2025-09-01 16:17:45</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>b52c47dc2cfb22107f442c9c5a417fd1</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="419c43dc2cfb22107f442c9c5a417f85">419c43dc2cfb22107f442c9c5a417f85</sys_attachment>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:17:45</sys_created_on>
+        <sys_id>819c43dc2cfb22107f442c9c5a417f85</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>9644</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="419c43dc2cfb22107f442c9c5a417f85">419c43dc2cfb22107f442c9c5a417f85</sys_attachment>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:17:45</sys_created_on>
+        <sys_id>059c43dc2cfb22107f442c9c5a417f85</sys_id>
+    </sys_attachment_doc>
+</record_update>

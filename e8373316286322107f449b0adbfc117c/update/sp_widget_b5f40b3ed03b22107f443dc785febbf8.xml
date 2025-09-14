@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* Section Styling */&#13;
+.events-section {&#13;
+  background: #2c3e50; /* matches header */&#13;
+  padding: 80px 20px;&#13;
+  text-align: center;&#13;
+  width: 100vw;&#13;
+  height: 100vh; &#13;
+  color: white;&#13;
+}&#13;
+&#13;
+.section-title {&#13;
+  font-size: 32px;&#13;
+  font-weight: 700;&#13;
+  margin-bottom: 50px;&#13;
+  color: #ecf0f1;&#13;
+}&#13;
+&#13;
+.events-grid {&#13;
+  display: grid;&#13;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));&#13;
+  gap: 30px;&#13;
+  max-width: 1100px;&#13;
+  margin: 0 auto;&#13;
+}&#13;
+&#13;
+.event-card {&#13;
+  display: flex;&#13;
+  background: #34495e;&#13;
+  border-radius: 16px;&#13;
+  overflow: hidden;&#13;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;&#13;
+}&#13;
+&#13;
+.event-card:hover {&#13;
+  transform: translateY(-5px);&#13;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.3);&#13;
+}&#13;
+&#13;
+.event-date {&#13;
+  background: #3498db;&#13;
+  color: white;&#13;
+  padding: 20px;&#13;
+  text-align: center;&#13;
+  width: 90px;&#13;
+  display: flex;&#13;
+  flex-direction: column;&#13;
+  justify-content: center;&#13;
+}&#13;
+&#13;
+.event-date .day {&#13;
+  font-size: 28px;&#13;
+  font-weight: bold;&#13;
+}&#13;
+&#13;
+.event-date .month {&#13;
+  font-size: 16px;&#13;
+  text-transform: uppercase;&#13;
+}&#13;
+&#13;
+.event-content {&#13;
+  flex: 1;&#13;
+  padding: 20px;&#13;
+  text-align: left;&#13;
+}&#13;
+&#13;
+.event-content h3 {&#13;
+  font-size: 20px;&#13;
+  font-weight: 600;&#13;
+  margin-bottom: 10px;&#13;
+  color: #ecf0f1;&#13;
+}&#13;
+&#13;
+.event-content p {&#13;
+  font-size: 14px;&#13;
+  color: #bdc3c7;&#13;
+  margin-bottom: 15px;&#13;
+}&#13;
+&#13;
+.btn-event {&#13;
+  display: inline-block;&#13;
+  padding: 8px 18px;&#13;
+  background: #3498db;&#13;
+  color: white;&#13;
+  border-radius: 25px;&#13;
+  font-weight: 600;&#13;
+  font-size: 14px;&#13;
+  text-decoration: none;&#13;
+  transition: all 0.3s ease;&#13;
+}&#13;
+&#13;
+.btn-event:hover {&#13;
+  background: #2980b9;&#13;
+}&#13;
+&#13;
+/* Modal Styling */&#13;
+.modal {&#13;
+  display: none;&#13;
+  position: fixed;&#13;
+  z-index: 1000;&#13;
+  left: 0; top: 0;&#13;
+  width: 100%; height: 100%;&#13;
+  background: rgba(0,0,0,0.6);&#13;
+  justify-content: center;&#13;
+  align-items: center;&#13;
+}&#13;
+&#13;
+.modal-content {&#13;
+  background: white;&#13;
+  color: #2c3e50;&#13;
+  padding: 25px;&#13;
+  border-radius: 12px;&#13;
+  max-width: 450px;&#13;
+  width: 90%;&#13;
+  text-align: left;&#13;
+  position: relative;&#13;
+  animation: fadeIn 0.3s ease;&#13;
+}&#13;
+&#13;
+.close {&#13;
+  position: absolute;&#13;
+  top: 10px; right: 15px;&#13;
+  font-size: 22px;&#13;
+  cursor: pointer;&#13;
+  color: #2c3e50;&#13;
+}&#13;
+&#13;
+/* Fade Animation */&#13;
+@keyframes fadeIn {&#13;
+  from { opacity: 0; transform: scale(0.9); }&#13;
+  to { opacity: 1; transform: scale(1); }&#13;
+}&#13;
+&#13;
+.naresh{&#13;
+  font-size: 16px; /* Sets the font size of paragraphs to 16 pixels */&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>events</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Events</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-09 10:09:45</sys_created_on>
+        <sys_id>b5f40b3ed03b22107f443dc785febbf8</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Events</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_b5f40b3ed03b22107f443dc785febbf8</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-10 05:06:26</sys_updated_on>
+        <template><![CDATA[<div class="events-section">
+  <h2 class="section-title">Upcoming Events & Activities</h2>
+  <p class="naresh">]]>📅<![CDATA[ Upcoming events and activities designed to bring residents together, foster connections, and create memorable experiences in our community</p>
+  
+  <div class="events-grid">
+    
+    <div class="event-card">
+      <div class="event-date">
+        <span class="day">15</span>
+        <span class="month">Sep</span>
+      </div>
+      <div class="event-content">
+        <h3>Community Yoga Class</h3>
+        <p>Join us for a refreshing morning yoga session in the clubhouse garden.</p>
+        <a href="javascript:void(0)" class="btn-event">View Details</a>
+      </div>
+    </div>
+    
+    <div class="event-card">
+      <div class="event-date">
+        <span class="day">20</span>
+        <span class="month">Sep</span>
+      </div>
+      <div class="event-content">
+        <h3>Movie Night</h3>
+        <p>Outdoor family movie night with free popcorn and drinks.</p>
+        <a href="javascript:void(0)" class="btn-event">View Details</a>
+      </div>
+    </div>
+    
+    <div class="event-card">
+      <div class="event-date">
+        <span class="day">25</span>
+        <span class="month">Sep</span>
+      </div>
+      <div class="event-content">
+        <h3>Sports Tournament</h3>
+        <p>Register your team for our annual community football tournament.</p>
+        <a href="javascript:void(0)" class="btn-event">View Details</a>
+      </div>
+    </div>
+
+    <!-- New Event: Community BBQ -->
+    <div class="event-card">
+      <div class="event-date">
+        <span class="day">28</span>
+        <span class="month">Sep</span>
+      </div>
+      <div class="event-content">
+        <h3>Community BBQ</h3>
+        <p>Enjoy delicious BBQ, games, and socializing with neighbors.</p>
+        <a href="javascript:void(0)" class="btn-event">View Details</a>
+      </div>
+    </div>
+
+    <!-- New Event: Art Workshop -->
+    <div class="event-card">
+      <div class="event-date">
+        <span class="day">02</span>
+        <span class="month">Oct</span>
+      </div>
+      <div class="event-content">
+        <h3>Art Workshop</h3>
+        <p>Join our creative workshop and learn painting from experts.</p>
+        <a href="javascript:void(0)" class="btn-event">View Details</a>
+      </div>
+    </div>
+
+    <!-- New Event: Music Night -->
+    <div class="event-card">
+      <div class="event-date">
+        <span class="day">05</span>
+        <span class="month">Oct</span>
+      </div>
+      <div class="event-content">
+        <h3>Music Night</h3>
+        <p>Live music performances under the stars — don’t miss it!</p>
+        <a href="javascript:void(0)" class="btn-event">View Details</a>
+      </div>
+    </div>
+    
+  </div>
+  <br><br><br>
+</div>
+
+<!-- Modal Box -->
+<div id="eventModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h3 id="modal-title"></h3>
+    <p id="modal-text"></p>
+  </div>
+</div>
+
+
+<script>
+  document.querySelectorAll('.btn-event').forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+      let title = "";
+      let text = "";
+
+      if (index === 0) {
+        title = "Community Yoga Class";
+        text = "]]>🧘<![CDATA[ Community Yoga Class \n]]>📍<![CDATA[ Clubhouse Garden \n]]>🕖<![CDATA[ Sept 15, 7:00 AM \n✨ Refresh your mind and body with a calming morning yoga session.";
+      } else if (index === 1) {
+        title = "Movie Night";
+        text = "]]>🎬<![CDATA[ Movie Night \n]]>📍<![CDATA[ Community Park \n]]>🕖<![CDATA[ Sept 20, 7:30 PM \n✨ Outdoor family movie night with free popcorn and drinks.";
+      } else if (index === 2) {
+        title = "Sports Tournament";
+        text = "⚽ Sports Tournament \n]]>📍<![CDATA[ Community Playground \n]]>🕖<![CDATA[ Sept 25, 9:00 AM \n✨ Register your team for our annual community football tournament.";
+      } else if (index === 3) {
+        title = "Community BBQ";
+        text = "]]>🍖<![CDATA[ Community BBQ \n]]>📍<![CDATA[ Central Park \n]]>🕖<![CDATA[ Sept 28, 12:00 PM \n✨ Enjoy delicious BBQ, fun games, and socializing with neighbors.";
+      } else if (index === 4) {
+        title = "Art Workshop";
+        text = "]]>🎨<![CDATA[ Art Workshop \n]]>📍<![CDATA[ Clubhouse Hall \n]]>🕖<![CDATA[ Oct 2, 4:00 PM \n✨ Learn painting techniques and express your creativity.";
+      } else if (index === 5) {
+        title = "Music Night";
+        text = "]]>🎵<![CDATA[ Music Night \n]]>📍<![CDATA[ Open Grounds \n]]>🕖<![CDATA[ Oct 5, 7:00 PM \n✨ Live performances under the stars — a night of melodies.";
+      }
+
+      document.getElementById("modal-title").innerText = title;
+      document.getElementById("modal-text").innerText = text;
+      document.getElementById("eventModal").style.display = "flex";
+    });
+  });
+
+  function closeModal() {
+    document.getElementById("eventModal").style.display = "none";
+  }
+
+  window.onclick = function(e) {
+    if (e.target.id === "eventModal") {
+      closeModal();
+    }
+  };
+</script>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b5f40b3ed03b22107f443dc785febbf8</id>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-09 10:09:44</sys_created_on>
+        <sys_id>e415c37ed03b22107f443dc785febba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-09 10:09:44</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

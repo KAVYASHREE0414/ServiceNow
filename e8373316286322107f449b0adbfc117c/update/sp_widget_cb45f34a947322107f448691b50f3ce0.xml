@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>standard</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn {&#13;
+  margin: 10px 0;&#13;
+  font-size: 16px;&#13;
+  padding: 12px;&#13;
+  border-radius: 6px;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>naresh_community_button</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  element.find('.create-task-btn').on('click', function() {
+    var url = "/sp?id=form&table=u_community_maintenance_task&sys_id=-1";
+    window.open(url, "_self"); // opens inside Service Portal
+  });
+}
+]]></link>
+        <name>naresh</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 05:45:02</sys_created_on>
+        <sys_id>cb45f34a947322107f448691b50f3ce0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>naresh</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_cb45f34a947322107f448691b50f3ce0</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-07 09:11:11</sys_updated_on>
+        <template><![CDATA[<div class="text-center">
+  <button class="btn btn-primary create-task-btn">
+      Submit Issue     
+  </button>
+</div>]]></template>
+    </sp_widget>
+</record_update>

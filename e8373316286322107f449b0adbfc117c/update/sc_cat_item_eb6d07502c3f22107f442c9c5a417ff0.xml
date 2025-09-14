@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Hardware">d258b953c611227a0146101fb1be7c31</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>Standard ceiling fans for living spaces and exhaust fans for kitchens or bathrooms. Energy-efficient, low-noise designs approved for residential use. Installation included.</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow display_value="Item Request">76e94877fd6322107f44e5e3c770b2f2</flow_designer_flow>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Ceiling Fans / Exhaust Fans</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Bud Richman">46c6f9efa9fe198101ddf5eed9adf6e7</owner>
+        <picture>dfed8f502c3f22107f442c9c5a417f19</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=eb6d07502c3f22107f442c9c5a417ff0&amp;sysparm_preview=true", "summary");</preview>
+        <price>23</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method>submit</request_method>
+        <roles>snc_internal</roles>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Air circulation and ventilation appliances.</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:23:24</sys_created_on>
+        <sys_id>eb6d07502c3f22107f442c9c5a417ff0</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Ceiling Fans / Exhaust Fans</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sc_cat_item_eb6d07502c3f22107f442c9c5a417ff0</sys_update_name>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-11 05:56:32</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>7</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=eb6d07502c3f22107f442c9c5a417ff0"/>
+    <fx_price action="delete_multiple" query="id=eb6d07502c3f22107f442c9c5a417ff0"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>23</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>eb6d07502c3f22107f442c9c5a417ff0</id>
+        <parent/>
+        <reference_amount>23</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:23:24</sys_created_on>
+        <sys_id>4ced4f502c3f22107f442c9c5a417ffd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>bud.richman</sys_updated_by>
+        <sys_updated_on>2025-09-01 16:23:57</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>eb6d07502c3f22107f442c9c5a417ff0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:23:24</sys_created_on>
+        <sys_id>84ed4f502c3f22107f442c9c5a417ffe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>bud.richman</sys_updated_by>
+        <sys_updated_on>2025-09-01 16:23:24</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#e7e6e5</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>picture</file_name>
+        <hash>f4d8207c04a17f5d96610ca95662de4f62887c94f1f0ffb7cb482eed7cc0c976</hash>
+        <image_height>163</image_height>
+        <image_width>309</image_width>
+        <size_bytes>4461</size_bytes>
+        <size_compressed>4268</size_compressed>
+        <state/>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:23:38</sys_created_on>
+        <sys_id>dfed8f502c3f22107f442c9c5a417f19</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>bud.richman</sys_updated_by>
+        <sys_updated_on>2025-09-01 16:23:38</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>eb6d07502c3f22107f442c9c5a417ff0</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="dfed8f502c3f22107f442c9c5a417f19">dfed8f502c3f22107f442c9c5a417f19</sys_attachment>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:23:38</sys_created_on>
+        <sys_id>13ed8f502c3f22107f442c9c5a417f1a</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5680</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="dfed8f502c3f22107f442c9c5a417f19">dfed8f502c3f22107f442c9c5a417f19</sys_attachment>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:23:38</sys_created_on>
+        <sys_id>93ed8f502c3f22107f442c9c5a417f1a</sys_id>
+    </sys_attachment_doc>
+</record_update>

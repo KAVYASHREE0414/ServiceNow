@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Pipe  (PVC, CPVC, GI Pipes)">df62b45294f722107f448691b50f3c44</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 10:16:10</sys_created_on>
+        <sys_id>c353f0d294f722107f448691b50f3c33</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Standard Employee Questions.Pipe  (PVC, CPVC, GI Pipes)</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>io_set_item_c353f0d294f722107f448691b50f3c33</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-07 10:16:11</sys_updated_on>
+        <variable_set display_value="Standard Employee Questions">e01cab1a4f334200086eeed18110c71f</variable_set>
+    </io_set_item>
+</record_update>

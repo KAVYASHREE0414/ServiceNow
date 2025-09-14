@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Gated Community Catalogs">db266bbb2c2722107f4411d16edcb293</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p> Includes fitting, replacement, and repair of taps in bathrooms, kitchens, and common water outlets. Covers all types of taps such as pillar taps, wall mixers, angle valves, and designer faucets. Ensures leak-free, long-lasting water usage</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow display_value="Item Request">76e94877fd6322107f44e5e3c770b2f2</flow_designer_flow>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Taps</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="DEPAVATH NARESH">350fef56282322107f449b0adbfc11e7</owner>
+        <picture>0ce4709694f722107f448691b50f3c0b</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=35643c1694f722107f448691b50f3cc3&amp;sysparm_preview=true", "summary");</preview>
+        <price>19</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method>submit</request_method>
+        <roles>snc_internal</roles>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Installation and fixing of taps, mixers, and faucets.</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 10:22:39</sys_created_on>
+        <sys_id>35643c1694f722107f448691b50f3cc3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Taps</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sc_cat_item_35643c1694f722107f448691b50f3cc3</sys_update_name>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-11 05:56:23</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>7</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=35643c1694f722107f448691b50f3cc3"/>
+    <fx_price action="delete_multiple" query="id=35643c1694f722107f448691b50f3cc3"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>19</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>35643c1694f722107f448691b50f3cc3</id>
+        <parent/>
+        <reference_amount>19</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 10:22:39</sys_created_on>
+        <sys_id>b1d4bc5694f722107f448691b50f3cf9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-07 10:23:11</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>35643c1694f722107f448691b50f3cc3</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 10:22:39</sys_created_on>
+        <sys_id>f9d4bc5694f722107f448691b50f3cf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-07 10:22:39</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#dedede</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>picture</file_name>
+        <hash>60cf39e575fcb6c171be8738bf02a43ccc656491b284d20fa7b7193a23529211</hash>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>5829</size_bytes>
+        <size_compressed>5644</size_compressed>
+        <state/>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 10:22:48</sys_created_on>
+        <sys_id>0ce4709694f722107f448691b50f3c0b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-07 10:22:48</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>35643c1694f722107f448691b50f3cc3</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="0ce4709694f722107f448691b50f3c0b">0ce4709694f722107f448691b50f3c0b</sys_attachment>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 10:22:48</sys_created_on>
+        <sys_id>4ce4709694f722107f448691b50f3c0b</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>7512</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="0ce4709694f722107f448691b50f3c0b">0ce4709694f722107f448691b50f3c0b</sys_attachment>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 10:22:48</sys_created_on>
+        <sys_id>cce4709694f722107f448691b50f3c0b</sys_id>
+    </sys_attachment_doc>
+</record_update>

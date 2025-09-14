@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_vehicle_type" table="u_parking_slot" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_vehicle_type</element>
+            <name>u_parking_slot</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-08-30 12:49:46</sys_created_on>
+            <sys_id>c3c9c477fd6322107f44e5e3c770b21e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_vehicle_type</sys_name>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_choice_u_parking_slot_u_vehicle_type</sys_update_name>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-08-30 12:49:46</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Four Wheeler</label>
+            <language>en</language>
+            <name>u_parking_slot</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-08-30 12:50:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5d98877fd6322107f44e5e3c770b25e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-08-30 12:50:11</sys_updated_on>
+            <value>fourwheeler</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Two Wheeler</label>
+            <language>en</language>
+            <name>u_parking_slot</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-08-30 12:49:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dba98477fd6322107f44e5e3c770b2fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-08-30 12:49:46</sys_updated_on>
+            <value>twowheeler</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

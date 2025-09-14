@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=103633000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>cmtauto_assign_by_category</internal_name>
+        <label_cache>[{"name":"a66b975e-7426-4db5-b841-280a48af70da.Record.u_assignment_group","label":"1 - Look Up Record➛CMT group mapping Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"u_cmt_group_mapping","column_name":"u_assignment_group","usedInstances":{"ee5ffbfc-9b8f-40d3-853c-62abcd9dd09a":["assignment_group"]}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Community Maintenance Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_community_maintenance_task","column_name":"sys_id","usedInstances":{"b2fae5be-8bcf-40e5-918c-04e52cd78e10":["assignment_group"]}},{"name":"abdc2971-33e8-407e-a08b-9926f3365494.Record.sys_id","label":"2 - Look Up Record➛Group Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_group","column_name":"sys_id","usedInstances":{"77d5b0f1-5c2d-4a41-9f1c-397af1399cee":["assignment_group"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Community Maintenance Task Record","reference":"u_community_maintenance_task","reference_display":"Community Maintenance Task","type":"reference","base_type":"reference","usedInstances":{"77d5b0f1-5c2d-4a41-9f1c-397af1399cee":["record"],"b2fae5be-8bcf-40e5-918c-04e52cd78e10":["record"],"1143da5b-73d3-4326-9b90-71880b64eb4c":["record"],"893788a9-97ac-4824-bcaa-ec3eb576a2cf":["record"],"54678194-5cd6-47d5-aaed-4a4b82840aa5":["record"],"ee5ffbfc-9b8f-40d3-853c-62abcd9dd09a":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.u_category","label":"Trigger - Record Created or Updated➛Community Maintenance Task Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"u_community_maintenance_task","column_name":"u_category","choices":[{"label":"-- None --","image":"","rawLabel":"-- None --","selected":false,"missing":false,"used":false,"reference":false,"value":""},{"image":"","rawLabel":"Carpentry","selected":false,"label":"Carpentry","missing":false,"used":false,"reference":false,"value":"carpentry","parameters":{"name":"u_community_maintenance_task","dependent_values":[""]}},{"image":"","rawLabel":"Electrical","selected":false,"label":"Electrical","missing":false,"used":false,"reference":false,"value":"electrical","parameters":{"name":"u_community_maintenance_task","dependent_values":[""]}},{"image":"","rawLabel":"Other","selected":false,"label":"Other","missing":false,"used":false,"reference":false,"value":"other","parameters":{"name":"u_community_maintenance_task","dependent_values":[""]}},{"image":"","rawLabel":"Plumbing","selected":false,"label":"Plumbing","missing":false,"used":false,"reference":false,"value":"plumbing","parameters":{"name":"u_community_maintenance_task","dependent_values":[""]}}],"usedInstances":{"6d238df5-5e0e-4b40-a25a-fd50aa4e6db1":["condition"],"acd9b486-cac4-44fe-bed9-f0e1db550b31":["condition"],"7d76830c-0194-4dbe-b79d-660c60619cef":["condition"],"1fb82dd9-3ee0-4591-bb9f-d2e790d21475":["condition"],"3b591198-c9e9-4425-ba68-bafe7e7e9050":["condition"],"a66b975e-7426-4db5-b841-280a48af70da":["conditions"]}},{"name":"b183f48b-65b7-4efa-8316-26f0bd10248b.Record.sys_id","label":"8 - Look Up Record➛Group Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_group","column_name":"sys_id","usedInstances":{}},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Community Maintenance Task Table","reference":"u_community_maintenance_task","reference_display":"Community Maintenance Task","type":"table_name","base_type":"table_name","usedInstances":{"1143da5b-73d3-4326-9b90-71880b64eb4c":["table_name"],"893788a9-97ac-4824-bcaa-ec3eb576a2cf":["table_name"]},"attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <master_snapshot>72ff2c082cbb22107f4411d16edcb2df</master_snapshot>
+        <master_snapshot_digest/>
+        <name>CMT-Auto assign by category</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>4bff6c082cbb22107f4411d16edcb223</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 08:54:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>478d50402c7b22107f4411d16edcb2c1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>CMT-Auto assign by category</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_hub_flow_478d50402c7b22107f4411d16edcb2c1</sys_update_name>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-01 13:41:48</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=478d50402c7b22107f4411d16edcb2c1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=478d50402c7b22107f4411d16edcb2c1"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="u_community_maintenance_task">assignment_groupISEMPTY^ORu_categoryVALCHANGES<item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item display_value="-- None --" endquery="false" field="u_category" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 10:15:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4bff6c082cbb22107f4411d16edcb223</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 10:15:06</sys_updated_on>
+        <table>u_community_maintenance_task</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>478d50402c7b22107f4411d16edcb2c1</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-01 13:41:47</sys_created_on>
+        <sys_id>64e86a9c2c3b22107f442c9c5a417f0d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-01 13:41:47</sys_updated_on>
+        <trigger display_value="">4bff6c082cbb22107f4411d16edcb223</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=478d50402c7b22107f4411d16edcb2c1^sys_idNOT IN64e86a9c2c3b22107f442c9c5a417f0d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=478d50402c7b22107f4411d16edcb2c1"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=478d50402c7b22107f4411d16edcb2c1^sys_idNOT IN478d50402c7b22107f4411d16edcb2c3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>478d50402c7b22107f4411d16edcb2c1</id>
+        <name>CMT-Auto assign by category</name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 08:54:32</sys_created_on>
+        <sys_id>478d50402c7b22107f4411d16edcb2c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 08:54:32</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=478d50402c7b22107f4411d16edcb2c3"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=478d50402c7b22107f4411d16edcb2c1^sys_idNOT IN169f1c802c7b22107f4411d16edcb2c9,169f5cc02c7b22107f4411d16edcb2de,569f5cc02c7b22107f4411d16edcb2db"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="CMT-Auto assign by category">478d50402c7b22107f4411d16edcb2c1</model>
+        <model_id>478d50402c7b22107f4411d16edcb2c1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_478d50402c7b22107f4411d16edcb2c1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 09:03:30</sys_created_on>
+        <sys_id>169f1c802c7b22107f4411d16edcb2c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 09:03:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=169f1c802c7b22107f4411d16edcb2c9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="CMT-Auto assign by category">478d50402c7b22107f4411d16edcb2c1</model>
+        <model_id>478d50402c7b22107f4411d16edcb2c1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_478d50402c7b22107f4411d16edcb2c1</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 09:03:30</sys_created_on>
+        <sys_id>169f5cc02c7b22107f4411d16edcb2de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 09:03:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=169f5cc02c7b22107f4411d16edcb2de"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e1fd8f403d0522107f4488addddbe23d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="CMT-Auto assign by category">478d50402c7b22107f4411d16edcb2c1</model>
+        <model_id>478d50402c7b22107f4411d16edcb2c1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_478d50402c7b22107f4411d16edcb2c1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 09:03:30</sys_created_on>
+        <sys_id>569f5cc02c7b22107f4411d16edcb2db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 09:03:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=569f5cc02c7b22107f4411d16edcb2db"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=478d50402c7b22107f4411d16edcb2c1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=478d50402c7b22107f4411d16edcb2c1"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=478d50402c7b22107f4411d16edcb2c1^sys_idNOT INa69f9cc02c7b22107f4411d16edcb227"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="CMT-Auto assign by category">478d50402c7b22107f4411d16edcb2c1</flow>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 09:03:31</sys_created_on>
+        <sys_id>a69f9cc02c7b22107f4411d16edcb227</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 10:15:04</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=478d50402c7b22107f4411d16edcb2c1^sys_idNOT IN91d8e69c2c3b22107f442c9c5a417f9e,9dd8e69c2c3b22107f442c9c5a417f9f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CMT-Auto assign by category">478d50402c7b22107f4411d16edcb2c1</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-01 13:41:34</sys_created_on>
+        <sys_id>91d8e69c2c3b22107f442c9c5a417f9e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-01 13:43:34</sys_updated_on>
+        <ui_id>a66b975e-7426-4db5-b841-280a48af70da</ui_id>
+        <values>H4sIAAAAAAAA/+VYXY/aOhD9K1GeWW7CN/t2xQqpUtuVurQvbWU5sQPWNXZqO7tlEf/9jmMHuJAForLSru4bGY/HZ2bOmTh8X4eMhLchGUfjbDzuj4ZR1O1G0WDQTXGcJN1BmkQJ7oWtUOAlBU+DE07h8RHzwj4XKF0aNFeyyNES5zkTc1glTOccr755p8mnWVC6BDuXdME4UVSEt99/tsIcK4hvqApv1wdLlwLkOKEcXGce4QFgs8q3j6hcc7aP+9uCz25BKmKhRK2Q/jZUEAoYMsw1bYVLLAg2Uq22FkUxuRd8Z1gwYSBiaJ1/a/YM544i65dRyCqlbm37iHy1nDm7wwY/GFWkplDeNV1IllLt6kFohgtuJvs253CfGyaF2+LSdrslL5bisytHuA1QNQcshQYQNLeJWuQ+jexhIZ++VCinTJQ18Ytcpphvn7AxiiWFsXjWIeV0CYEqPqBcyUdWbgYsy/acw0M74/IJDtVsLto4tcDbUFfcnoL9rjR/w4rZLD5BGNgMgBgHhiDXQi0LVZbyEaW80OWCwkK7WOGmFeqVnnCs9S5zKDn6VVjcrg4+Y+SKZrekiuXmbwjxSH1ym1alkf5JCo53lEulIMyi0P8VCjZ0DsT5UUAAsl5PgDiGkkCq4GtO7E8Ut9NCQblNe+e+2RwL6s+CNZTe+bwr6U32E68rhhfhke1jXQAvwvhqIuxF0XuSIRz+9lTYXFeuBGfEFZOTJCM7PmmpDHK13FPXsUQa8/wCCBXP7y0zg2T1EipP84xRTureNVO7cPCu6fw/3zVvkuQAiCDXPSY4E+XFAYC+Fvv7J6mXxAc8K+m1435pwzo91gAOjAyeGyvhAjiVEh7g7GDm8NRArOZ9SZnDWV8ZvQC6VxNAt3MdAay3aW4LWVPz6q5ou1n5P1t/fOgPFNzbEG/qBNbozLjpmZ3NsYC7jRS8Tza3cvcC5658qXxBka3XHAEL2OrPQ06/6ImROTW70ysvIs0T5v/UrXvGoapRZXqvcEGNT34jJXsXVJahJXSO5XCPVjQFcmiEFUWZLARB/ga9d3WFTmZMaeOdjwfNFwr6EYEEYQZmQYPSO9h6N3wRn8+jKuWHLKgS8afpABIJykSCbSLN0m4ytHpXvJxee2hNMeNlN+DjKN9rJ1VKqhcG15lGnmDEhVPtQlDxVUH9+dirk0Dt+DuD9V18aV9/NKUUJ70OHgy7cRxFcUSG0Wg4jEeDJBvgYS/baRQhLVKYphA5A6pAeFRRo+pzdDx/3EhtOmguQFVR8E4K+6XdGZrAwoL+BhWs88D9QEmk5BSLg4kyg/fEX1OP3/O1/+amyrv436lgs8NKO1NtrV/r3lCwr4L9KugHS7ERjTqjmKQ3o2E8vOllZHAzJrh/g8dJf9glNO1l17wK/PwXLs2lFNEVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CMT-Auto assign by category">478d50402c7b22107f4411d16edcb2c1</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-01 13:41:34</sys_created_on>
+        <sys_id>9dd8e69c2c3b22107f442c9c5a417f9f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-01 13:43:34</sys_updated_on>
+        <ui_id>ee5ffbfc-9b8f-40d3-853c-62abcd9dd09a</ui_id>
+        <values>H4sIAAAAAAAA/+VVy07jMBT9lcjrNkr6onQ3alVpJB4SMGwARTexU6xxnIwfQCfqv8914rRVQQxIzKKarur78jkn9yR3NeGUzMiI0Sg+jSfZMB4OB1E0mI7idDJM4wEdAmMx6REJBcNKxbJSUTw/gbAuUNdzxcAwGpQq+FFR9zeJw8wqxaTZbLCUcl0JWN/6Doxkj1xQzJPZ3UOPVKBwuGGKzOqD1EfRCUiZwNKrDt4hXLOu3JmWmS0QV8K74JnvXPhM8H2BGWxycOKoR9iLYZIyBJKD0KxHCpDIslRrMjPKYgD500sp1tuKRy5NS7SAF81/482jyNXlDJllXoTtMfECteF8AQaucXJmrNrqVfKM6VYTynKwwsz3Y23BZWV4KdsWA6noukthC3nRKkK2A/aeh9UIglWOp0Pe0sqvH8vnqw7kkstGEk9RlBmI7QmMUTy1xsGpCROs0biAquJylVSqfOJNM0IpwpXAQ5iL8hnv1HwlQ8gc7hBVhXCJ8UUTvgXFHYlzHIPNmx7Raz0XoPWOCmqY/LIOSUvMU0gaFRoJkmYTXHOmeGW+4VVPzAPf9Pz+p+P3Niw73S3U3sydB2yCvAoruVkjaXz4TIJ7rgb0z9f7P+9qg/NdbXDT1n7OGR/A3TnjptmHt3l4c7yKne33Bhdtwltj/GXWmB6TNTyNo/fG3xwRDd595+5tUmMCvecGBIEIG5YrVdrq3kbRkNY1TCbp6cmY9U9Gg0l/RNNxP8Wp/cE0gtEU8pOIQti+wEObHE5560vyD2/6nA8/oFbnwyVnguo35OtMyAqkaFjSynlgRJ8Mbn1y+536MjfGk6j5HZEn/5vP1cMfLr8lOrAJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=478d50402c7b22107f4411d16edcb2c1"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=478d50402c7b22107f4411d16edcb2c1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=478d50402c7b22107f4411d16edcb2c1"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=478d50402c7b22107f4411d16edcb2c1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_478d50402c7b22107f4411d16edcb2c1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 09:03:30</sys_created_on>
+        <sys_id>5a9f5cc02c7b22107f4411d16edcb2dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 09:03:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_478d50402c7b22107f4411d16edcb2c1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 09:03:30</sys_created_on>
+        <sys_id>9a9f5cc02c7b22107f4411d16edcb2da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 09:03:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_478d50402c7b22107f4411d16edcb2c1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 09:03:30</sys_created_on>
+        <sys_id>d29f5cc02c7b22107f4411d16edcb2e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 09:03:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_478d50402c7b22107f4411d16edcb2c1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_478d50402c7b22107f4411d16edcb2c1"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>cmtauto_assign_by_category</internal_name>
+        <label_cache>[{"name":"a66b975e-7426-4db5-b841-280a48af70da.Record.u_assignment_group","label":"1 - Look Up Record➛CMT group mapping Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"u_cmt_group_mapping","column_name":"u_assignment_group","usedInstances":{"ee5ffbfc-9b8f-40d3-853c-62abcd9dd09a":["assignment_group"]}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Community Maintenance Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_community_maintenance_task","column_name":"sys_id","usedInstances":{"b2fae5be-8bcf-40e5-918c-04e52cd78e10":["assignment_group"]}},{"name":"abdc2971-33e8-407e-a08b-9926f3365494.Record.sys_id","label":"2 - Look Up Record➛Group Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_group","column_name":"sys_id","usedInstances":{"77d5b0f1-5c2d-4a41-9f1c-397af1399cee":["assignment_group"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Community Maintenance Task Record","reference":"u_community_maintenance_task","reference_display":"Community Maintenance Task","type":"reference","base_type":"reference","usedInstances":{"77d5b0f1-5c2d-4a41-9f1c-397af1399cee":["record"],"b2fae5be-8bcf-40e5-918c-04e52cd78e10":["record"],"1143da5b-73d3-4326-9b90-71880b64eb4c":["record"],"893788a9-97ac-4824-bcaa-ec3eb576a2cf":["record"],"54678194-5cd6-47d5-aaed-4a4b82840aa5":["record"],"ee5ffbfc-9b8f-40d3-853c-62abcd9dd09a":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.u_category","label":"Trigger - Record Created or Updated➛Community Maintenance Task Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"u_community_maintenance_task","column_name":"u_category","choices":[{"label":"-- None --","image":"","rawLabel":"-- None --","selected":false,"missing":false,"used":false,"reference":false,"value":""},{"image":"","rawLabel":"Carpentry","selected":false,"label":"Carpentry","missing":false,"used":false,"reference":false,"value":"carpentry","parameters":{"name":"u_community_maintenance_task","dependent_values":[""]}},{"image":"","rawLabel":"Electrical","selected":false,"label":"Electrical","missing":false,"used":false,"reference":false,"value":"electrical","parameters":{"name":"u_community_maintenance_task","dependent_values":[""]}},{"image":"","rawLabel":"Other","selected":false,"label":"Other","missing":false,"used":false,"reference":false,"value":"other","parameters":{"name":"u_community_maintenance_task","dependent_values":[""]}},{"image":"","rawLabel":"Plumbing","selected":false,"label":"Plumbing","missing":false,"used":false,"reference":false,"value":"plumbing","parameters":{"name":"u_community_maintenance_task","dependent_values":[""]}}],"usedInstances":{"6d238df5-5e0e-4b40-a25a-fd50aa4e6db1":["condition"],"acd9b486-cac4-44fe-bed9-f0e1db550b31":["condition"],"7d76830c-0194-4dbe-b79d-660c60619cef":["condition"],"1fb82dd9-3ee0-4591-bb9f-d2e790d21475":["condition"],"3b591198-c9e9-4425-ba68-bafe7e7e9050":["condition"],"a66b975e-7426-4db5-b841-280a48af70da":["conditions"]}},{"name":"b183f48b-65b7-4efa-8316-26f0bd10248b.Record.sys_id","label":"8 - Look Up Record➛Group Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_group","column_name":"sys_id","usedInstances":{}},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Community Maintenance Task Table","reference":"u_community_maintenance_task","reference_display":"Community Maintenance Task","type":"table_name","base_type":"table_name","usedInstances":{"1143da5b-73d3-4326-9b90-71880b64eb4c":["table_name"],"893788a9-97ac-4824-bcaa-ec3eb576a2cf":["table_name"]},"attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <master>true</master>
+        <name>CMT-Auto assign by category</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="CMT-Auto assign by category">478d50402c7b22107f4411d16edcb2c1</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 10:15:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72ff2c082cbb22107f4411d16edcb2df</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-01 13:41:47</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=72ff2c082cbb22107f4411d16edcb2df"/>
+    <sys_variable_value action="delete_multiple" query="document_key=72ff2c082cbb22107f4411d16edcb2df"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=72ff2c082cbb22107f4411d16edcb2df"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=72ff2c082cbb22107f4411d16edcb2df^sys_idNOT INb2ff2c082cbb22107f4411d16edcb2e0"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>72ff2c082cbb22107f4411d16edcb2df</id>
+        <name>CMT-Auto assign by category</name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 10:15:05</sys_created_on>
+        <sys_id>b2ff2c082cbb22107f4411d16edcb2e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 10:15:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b2ff2c082cbb22107f4411d16edcb2e0"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=72ff2c082cbb22107f4411d16edcb2df^sys_idNOT IN32ff2c082cbb22107f4411d16edcb2ed,72ff2c082cbb22107f4411d16edcb2e1,7eff2c082cbb22107f4411d16edcb2f3"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e1fd8f403d0522107f4488addddbe23d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="CMT-Auto assign by category">72ff2c082cbb22107f4411d16edcb2df</model>
+        <model_id>72ff2c082cbb22107f4411d16edcb2df</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_72ff2c082cbb22107f4411d16edcb2df</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 10:15:05</sys_created_on>
+        <sys_id>32ff2c082cbb22107f4411d16edcb2ed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 10:29:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=32ff2c082cbb22107f4411d16edcb2ed"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="CMT-Auto assign by category">72ff2c082cbb22107f4411d16edcb2df</model>
+        <model_id>72ff2c082cbb22107f4411d16edcb2df</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_72ff2c082cbb22107f4411d16edcb2df</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 10:15:05</sys_created_on>
+        <sys_id>72ff2c082cbb22107f4411d16edcb2e1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-01 13:41:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=72ff2c082cbb22107f4411d16edcb2e1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="CMT-Auto assign by category">72ff2c082cbb22107f4411d16edcb2df</model>
+        <model_id>72ff2c082cbb22107f4411d16edcb2df</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_72ff2c082cbb22107f4411d16edcb2df</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 10:15:05</sys_created_on>
+        <sys_id>7eff2c082cbb22107f4411d16edcb2f3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-01 13:41:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7eff2c082cbb22107f4411d16edcb2f3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=72ff2c082cbb22107f4411d16edcb2df"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=72ff2c082cbb22107f4411d16edcb2df"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=72ff2c082cbb22107f4411d16edcb2df^sys_idNOT INcfff6c082cbb22107f4411d16edcb203"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="CMT-Auto assign by category">72ff2c082cbb22107f4411d16edcb2df</flow>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 10:15:05</sys_created_on>
+        <sys_id>cfff6c082cbb22107f4411d16edcb203</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 10:15:05</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=72ff2c082cbb22107f4411d16edcb2df^sys_idNOT IN5ce82a9c2c3b22107f442c9c5a417fde,9ce82a9c2c3b22107f442c9c5a417fdd"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CMT-Auto assign by category">72ff2c082cbb22107f4411d16edcb2df</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-01 13:41:46</sys_created_on>
+        <sys_id>5ce82a9c2c3b22107f442c9c5a417fde</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-01 13:41:46</sys_updated_on>
+        <ui_id>ee5ffbfc-9b8f-40d3-853c-62abcd9dd09a</ui_id>
+        <values>H4sIAAAAAAAA/+VVy07jMBT9lcjrNkr6onQ3alVpJB4SMGwARTexU6xxnIwfQCfqv8914rRVQQxIzKKarur78jkn9yR3NeGUzMiI0Sg+jSfZMB4OB1E0mI7idDJM4wEdAmMx6REJBcNKxbJSUTw/gbAuUNdzxcAwGpQq+FFR9zeJw8wqxaTZbLCUcl0JWN/6Doxkj1xQzJPZ3UOPVKBwuGGKzOqD1EfRCUiZwNKrDt4hXLOu3JmWmS0QV8K74JnvXPhM8H2BGWxycOKoR9iLYZIyBJKD0KxHCpDIslRrMjPKYgD500sp1tuKRy5NS7SAF81/482jyNXlDJllXoTtMfECteF8AQaucXJmrNrqVfKM6VYTynKwwsz3Y23BZWV4KdsWA6noukthC3nRKkK2A/aeh9UIglWOp0Pe0sqvH8vnqw7kkstGEk9RlBmI7QmMUTy1xsGpCROs0biAquJylVSqfOJNM0IpwpXAQ5iL8hnv1HwlQ8gc7hBVhXCJ8UUTvgXFHYlzHIPNmx7Raz0XoPWOCmqY/LIOSUvMU0gaFRoJkmYTXHOmeGW+4VVPzAPf9Pz+p+P3Niw73S3U3sydB2yCvAoruVkjaXz4TIJ7rgb0z9f7P+9qg/NdbXDT1n7OGR/A3TnjptmHt3l4c7yKne33Bhdtwltj/GXWmB6TNTyNo/fG3xwRDd595+5tUmMCvecGBIEIG5YrVdrq3kbRkNY1TCbp6cmY9U9Gg0l/RNNxP8Wp/cE0gtEU8pOIQti+wEObHE5560vyD2/6nA8/oFbnwyVnguo35OtMyAqkaFjSynlgRJ8Mbn1y+536MjfGk6j5HZEn/5vP1cMfLr8lOrAJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CMT-Auto assign by category">72ff2c082cbb22107f4411d16edcb2df</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-01 13:41:46</sys_created_on>
+        <sys_id>9ce82a9c2c3b22107f442c9c5a417fdd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-01 13:41:46</sys_updated_on>
+        <ui_id>a66b975e-7426-4db5-b841-280a48af70da</ui_id>
+        <values>H4sIAAAAAAAA/+VYXY/aOhD9K1GeWW7CN/t2xQqpUtuVurQvbWU5sQPWNXZqO7tlEf/9jmMHuJAForLSru4bGY/HZ2bOmTh8X4eMhLchGUfjbDzuj4ZR1O1G0WDQTXGcJN1BmkQJ7oWtUOAlBU+DE07h8RHzwj4XKF0aNFeyyNES5zkTc1glTOccr755p8mnWVC6BDuXdME4UVSEt99/tsIcK4hvqApv1wdLlwLkOKEcXGce4QFgs8q3j6hcc7aP+9uCz25BKmKhRK2Q/jZUEAoYMsw1bYVLLAg2Uq22FkUxuRd8Z1gwYSBiaJ1/a/YM544i65dRyCqlbm37iHy1nDm7wwY/GFWkplDeNV1IllLt6kFohgtuJvs253CfGyaF2+LSdrslL5bisytHuA1QNQcshQYQNLeJWuQ+jexhIZ++VCinTJQ18Ytcpphvn7AxiiWFsXjWIeV0CYEqPqBcyUdWbgYsy/acw0M74/IJDtVsLto4tcDbUFfcnoL9rjR/w4rZLD5BGNgMgBgHhiDXQi0LVZbyEaW80OWCwkK7WOGmFeqVnnCs9S5zKDn6VVjcrg4+Y+SKZrekiuXmbwjxSH1ym1alkf5JCo53lEulIMyi0P8VCjZ0DsT5UUAAsl5PgDiGkkCq4GtO7E8Ut9NCQblNe+e+2RwL6s+CNZTe+bwr6U32E68rhhfhke1jXQAvwvhqIuxF0XuSIRz+9lTYXFeuBGfEFZOTJCM7PmmpDHK13FPXsUQa8/wCCBXP7y0zg2T1EipP84xRTureNVO7cPCu6fw/3zVvkuQAiCDXPSY4E+XFAYC+Fvv7J6mXxAc8K+m1435pwzo91gAOjAyeGyvhAjiVEh7g7GDm8NRArOZ9SZnDWV8ZvQC6VxNAt3MdAay3aW4LWVPz6q5ou1n5P1t/fOgPFNzbEG/qBNbozLjpmZ3NsYC7jRS8Tza3cvcC5658qXxBka3XHAEL2OrPQ06/6ImROTW70ysvIs0T5v/UrXvGoapRZXqvcEGNT34jJXsXVJahJXSO5XCPVjQFcmiEFUWZLARB/ga9d3WFTmZMaeOdjwfNFwr6EYEEYQZmQYPSO9h6N3wRn8+jKuWHLKgS8afpABIJykSCbSLN0m4ytHpXvJxee2hNMeNlN+DjKN9rJ1VKqhcG15lGnmDEhVPtQlDxVUH9+dirk0Dt+DuD9V18aV9/NKUUJ70OHgy7cRxFcUSG0Wg4jEeDJBvgYS/baRQhLVKYphA5A6pAeFRRo+pzdDx/3EhtOmguQFVR8E4K+6XdGZrAwoL+BhWs88D9QEmk5BSLg4kyg/fEX1OP3/O1/+amyrv436lgs8NKO1NtrV/r3lCwr4L9KugHS7ERjTqjmKQ3o2E8vOllZHAzJrh/g8dJf9glNO1l17wK/PwXLs2lFNEVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=72ff2c082cbb22107f4411d16edcb2df"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=72ff2c082cbb22107f4411d16edcb2df"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=72ff2c082cbb22107f4411d16edcb2df"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=72ff2c082cbb22107f4411d16edcb2df"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_72ff2c082cbb22107f4411d16edcb2df</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 10:15:05</sys_created_on>
+        <sys_id>32ff2c082cbb22107f4411d16edcb2f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 10:15:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_72ff2c082cbb22107f4411d16edcb2df</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 10:15:05</sys_created_on>
+        <sys_id>7aff2c082cbb22107f4411d16edcb2ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 10:15:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_72ff2c082cbb22107f4411d16edcb2df</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 10:15:05</sys_created_on>
+        <sys_id>b6ff2c082cbb22107f4411d16edcb2f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 10:15:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_72ff2c082cbb22107f4411d16edcb2df"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_72ff2c082cbb22107f4411d16edcb2df"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>478d50402c7b22107f4411d16edcb2c1</sys_id>
+        <latest_snapshot>72ff2c082cbb22107f4411d16edcb2df</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch1-02-21-2025_03-05-2025_2133.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=478d50402c7b22107f4411d16edcb2c1^sys_idNOT IN8bff6c082cbb22107f4411d16edcb225"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8bff6c082cbb22107f4411d16edcb225","name":"plan","plan_signature":null}}</plan>
+        <plan_id>478d50402c7b22107f4411d16edcb2c1</plan_id>
+        <snapshot>a649a2dc2c3b22107f442c9c5a417f27</snapshot>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 10:15:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8bff6c082cbb22107f4411d16edcb225</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-01 13:41:47</sys_updated_on>
+        <trigger display_value="">4bff6c082cbb22107f4411d16edcb223</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=478d50402c7b22107f4411d16edcb2c1"/>
+</record_update>

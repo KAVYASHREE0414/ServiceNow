@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ResidentStaffChatCtrl($scope, $interval) {
+
+  // Send a new message
+  $scope.sendMessage = function() {
+    if (!$scope.data.newMessage || !$scope.data.newMessage.trim()) return;
+
+    $scope.server.update({
+      action: 'send',
+      message: $scope.data.newMessage
+    }).then(function(response) {
+      $scope.data.newMessage = '';
+      $scope.data.messages = response.messages;
+
+      // Auto scroll to bottom after sending
+      setTimeout(function() {
+        var el = document.getElementById('chat-messages');
+        if (el) el.scrollTop = el.scrollHeight;
+      }, 100);
+    });
+  };
+
+  // Refresh messages every 2 seconds
+  $interval(function() {
+    $scope.server.update({action: 'refresh'}).then(function(response) {
+      $scope.data.messages = response.messages;
+
+      // Keep chat scrolled down
+      setTimeout(function() {
+        var el = document.getElementById('chat-messages');
+        if (el) el.scrollTop = el.scrollHeight;
+      }, 100);
+    });
+  }, 2000);
+
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.resident-msg .chat-bubble {&#13;
+  background: #e1ffc7;&#13;
+  border-radius: 12px;&#13;
+  padding: 8px;&#13;
+  margin: 5px;&#13;
+  text-align: left;&#13;
+}&#13;
+&#13;
+.staff-msg .chat-bubble {&#13;
+  background: #d6eaff;&#13;
+  border-radius: 12px;&#13;
+  padding: 8px;&#13;
+  margin: 5px;&#13;
+  text-align: right;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>comm_unication</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>communication</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  data.messages = [];
+  var action = input && input.action;
+
+  // get active conversation
+  var convID = '';
+  var conv = new GlideRecord('u_conversation');
+  conv.addQuery('u_resident', gs.getUserID()); // ]]>🔹<![CDATA[ adjust if your residents table is not sys_user
+  conv.addQuery('u_status', 'Active');
+  conv.query();
+  if (conv.next()) {
+    convID = conv.sys_id.toString();
+  }
+
+  if (action == 'send' && input.message) {
+    var gr = new GlideRecord('u_chat_transcript');
+    gr.initialize();
+    gr.u_message = input.message;
+    gr.u_conversation = convID;
+    gr.u_timestamp = new GlideDateTime();
+
+    // detect sender type
+    if (gs.hasRole('residents')) {
+      gr.u_sender_resident = gs.getUserID(); // resident record
+    } else if (gs.hasRole('Staff')) {
+      gr.u_sender_staff = gs.getUserID(); // staff record
+    }
+
+    gr.insert();
+  }
+
+  // fetch last 50 messages
+  if (convID) {
+    var grFetch = new GlideRecord('u_chat_transcript_table');
+    grFetch.addQuery('u_converasation_id', convID);
+    grFetch.orderByDesc('u_timestamp');
+    grFetch.setLimit(50);
+    grFetch.query();
+    while (grFetch.next()) {
+      data.messages.unshift({
+        sender: grFetch.u_sender_resident.getDisplayValue() || grFetch.u_sender_staff.getDisplayValue(),
+        message: grFetch.u_message.toString(),
+        time: grFetch.u_timestamp.getDisplayValue(),
+        isResident: !!grFetch.u_sender_resident
+      });
+    }
+  }
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-12 05:45:25</sys_created_on>
+        <sys_id>43742d374cf322107f4404918c7d2273</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>communication</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_43742d374cf322107f4404918c7d2273</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-12 05:57:15</sys_updated_on>
+        <template><![CDATA[<div class="chat-widget card shadow p-3">
+  <div id="chat-messages" style="height:300px; overflow-y:auto;">
+    <div ng-repeat="msg in c.data.messages" 
+         ng-class="{'resident-msg': msg.isResident, 'staff-msg': !msg.isResident}">
+      <div class="chat-bubble">
+        <strong>{{msg.sender}}:</strong> {{msg.message}}
+        <small class="text-muted">{{msg.time}}</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-input mt-2 d-flex">
+    <input type="text" class="form-control" 
+           ng-model="c.data.newMessage" placeholder="Type a message..." />
+    <button class="btn btn-primary ml-2" ng-click="c.sendMessage()">Send</button>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>43742d374cf322107f4404918c7d2273</id>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-12 05:43:41</sys_created_on>
+        <sys_id>dcf421774cf322107f4404918c7d2296</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-12 05:43:41</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

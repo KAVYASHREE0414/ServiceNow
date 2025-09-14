@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="u_community_maintenance_task_user" name="u_community_maintenance_task_user">3fd283bb2c6322107f4411d16edcb23a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 02:18:22</sys_created_on>
+        <sys_id>f7d283bb2c6322107f4411d16edcb23d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3fd283bb2c6322107f4411d16edcb23a</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_embedded_help_role_f7d283bb2c6322107f4411d16edcb23d</sys_update_name>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 02:18:22</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

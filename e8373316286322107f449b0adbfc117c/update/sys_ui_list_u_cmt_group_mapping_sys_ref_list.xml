@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_cmt_group_mapping" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_id</element>
+            <list_id display_value="u_cmt_group_mapping" element="NULL" name="u_cmt_group_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="eda283403d0122107f4488addddbe2b5">5719ae9c2c3b22107f442c9c5a417f53</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-01 13:42:48</sys_created_on>
+            <sys_id>d719ae9c2c3b22107f442c9c5a417f54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-01 13:42:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_cmt_group_mapping</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-01 13:42:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5719ae9c2c3b22107f442c9c5a417f53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_cmt_group_mapping</sys_name>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_ui_list_u_cmt_group_mapping_sys_ref_list</sys_update_name>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-01 13:42:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">eda283403d0122107f4488addddbe2b5</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

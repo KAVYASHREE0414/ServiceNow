@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_visitors" version="2" view="RPT3be3895df9b722107f44424c54af5ca0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="u_visitors" element="NULL" name="u_visitors" parent="NULL" relationship="NULL" sys_domain="global" view="f3e3895df9b722107f44424c54af5ca7">9e04c19df9b722107f44424c54af5c89</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-09-04 08:55:06</sys_created_on>
+            <sys_id>9604c19df9b722107f44424c54af5c8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-09-04 08:55:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_visitor_name</element>
+            <list_id display_value="u_visitors" element="NULL" name="u_visitors" parent="NULL" relationship="NULL" sys_domain="global" view="f3e3895df9b722107f44424c54af5ca7">9e04c19df9b722107f44424c54af5c89</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-09-04 08:55:06</sys_created_on>
+            <sys_id>9a04c19df9b722107f44424c54af5c8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-09-04 08:55:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_flat_number</element>
+            <list_id display_value="u_visitors" element="NULL" name="u_visitors" parent="NULL" relationship="NULL" sys_domain="global" view="f3e3895df9b722107f44424c54af5ca7">9e04c19df9b722107f44424c54af5c89</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-09-04 08:55:06</sys_created_on>
+            <sys_id>9e04c19df9b722107f44424c54af5c8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-09-04 08:55:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_visit_date_time</element>
+            <list_id display_value="u_visitors" element="NULL" name="u_visitors" parent="NULL" relationship="NULL" sys_domain="global" view="f3e3895df9b722107f44424c54af5ca7">9e04c19df9b722107f44424c54af5c89</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-09-04 08:55:06</sys_created_on>
+            <sys_id>9204c19df9b722107f44424c54af5c8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-09-04 08:55:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_visitors</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-09-04 08:55:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e04c19df9b722107f44424c54af5c89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_visitors</sys_name>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_ui_list_u_visitors_RPT3be3895df9b722107f44424c54af5ca0</sys_update_name>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-09-04 08:55:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt3be3895df9b722107f44424c54af5ca0" name="RPT3be3895df9b722107f44424c54af5ca0">f3e3895df9b722107f44424c54af5ca7</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

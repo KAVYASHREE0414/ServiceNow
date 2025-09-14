@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description>Its an assistant for availing services easy</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.74",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "a452250293924cebbf86c5eba2c5a4dd": {
+          "id": "a452250293924cebbf86c5eba2c5a4dd",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "“Hello! I’m your Resident Assistant. Please choose a service.”"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "fa1e0653f67649669902bab650777059": {
+          "id": "fa1e0653f67649669902bab650777059",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "f894e3f7b16f414caa09bd04fca92ba7": {
+          "name": "Services",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "“Please select the service you need assistance with:”"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "8c67903a68b5480693b8c38d33818480",
+          "detailDescription": "",
+          "id": "f894e3f7b16f414caa09bd04fca92ba7",
+          "stepType": "ReferenceChoicePrompt",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "cardData": {},
+          "isMultipleSelect": false,
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "please mention any one choice"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "u_category=carpentry^ORu_category=electrical^ORu_category=plumbing^ORu_category=Housekeeping^ORu_category=Security"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        }
+      },
+      "edges": [
+        {
+          "id": "21fcb3bed4f14ec4a44b1d9f94eb0217",
+          "edgeType": "Edge",
+          "source": "a452250293924cebbf86c5eba2c5a4dd",
+          "target": "f894e3f7b16f414caa09bd04fca92ba7",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "dd3a0e1d34a241658c53595650a48eb2",
+          "edgeType": "Edge",
+          "source": "f894e3f7b16f414caa09bd04fca92ba7",
+          "target": "fa1e0653f67649669902bab650777059",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "8c67903a68b5480693b8c38d33818480": {
+      "id": "8c67903a68b5480693b8c38d33818480",
+      "name": "services",
+      "label": "Services",
+      "varType": "reference",
+      "table": "u_community_maintenance_task",
+      "category": "vaInputs",
+      "autoSelect": false,
+      "autoSelectExpression": "",
+      "nodeId": "f894e3f7b16f414caa09bd04fca92ba7",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>Residents Task Assistance</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Residents Task Assistance</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-11 13:45:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c3a9c2ebfc3362107f44d350ad2121cf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Residents Task Assistance</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_cb_topic_c3a9c2ebfc3362107f44d350ad2121cf</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-11 14:20:16</sys_updated_on>
+        <title>Residents Task Assistance</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=c3a9c2ebfc3362107f44d350ad2121cf"/>
+</record_update>

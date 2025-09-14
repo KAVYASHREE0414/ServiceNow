@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_unit" table="u_purchase" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_unit</element>
+            <name>u_purchase</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-26 15:59:46</sys_created_on>
+            <sys_id>5beeccaa28e322107f449b0adbfc11a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_unit</sys_name>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_choice_u_purchase_u_unit</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-26 15:59:46</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nos</label>
+            <language>en</language>
+            <name>u_purchase</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-26 15:59:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17eeccaa28e322107f449b0adbfc11a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-26 15:59:46</sys_updated_on>
+            <value>nos</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kg</label>
+            <language>en</language>
+            <name>u_purchase</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-26 15:59:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5feeccaa28e322107f449b0adbfc11aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-26 15:59:46</sys_updated_on>
+            <value>kg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Litre</label>
+            <language>en</language>
+            <name>u_purchase</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-26 15:59:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9beeccaa28e322107f449b0adbfc11ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-26 15:59:46</sys_updated_on>
+            <value>litre</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>packet</label>
+            <language>en</language>
+            <name>u_purchase</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-26 15:59:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7eeccaa28e322107f449b0adbfc11ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-26 15:59:46</sys_updated_on>
+            <value>packet</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

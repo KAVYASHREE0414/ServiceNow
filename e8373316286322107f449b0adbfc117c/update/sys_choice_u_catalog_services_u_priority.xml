@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_priority" table="u_catalog_services" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_priority</element>
+            <name>u_catalog_services</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-08-26 15:35:18</sys_created_on>
+            <sys_id>b45940a228e322107f449b0adbfc113d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_priority</sys_name>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_choice_u_catalog_services_u_priority</sys_update_name>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-08-26 15:35:18</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>u_catalog_services</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-08-26 15:35:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93a8086228e322107f449b0adbfc11dc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-08-26 15:36:54</sys_updated_on>
+            <value>low</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>u_catalog_services</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-08-26 15:36:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5259c8a228e322107f449b0adbfc116e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-08-26 15:36:36</sys_updated_on>
+            <value>medium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High</label>
+            <language>en</language>
+            <name>u_catalog_services</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-08-26 15:37:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1b9c4a228e322107f449b0adbfc11da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-08-26 15:37:15</sys_updated_on>
+            <value>high</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Critical</label>
+            <language>en</language>
+            <name>u_catalog_services</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-08-26 15:37:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4d9c4e228e322107f449b0adbfc118e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-08-26 15:41:11</sys_updated_on>
+            <value>critical</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Residents</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Rashmika.Masaram</sys_created_by>
+        <sys_created_on>2025-09-10 07:41:57</sys_created_on>
+        <sys_id>b63ca38b5cf322107f443f0bb970facd</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>Residents</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_b63ca38b5cf322107f443f0bb970facd</sys_update_name>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-10 14:55:51</sys_updated_on>
+        <template><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gated Community Portal</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/a2e0ad6e05.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+      --accent-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+      --dark-gradient: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+      --glass-bg: rgba(255, 255, 255, 0.1);
+      --glass-border: rgba(255, 255, 255, 0.2);
+      --shadow-soft: 0 8px 32px rgba(0, 0, 0, 0.1);
+      --shadow-intense: 0 20px 60px rgba(0, 0, 0, 0.15);
+      --text-light: rgba(255, 255, 255, 0.9);
+      --text-primary: #2d3748;
+      --border-radius: 20px;
+      --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background-attachment: fixed;
+      font-family: "Inter", sans-serif;
+      font-size: 1.1rem;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: 
+        radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: var(--glass-bg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--glass-border);
+      box-shadow: var(--shadow-soft);
+      padding: 1rem 0;
+      transition: var(--transition);
+    }
+
+    .navbar-brand {
+      font-weight: 1000;
+      color: #fff !important;
+      font-size: 2.6rem;
+      letter-spacing: -0.02em;
+    }
+
+    .navbar-nav .nav-link {
+      color: var(--text-light) !important;
+      font-weight: 5000;
+      margin: 0 15px;
+      font-size: 2.1rem;
+      position: relative;
+      padding: 0.8rem 1.2rem !important;
+      border-radius: 12px;
+      transition: var(--transition);
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #fff !important;
+      background: var(--glass-bg);
+      backdrop-filter: blur(10px);
+      transform: translateY(-2px);
+    }
+
+    .navbar-nav .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background: var(--accent-gradient);
+      transition: var(--transition);
+      transform: translateX(-50%);
+    }
+
+    .navbar-nav .nav-link:hover::after {
+      width: 80%;
+    }
+
+    .logo-img {
+      height: 40px;
+      width: auto;
+      margin-right: 12px;
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+    }
+
+    /* Banner with background image */
+    .banner {
+      position: relative;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      overflow: hidden;
+      background: 
+        url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')
+        no-repeat center center/cover;
+    }
+
+    .banner::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: 
+        radial-gradient(circle at 30% 70%, rgba(255, 255, 255, 0.15) 0%, transparent 60%),
+        radial-gradient(circle at 70% 30%, rgba(255, 255, 255, 0.1) 0%, transparent 60%);
+    }
+
+    .banner-content {
+      position: relative;
+      text-align: center;
+      z-index: 2;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .banner-content h1 {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 900;
+      margin-bottom: 1.5rem;
+      background: linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.85) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+
+    .banner-content p {
+      font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+      opacity: 0.95;
+      font-weight: 400;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* Cards Section */
+    .cards-container {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border-radius: var(--border-radius);
+      padding: 3rem;
+      margin: -80px auto 0;
+      position: relative;
+      z-index: 10;
+      border: 1px solid var(--glass-border);
+    }
+
+    .card-custom {
+      border: none;
+      border-radius: var(--border-radius);
+      background: var(--glass-bg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      color: #fff;
+      box-shadow: var(--shadow-soft);
+      height: 100%;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+      padding: 2rem;
+    }
+
+    .card-custom::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--secondary-gradient);
+      opacity: 0;
+      transition: var(--transition);
+      z-index: -1;
+    }
+
+    .card-custom:hover {
+      transform: translateY(-12px) scale(1.03);
+      box-shadow: var(--shadow-intense);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .card-custom:hover::before {
+      opacity: 0.8;
+    }
+
+    .card-custom .icon {
+      font-size: 80px;
+      margin-bottom: 20px;
+      background: var(--accent-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+      transition: var(--transition);
+    }
+
+    .card-custom:hover .icon {
+      transform: scale(1.1) rotate(5deg);
+      filter: drop-shadow(0 8px 16px rgba(0,0,0,0.3));
+    }
+
+    .card-custom h5 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      letter-spacing: -0.01em;
+    }
+
+    .card-custom p {
+      font-size: 2rem;
+      opacity: 0.9;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .card-custom .btn {
+      border-radius: 50px;
+      padding: 12px 30px;
+      font-weight: 600;
+      background: var(--accent-gradient);
+      border: none;
+      color: #fff;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+      letter-spacing: 0.5px;
+    }
+
+    .card-custom .btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: var(--transition);
+    }
+
+    .card-custom .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+    }
+
+    .card-custom .btn:hover::before {
+      left: 100%;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--glass-bg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-top: 1px solid var(--glass-border);
+      color: var(--text-light);
+      padding: 2.5rem 0;
+      margin-top: 80px;
+      font-size: 1rem;
+    }
+
+    footer a {
+      color: rgba(255, 255, 255, 0.8);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: var(--transition);
+      position: relative;
+    }
+
+    footer a:hover {
+      color: #fff;
+      transform: translateY(-1px);
+    }
+
+    footer a::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--accent-gradient);
+      transition: var(--transition);
+    }
+
+    footer a:hover::after {
+      width: 100%;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .card-custom {
+      animation: fadeInUp 0.6s ease-out;
+    }
+
+    .card-custom:nth-child(1) { animation-delay: 0.1s; }
+    .card-custom:nth-child(2) { animation-delay: 0.2s; }
+    .card-custom:nth-child(3) { animation-delay: 0.3s; }
+    .card-custom:nth-child(4) { animation-delay: 0.4s; }
+    .card-custom:nth-child(5) { animation-delay: 0.5s; }
+    .card-custom:nth-child(6) { animation-delay: 0.6s; }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .banner {
+        height: 50vh;
+      }
+      
+      .cards-container {
+        padding: 2rem 1rem;
+        margin-top: -60px;
+      }
+      
+      .card-custom {
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+      
+      .navbar-nav .nav-link {
+        margin: 0 5px;
+      }
+    }
+
+    /* Scrollbar Styling */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--secondary-gradient);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--accent-gradient);
+    }
+  </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="javascript:void(0)">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Logo" class="logo-img">
+      Gated Community
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="/sp?id=home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/sp?id=list&table=u_residents">Residents</a></li>
+        <li class="nav-item"><a class="nav-link" href="/sp?id=list&table=u_staff_profile">Staff</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://sya-aug-3203-0008.lab.service-now.com/now/nav/ui/classic/params/target/kb_knowledge_base.do%3Fsys_id%3D95af071354eb22107f44a1aea5d10ded%26sysparm_record_target%3Dkb_knowledge_base%26sysparm_record_row%3D3%26sysparm_record_rows%3D6%26sysparm_record_list%3Dactive%253Dtrue%255EORDERBYorder">Knowledge Base</a></li>
+        <li class="nav-item"><a class="nav-link" href="/sp?id=list&table=u_parking_slot">Services</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Banner -->
+<section class="banner">
+  <div class="banner-content">
+    <h1>Welcome to Your Community Portal</h1>
+    <p>Manage residents, staff, and services seamlessly with modern elegance</p>
+  </div>
+</section>
+
+<!-- Cards Section -->
+<div class="container py-5">
+  <div class="cards-container">
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card card-custom text-center">
+          <div class="icon"><i class="fas fa-user-plus"></i></div>
+          <h5 class="mb-3">Add Resident</h5>
+          <p>Register a new resident into the gated community with our streamlined process.</p>
+          <a href="/sp?id=form&table=u_residents&sys_id=-1" class="btn btn-light">Get Started</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card card-custom text-center">
+          <div class="icon"><i class="fas fa-users"></i></div>
+          <h5 class="mb-3">Resident List</h5>
+          <p>View, manage, and update existing resident records with advanced filtering options.</p>
+          <a href="/sp?id=list&table=u_residents" class="btn btn-light">Explore</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card card-custom text-center">
+          <div class="icon"><i class="fas fa-id-badge"></i></div>
+          <h5 class="mb-3">Staff Members</h5>
+          <p>Track staff details, assignments, and availability with comprehensive oversight.</p>
+          <a href="/sp?id=list&table=u_staff_profile" class="btn btn-light">Manage</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card card-custom text-center">
+          <div class="icon"><i class="fas fa-book-open"></i></div>
+          <h5 class="mb-3">Knowledge Base</h5>
+          <p>Find helpful articles, FAQs, and guidelines for residents and community policies.</p>
+          <a href="https://sya-aug-3203-0008.lab.service-now.com/now/nav/ui/classic/params/target/kb_knowledge_base.do%3Fsys_id%3D95af071354eb22107f44a1aea5d10ded%26sysparm_record_target%3Dkb_knowledge_base%26sysparm_record_row%3D3%26sysparm_record_rows%3D6%26sysparm_record_list%3Dactive%253Dtrue%255EORDERBYorder" class="btn btn-light">Browse</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card card-custom text-center">
+          <div class="icon"><i class="fas fa-concierge-bell"></i></div>
+          <h5 class="mb-3">Services</h5>
+          <p>Request community services such as maintenance, parking, and facility bookings.</p>
+          <a href="/sp?id=list&table=u_parking_slot" class="btn btn-light">Request</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card card-custom text-center">
+          <div class="icon"><i class="fas fa-chart-line"></i></div>
+          <h5 class="mb-3">Reports & Analytics</h5>
+          <p>Find insights and analytics of your gated community with detailed reporting.</p>
+          <a href="https://sya-aug-3203-0008.lab.service-now.com/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/e7ac8d19f9f722107f44424c54af5c05" class="btn btn-light">Analyze</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center">
+  <div class="container">
+    <p class="mb-3">&copy; 2025 Gated Community Portal. All Rights Reserved.</p>
+    <div>
+      <a href="/sp?id=home">Home</a>
+      <a href="/sp?id=list&table=u_residents">Residents</a>
+      <a href="/sp?id=list&table=u_staff">Staff</a>
+      <a href="https://sya-aug-3203-0008.lab.service-now.com/now/nav/ui/classic/params/target/kb_knowledge_base.do%3Fsys_id%3D95af071354eb22107f44a1aea5d10ded%26sysparm_record_target%3Dkb_knowledge_base%26sysparm_record_row%3D3%26sysparm_record_rows%3D6%26sysparm_record_list%3Dactive%253Dtrue%255EORDERBYorder">Knowledge Base</a>
+      <a href="/sp?id=sc_category&sys_id=your_catalog_sysid">Services</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b63ca38b5cf322107f443f0bb970facd</id>
+        <sys_created_by>Rashmika.Masaram</sys_created_by>
+        <sys_created_on>2025-09-10 07:41:57</sys_created_on>
+        <sys_id>5ddc2b0f5cf322107f443f0bb970fab4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-10 07:41:57</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

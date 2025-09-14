@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description>This topic allows residents to order appliances (Refrigerator, Washing Machine, AC, etc.) from the Service Catalog through a guided conversation.</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{"graph_api_version":"1.0.74","variables":{},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"90441d028d6548ecbfc4d37dfddc987a":{"id":"90441d028d6548ecbfc4d37dfddc987a","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"f2675af6a7774081aa095bcb3f4d79ae":{"id":"f2675af6a7774081aa095bcb3f4d79ae","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"7b6df1a570b74d14975dc36208f18a57","edgeType":"Edge","source":"90441d028d6548ecbfc4d37dfddc987a","target":"f2675af6a7774081aa095bcb3f4d79ae","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>order_appliance</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>order_appliance</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-11 06:29:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fee5a8abfcf722107f44d350ad212195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>order_appliance</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_cb_topic_fee5a8abfcf722107f44d350ad212195</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-11 06:29:51</sys_updated_on>
+        <title>Order Appliance</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=fee5a8abfcf722107f44d350ad212195"/>
+</record_update>

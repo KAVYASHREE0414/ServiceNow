@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="staff profiles TM">b40d2120a5b322107f44045be815799b</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[// Sheet 2 Staff_Profiles: map group by exact name (now matches: Electrical, Plumbing, etc.)
+var grp = new GlideRecord('sys_user_group');
+grp.addQuery('name', source.u_group);  // e.g., "Electrical"
+grp.query();
+if (grp.next()) {
+  answer = grp.sys_id.toString();
+}]]></source_script>
+        <source_table>u_cmt_staff_profiles</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-02 04:30:37</sys_created_on>
+        <sys_id>4d34392ca5b322107f44045be81579f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_transform_entry_4d34392ca5b322107f44045be81579f9</sys_update_name>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-02 04:34:51</sys_updated_on>
+        <target_field>u_group</target_field>
+        <target_table>u_staff_profile</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

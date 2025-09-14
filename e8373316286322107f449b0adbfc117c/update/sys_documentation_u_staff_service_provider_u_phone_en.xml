@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_phone" label="Phone" language="en" table="u_staff_service_provider">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_phone</element>
+            <help/>
+            <hint/>
+            <label>Phone</label>
+            <language>en</language>
+            <name>u_staff_service_provider</name>
+            <plural>Phones</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Rashmika.Masaram</sys_created_by>
+            <sys_created_on>2025-08-26 14:52:12</sys_created_on>
+            <sys_id>e17ffbde286322107f449b0adbfc1185</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Phone</sys_name>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_documentation_u_staff_service_provider_u_phone_en</sys_update_name>
+            <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+            <sys_updated_on>2025-08-26 14:52:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

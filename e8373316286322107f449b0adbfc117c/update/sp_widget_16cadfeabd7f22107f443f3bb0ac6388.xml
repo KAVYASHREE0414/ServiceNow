@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};
+
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* Global container */&#13;
+.catalog-container {&#13;
+  max-width: 1200px;&#13;
+  margin: 0 auto;&#13;
+  padding: 30px 20px;&#13;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;&#13;
+  background: linear-gradient(135deg, #f9fbfc, #eef3f7);&#13;
+  border-radius: 20px;&#13;
+}&#13;
+&#13;
+/* Title */&#13;
+.catalog-title {&#13;
+  font-size: 32px;&#13;
+  font-weight: 800;&#13;
+  margin-bottom: 35px;&#13;
+  text-align: center;&#13;
+  color: #2c3e50;&#13;
+  text-transform: uppercase;&#13;
+  letter-spacing: 1px;&#13;
+  background: linear-gradient(90deg, #3498db, #9b59b6);&#13;
+  -webkit-background-clip: text;&#13;
+  -webkit-text-fill-color: transparent;&#13;
+}&#13;
+&#13;
+/* Grid */&#13;
+.catalog-grid {&#13;
+  display: grid;&#13;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));&#13;
+  gap: 25px;&#13;
+}&#13;
+&#13;
+/* Card */&#13;
+.catalog-card {&#13;
+  background: rgba(255, 255, 255, 0.8);&#13;
+  border-radius: 18px;&#13;
+  overflow: hidden;&#13;
+  backdrop-filter: blur(10px);&#13;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);&#13;
+  display: flex;&#13;
+  flex-direction: column;&#13;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;&#13;
+  position: relative;&#13;
+}&#13;
+&#13;
+.catalog-card:hover {&#13;
+  transform: translateY(-8px) scale(1.02);&#13;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.2);&#13;
+}&#13;
+&#13;
+/* Image */&#13;
+.catalog-image {&#13;
+  width: 100%;&#13;
+  height: 200px;&#13;
+  position: relative;&#13;
+  overflow: hidden;&#13;
+  border-bottom: 1px solid #eee;&#13;
+}&#13;
+&#13;
+.catalog-image img {&#13;
+  width: 100%;&#13;
+  height: 100%;&#13;
+  object-fit: cover;&#13;
+  transition: transform 0.4s ease;&#13;
+}&#13;
+&#13;
+.catalog-card:hover .catalog-image img {&#13;
+  transform: scale(1.15);&#13;
+}&#13;
+&#13;
+/* Tag */&#13;
+.catalog-tag {&#13;
+  position: absolute;&#13;
+  top: 12px;&#13;
+  left: 12px;&#13;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);&#13;
+  color: #fff;&#13;
+  font-size: 12px;&#13;
+  padding: 4px 10px;&#13;
+  border-radius: 12px;&#13;
+  font-weight: 600;&#13;
+  text-transform: uppercase;&#13;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);&#13;
+}&#13;
+&#13;
+/* Body */&#13;
+.catalog-body {&#13;
+  padding: 18px;&#13;
+  flex: 1;&#13;
+  display: flex;&#13;
+  flex-direction: column;&#13;
+}&#13;
+&#13;
+.catalog-name {&#13;
+  font-size: 20px;&#13;
+  font-weight: 700;&#13;
+  margin-bottom: 10px;&#13;
+  color: #34495e;&#13;
+}&#13;
+&#13;
+.catalog-desc {&#13;
+  flex: 1;&#13;
+  font-size: 14px;&#13;
+  color: #7f8c8d;&#13;
+  margin-bottom: 14px;&#13;
+}&#13;
+&#13;
+/* Rating */&#13;
+.catalog-rating {&#13;
+  margin-bottom: 12px;&#13;
+}&#13;
+&#13;
+.star {&#13;
+  color: #ccc;&#13;
+  font-size: 16px;&#13;
+  margin-right: 2px;&#13;
+}&#13;
+&#13;
+.star.active {&#13;
+  color: #f39c12;&#13;
+}&#13;
+&#13;
+/* Footer */&#13;
+.catalog-footer {&#13;
+  display: flex;&#13;
+  justify-content: space-between;&#13;
+  align-items: center;&#13;
+}&#13;
+&#13;
+.catalog-price {&#13;
+  font-size: 18px;&#13;
+  font-weight: 700;&#13;
+  color: #27ae60;&#13;
+}&#13;
+&#13;
+/* Button */&#13;
+.catalog-btn {&#13;
+  background: linear-gradient(90deg, #3498db, #9b59b6);&#13;
+  color: #fff;&#13;
+  padding: 10px 16px;&#13;
+  border-radius: 12px;&#13;
+  text-decoration: none;&#13;
+  font-size: 14px;&#13;
+  font-weight: 600;&#13;
+  transition: all 0.3s ease;&#13;
+  display: inline-flex;&#13;
+  align-items: center;&#13;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);&#13;
+}&#13;
+&#13;
+.catalog-btn:hover {&#13;
+  background: linear-gradient(90deg, #2980b9, #8e44ad);&#13;
+  transform: translateY(-2px);&#13;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);&#13;
+}&#13;
+&#13;
+.catalog-btn span {&#13;
+  margin-left: 4px;&#13;
+}&#13;
+&#13;
+/* Empty Message */&#13;
+.empty-msg {&#13;
+  text-align: center;&#13;
+  font-size: 20px;&#13;
+  margin-top: 40px;&#13;
+  color: #95a5a6;&#13;
+  font-style: italic;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>naresh2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>naresh2</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    data.catalogItems = [];
+    var categorySysId = 'db266bbb2c2722107f4411d16edcb293'; // Gated Community category sys_id
+
+    try {
+        var rel = new GlideRecord('sc_cat_item_category');
+        rel.addQuery('sc_category', categorySysId);
+        rel.query();
+
+        var ids = [];
+        while (rel.next()) {
+            ids.push(rel.getValue('sc_cat_item'));
+        }
+
+        if (ids.length > 0) {
+            var itemGR = new GlideRecord('sc_cat_item');
+            itemGR.addQuery('sys_id', 'IN', ids.join());
+            itemGR.addActiveQuery();
+            itemGR.orderBy('name');
+            itemGR.query();
+
+            while (itemGR.next()) {
+                data.catalogItems.push({
+                    sys_id: itemGR.getUniqueValue(),
+                    name: itemGR.getDisplayValue('name'),
+                    short_description: itemGR.getDisplayValue('short_description'),
+                    description: itemGR.getDisplayValue('description'),
+                    price: itemGR.getDisplayValue('price'),
+                    picture: itemGR.getDisplayValue('picture') || '/images/catalog/default.png'
+                });
+            }
+        }
+    } catch (e) {
+        gs.error('Error loading catalog items: ' + e.message, 'CatalogWidget');
+    }
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-08 17:07:55</sys_created_on>
+        <sys_id>16cadfeabd7f22107f443f3bb0ac6388</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>naresh2</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_16cadfeabd7f22107f443f3bb0ac6388</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-08 17:57:41</sys_updated_on>
+        <template><![CDATA[<div class="catalog-container">
+  <h2 class="catalog-title">]]>🛍<![CDATA[️ Gated Community Catalog</h2>
+
+  <div class="catalog-grid">
+    <div class="catalog-card" ng-repeat="item in c.data.catalogItems">
+      <div class="catalog-image">
+        <img ng-src="{{item.picture}}" alt="{{item.name}}">
+        <span class="catalog-tag">New</span>
+      </div>
+      <div class="catalog-body">
+        <h3 class="catalog-name">{{item.name}}</h3>
+        <p class="catalog-desc">{{item.short_description || item.description}}</p>
+
+        <!-- Fake star ratings just for wow look -->
+        <div class="catalog-rating">
+          <span ng-repeat="n in [1,2,3,4,5]" 
+                class="star" 
+                ng-class="{'active': n <= 4}">★</span>
+        </div>
+
+        <div class="catalog-footer">
+          <span class="catalog-price" ng-if="item.price">₹ {{item.price}}</span>
+          <span class="catalog-price" ng-if="!item.price">Free</span>
+          <a class="catalog-btn" ng-href="?id=sc_cat_item&sys_id={{item.sys_id}}">
+            <span>]]>🛒<![CDATA[ View / Order</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="empty-msg" ng-if="c.data.catalogItems.length === 0">
+    ]]>🚫<![CDATA[ No items found in this category.
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>16cadfeabd7f22107f443f3bb0ac6388</id>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-08 17:07:53</sys_created_on>
+        <sys_id>3b2bd72ebd7f22107f443f3bb0ac634b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-08 17:07:53</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

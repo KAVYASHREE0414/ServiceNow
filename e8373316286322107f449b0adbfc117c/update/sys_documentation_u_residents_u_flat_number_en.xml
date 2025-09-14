@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_flat_number" label="Flat Number" language="en" table="u_residents">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_flat_number</element>
+            <help/>
+            <hint/>
+            <label>Flat Number</label>
+            <language>en</language>
+            <name>u_residents</name>
+            <plural>Flat Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+            <sys_created_on>2025-08-29 14:15:11</sys_created_on>
+            <sys_id>e8c3d3d754eb22107f44a1aea5d10dd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Flat Number</sys_name>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_documentation_u_residents_u_flat_number_en</sys_update_name>
+            <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+            <sys_updated_on>2025-08-29 14:15:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

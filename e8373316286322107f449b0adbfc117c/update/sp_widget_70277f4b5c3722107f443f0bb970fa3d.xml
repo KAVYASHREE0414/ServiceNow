@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Copy of Residents</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Rashmika.Masaram</sys_created_by>
+        <sys_created_on>2025-09-10 08:26:59</sys_created_on>
+        <sys_id>70277f4b5c3722107f443f0bb970fa3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Residents</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_70277f4b5c3722107f443f0bb970fa3d</sys_update_name>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-10 08:26:59</sys_updated_on>
+        <template><![CDATA[<!-- Full Page Resident Section with Navbar + Footer -->
+<style>
+ html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+.fullpage-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background: #24364e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
+  color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+.navbar-logo img {
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+.navbar-menu {
+  display: flex;
+  gap: 1.5rem;
+}
+.navbar-menu a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+.navbar-menu a:hover {
+  color: #1ac6a2;
+}
+
+/* Banner */
+.banner {
+  background-image: url('https://img.freepik.com/premium-photo/gated-community-real-estate-concept_101334-1301.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 45vh;
+  position: relative;
+}
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.35);
+}
+.banner-text {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+}
+.banner-text h1 {
+  font-size: 3vw;
+  font-weight: 700;
+  margin: 0 0 1vh;
+}
+.banner-text p {
+  font-size: 1.3vw;
+  margin: 0;
+}
+
+/* Big Cards Section */
+.cards-row {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 40px;
+  background: #f2f7fb;
+}
+.card {
+  background: linear-gradient(135deg, #1d6dd8, #3b82f6);
+  color: white;
+  border-radius: 16px;
+  padding: 40px 25px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.25);
+}
+.card i {
+  font-size: 55px;
+  margin-bottom: 18px;
+}
+.card h3 {
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+.card p {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+.card button {
+  background: white;
+  color: #1d4ed8;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 22px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.card button:hover {
+  background: #e5e7eb;
+}
+
+/* Footer */
+.footer {
+  background: #24364e;
+  color: #fff;
+  text-align: center;
+  padding: 25px 15px;
+  font-size: 0.95rem;
+  border-top: 3px solid #1ac6a2;
+}
+.footer a {
+  color: #1ac6a2;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.2s ease;
+}
+.footer a:hover {
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .banner { height: 35vh; }
+  .banner-text h1 { font-size: 6vw; }
+  .banner-text p { font-size: 3.5vw; }
+  .cards-row { padding: 20px; }
+  .card { min-height: 180px; }
+  .navbar-menu { display: none; } /* Collapse menu */
+}
+</style>
+
+<div class="fullpage-container">
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/2521/2521826.png" alt="Community Logo">
+      <span style="font-size:1.2rem;font-weight:600;">Gated Community</span>
+    </div>
+    <div class="navbar-menu">
+      <a href="/sp?id=home">Home</a>
+      <a href="/sp?id=list&table=u_residents">Residents</a>
+      <a href="/sp?id=list&table=u_staff">Staff</a>
+      <a href="/sp?id=kb">Knowledge Base</a>
+      <a href="/sp?id=sc_category&sys_id=your_catalog_sysid">Services</a>
+    </div>
+  </div>
+
+  <!-- Banner Section -->
+  <div class="banner">
+    <div class="banner-text">
+      <h1>Welcome to Your Community Portal</h1>
+      <p>Manage residents, staff, and services seamlessly</p>
+    </div>
+  </div>
+
+  <!-- Big Action Cards -->
+  <div class="cards-row">
+    <div class="card">
+      <i class="fas fa-user-plus"></i>
+      <h3>Add Resident</h3>
+      <p>Register a new resident into the gated community system.</p>
+      <button onclick="window.location.href='/sp?id=form&table=u_residents&sys_id=-1'">Go</button>
+    </div>
+    <div class="card">
+      <i class="fas fa-users"></i>
+      <h3>Resident List</h3>
+      <p>View, manage, and update existing resident records.</p>
+      <button onclick="window.location.href='/sp?id=list&table=u_residents'">Go</button>
+    </div>
+    <div class="card">
+      <i class="fas fa-id-badge"></i>
+      <h3>Staff Members</h3>
+      <p>Track staff details, assignments, and availability.</p>
+      <button onclick="window.location.href='/sp?id=list&table=u_staff_profile'">Go</button>
+    </div>
+    <div class="card">
+      <i class="fas fa-book"></i>
+      <h3>Knowledge Base</h3>
+      <p>Find helpful articles, FAQs, and guidelines for residents.</p>
+      <button onclick="window.location.href='https://sya-aug-3203-0008.lab.service-now.com/now/nav/ui/classic/params/target/kb_knowledge_base.do%3Fsys_id%3D95af071354eb22107f44a1aea5d10ded%26sysparm_record_target%3Dkb_knowledge_base%26sysparm_record_row%3D3%26sysparm_record_rows%3D6%26sysparm_record_list%3Dactive%253Dtrue%255EORDERBYorder'">Go</button>
+    </div>
+    <div class="card">
+      <i class="fas fa-concierge-bell"></i>
+      <h3>Services</h3>
+      <p>Request community services such as maintenance or parking.</p>
+      <button onclick="window.location.href='/sp?id=sc_category&sys_id=your_catalog_sysid'">Go</button>
+    </div>
+  </div>
+
+ /* Footer */
+.footer {
+  background: #1e3a8a; /* Deep blue */
+  color: #e5e7eb;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+.footer p {
+  margin: 6px 0;
+}
+.footer a {
+  color: #93c5fd; /* Soft blue */
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+.footer a:hover {
+  color: #ffffff;
+}
+
+<!-- FontAwesome for icons -->
+<script src="https://kit.fontawesome.com/a2e0ad6e05.js" crossorigin="anonymous"></script>
+]]></template>
+    </sp_widget>
+</record_update>

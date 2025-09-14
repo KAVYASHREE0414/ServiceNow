@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>cmt.task.assigned</event_name>
+        <name>workload update</name>
+        <order>100</order>
+        <script><![CDATA[// Event parm1 = assignee sys_id
+(function () {
+  var userId = event.parm1;
+  if (!userId) return;
+
+  var SP = 'u_staff_profile'; // <-- change if your Staff Profile table name differs
+
+  var prof = new GlideRecord(SP);
+  prof.addQuery('u_user', userId);
+  prof.setLimit(1);
+  prof.query();
+
+  // create profile if not exists
+  if (!prof.next()) {
+    prof.initialize();
+    prof.u_user = userId;
+    prof.u_current_workload = 0;
+    prof.u_workload_date = new GlideDate().getValue();
+    prof.u_max_concurrent = 1;       // default
+    prof.u_active = true;
+    var newId = prof.insert();
+    prof.get(newId);
+  }
+
+  // reset workload if new day
+  var today = new GlideDate().getValue();
+  if (prof.getValue('u_workload_date') !== today) {
+    prof.setValue('u_current_workload', '0');
+    prof.setValue('u_workload_date', today);
+  }
+
+  // calculate workload + cap
+  var curr = parseInt(prof.getValue('u_current_workload'), 10) || 0;
+  var max  = parseInt(prof.getValue('u_max_concurrent'), 10);
+  if (isNaN(max)) max = 0; // 0 = unlimited
+
+  var unlimited = (max <= 0);
+  var next = unlimited ? (curr + 1) : Math.min(curr + 1, max);
+
+  // update workload
+  prof.setValue('u_current_workload', String(next));
+
+  // update active flag (true only if user can still take more)
+  var willBeActive = unlimited || (next < max);
+  prof.setValue('u_active', willBeActive ? 'true' : 'false');
+
+  prof.update();
+})();]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-04 14:03:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c4a8251f97f22107f44424c54af5c82</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>workload update</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sysevent_script_action_2c4a8251f97f22107f44424c54af5c82</sys_update_name>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-05 05:00:46</sys_updated_on>
+    </sysevent_script_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2c4a8251f97f22107f44424c54af5c82</id>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-04 14:03:10</sys_created_on>
+        <sys_id>fe8a8251f97f22107f44424c54af5c8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-04 14:03:10</sys_updated_on>
+        <table>sysevent_script_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

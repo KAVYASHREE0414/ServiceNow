@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.features-section {&#13;
+  background: #f8f9fa;&#13;
+  padding: 80px 20px;&#13;
+  text-align: center;&#13;
+  width: 100vw;&#13;
+  margin: 0;&#13;
+}&#13;
+&#13;
+.section-title {&#13;
+  font-size: 32px;&#13;
+  font-weight: 700;&#13;
+  margin-bottom: 50px;&#13;
+  color: #2c3e50;&#13;
+}&#13;
+&#13;
+/* One-line card layout */&#13;
+.features-grid {&#13;
+  display: flex;&#13;
+  justify-content: flex-start;&#13;
+  align-items: stretch;&#13;
+  flex-wrap: nowrap;       /* all cards in one row */&#13;
+  gap: 30px;&#13;
+  max-width: 100%;&#13;
+  margin: 0 auto;&#13;
+  padding: 0 10px;&#13;
+  overflow-x: auto;        /* horizontal scroll if too many cards */&#13;
+  scrollbar-width: thin;   /* for Firefox */&#13;
+  scrollbar-color: #3498db transparent;&#13;
+}&#13;
+&#13;
+/* Scrollbar styling (for Chrome/Edge/Safari) */&#13;
+.features-grid::-webkit-scrollbar {&#13;
+  height: 8px;&#13;
+}&#13;
+&#13;
+.features-grid::-webkit-scrollbar-thumb {&#13;
+  background: #3498db;&#13;
+  border-radius: 4px;&#13;
+}&#13;
+&#13;
+.feature-card {&#13;
+  flex: 0 0 250px;         /* fixed width per card */&#13;
+  background: white;&#13;
+  border-radius: 16px;&#13;
+  padding: 40px 20px;&#13;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);&#13;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;&#13;
+}&#13;
+&#13;
+.feature-card:hover {&#13;
+  transform: translateY(-5px);&#13;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);&#13;
+}&#13;
+&#13;
+.feature-icon {&#13;
+  font-size: 40px;&#13;
+  color: #3498db;&#13;
+  margin-bottom: 20px;&#13;
+}&#13;
+&#13;
+.feature-card h3 {&#13;
+  font-size: 20px;&#13;
+  font-weight: 600;&#13;
+  margin-bottom: 15px;&#13;
+  color: #34495e;&#13;
+}&#13;
+&#13;
+.feature-card p {&#13;
+  font-size: 14px;&#13;
+  color: #7f8c8d;&#13;
+  margin-bottom: 20px;&#13;
+}&#13;
+&#13;
+/* Card Button */&#13;
+.btn-card {&#13;
+  display: inline-block;&#13;
+  padding: 10px 20px;&#13;
+  background: #3498db;&#13;
+  color: white;&#13;
+  border-radius: 25px;&#13;
+  font-weight: 600;&#13;
+  text-decoration: none;&#13;
+  transition: all 0.3s ease;&#13;
+}&#13;
+&#13;
+.btn-card:hover {&#13;
+  background: #2980b9;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>features_section</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Features  sections</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-09 09:56:06</sys_created_on>
+        <sys_id>eac1cb3ad03b22107f443dc785febb18</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Features  sections</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_eac1cb3ad03b22107f443dc785febb18</sys_update_name>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-09-12 08:42:47</sys_updated_on>
+        <template><![CDATA[<div class="features-section">
+  <h2 class="section-title">Explore the Residents Portal</h2>
+  <div class="features-grid">
+    
+    <div class="feature-card">
+      <i class="fa fa-shopping-cart feature-icon"></i>
+      <h3>Request Catalog Items</h3>
+      <p>Browse and request community catalog items easily.</p>
+      <a href="?id=gated_community" class="btn-card">Go</a>
+    </div>
+    
+    <div class="feature-card">
+      <i class="fa fa-book feature-icon"></i>
+      <h3>Knowledge Bases</h3>
+      <p>Find answers, guides, and helpful documentation.</p>
+      <a href="?id=kb_naresh" class="btn-card">Go</a>
+    </div>
+
+    <!-- New Card: Staff Management -->
+    <div class="feature-card">
+      <i class="fa fa-id-badge feature-icon"></i>
+      <h3>Staff Services</h3>
+      <p>Raise an Issue and get the help.</p>
+      <a href="?id=form&table=u_community_maintenance_task&sys_id=-1" class="btn-card">Go</a>
+    </div>
+    
+    <div class="feature-card">
+      <i class="fa fa-users feature-icon"></i>
+      <h3>List of Residents</h3>
+      <p>View and connect with fellow community members.</p>
+      <a href="?id=residents_list_page" class="btn-card">Go</a>
+    </div>
+    
+    <div class="feature-card">
+      <i class="fa fa-life-ring feature-icon"></i>
+      <h3>Get Help</h3>
+      <p>Need assistance? Reach out to our support team.</p>
+      <a href="?id=sc_category&sys_id=e15706fc0a0a0aa7007fc21e1ab70c2f" class="btn-card">Go</a>
+    </div>
+
+
+
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>eac1cb3ad03b22107f443dc785febb18</id>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-09 09:56:06</sys_created_on>
+        <sys_id>ecf1cb3ad03b22107f443dc785febb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-09 09:56:06</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

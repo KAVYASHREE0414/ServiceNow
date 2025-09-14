@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>CMT Group Mapping</name>
+        <order/>
+        <roles>u_cmt_group_mapping_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-01 09:07:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>782a69d02cf322107f442c9c5a417f20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMT Group Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_ui_application_782a69d02cf322107f442c9c5a417f20</sys_update_name>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-01 09:07:38</sys_updated_on>
+    </sys_ui_application>
+</record_update>

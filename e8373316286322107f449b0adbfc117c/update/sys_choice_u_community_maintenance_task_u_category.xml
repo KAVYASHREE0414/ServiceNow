@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_category" table="u_community_maintenance_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_category</element>
+            <name>u_community_maintenance_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-08-31 02:48:31</sys_created_on>
+            <sys_id>59c9cbf32ca322107f4411d16edcb279</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_category</sys_name>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_choice_u_community_maintenance_task_u_category</sys_update_name>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-08-31 02:48:31</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Carpentry</label>
+            <language>en</language>
+            <name>u_community_maintenance_task</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-08-31 03:19:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05a09b7f2ca322107f4411d16edcb251</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-08-31 03:19:34</sys_updated_on>
+            <value>carpentry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electrical</label>
+            <language>en</language>
+            <name>u_community_maintenance_task</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-08-31 03:16:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f20df3f2ca322107f4411d16edcb263</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-08-31 03:18:25</sys_updated_on>
+            <value>electrical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>u_community_maintenance_task</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-08-31 03:20:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ff093bf2ca322107f4411d16edcb269</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-08-31 03:20:14</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plumbing</label>
+            <language>en</language>
+            <name>u_community_maintenance_task</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-08-31 03:17:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3030537f2ca322107f4411d16edcb26d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-08-31 03:17:52</sys_updated_on>
+            <value>plumbing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Housekeeping</label>
+            <language>en</language>
+            <name>u_community_maintenance_task</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-02 04:51:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>772939e0a5f322107f44045be81579f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-02 04:51:52</sys_updated_on>
+            <value>Housekeeping</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security</label>
+            <language>en</language>
+            <name>u_community_maintenance_task</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-02 04:51:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b32979e0a5f322107f44045be8157903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-02 04:51:52</sys_updated_on>
+            <value>Security</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
