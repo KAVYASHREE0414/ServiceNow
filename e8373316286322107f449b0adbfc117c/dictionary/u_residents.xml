@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4c831b9754eb22107f44a1aea5d10d16" extends="task" label="Residents" max_length="40" name="u_residents" type="collection">
+        <element label="Flat Number" mandatory="true" max_length="40" name="u_flat_number" type="string"/>
+        <element display="true" label="Resident" max_length="32" name="u_resident" reference="sys_user" type="reference"/>
+    </element>
+</database>

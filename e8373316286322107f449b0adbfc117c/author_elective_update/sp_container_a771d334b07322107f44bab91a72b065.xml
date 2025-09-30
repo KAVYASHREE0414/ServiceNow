@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Gated Community Home - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="gated_community_home">419f0ff0b07322107f44bab91a72b089</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-03 05:56:10</sys_created_on>
+        <sys_id>a771d334b07322107f44bab91a72b065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gated Community Home - Container 1</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_container_a771d334b07322107f44bab91a72b065</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-03 05:56:10</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_container_a771d334b07322107f44bab91a72b065</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Gated Community Home - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="gated_community_home">419f0ff0b07322107f44bab91a72b089</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>DEPAVATH.NARESH</sys_created_by><sys_created_on>2025-09-03 05:56:10</sys_created_on><sys_id>a771d334b07322107f44bab91a72b065</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gated Community Home - Container 1</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sp_container_a771d334b07322107f44bab91a72b065</sys_update_name><sys_updated_by>DEPAVATH.NARESH</sys_updated_by><sys_updated_on>2025-09-03 05:56:10</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1915459592</payload_hash>
+        <record_name>Gated Community Home - Container 1</record_name>
+        <reverted_from/>
+        <source>2a298fcc3d8122107f4488addddbe258</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-03 05:56:11</sys_created_on>
+        <sys_id>2771d334b07322107f44bab91a72b068</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1990e25a0d20000001</sys_recorded_at>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-03 05:56:11</sys_updated_on>
+        <type>Container</type>
+        <update_guid>2b71d3347473221025fcb3a14c62dd67</update_guid>
+        <update_guid_history>2b71d3347473221025fcb3a14c62dd67:-1915459592</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Gated Community Home - Container 1">9cafa08db03b22107f44bab91a72b0d0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-03 12:47:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>45ef7b29543b4a2c96ad3de74079bab9</sys_id>
+        <sys_metadata>a771d334b07322107f44bab91a72b065</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gated Community Home - Container 1</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_container_a771d334b07322107f44bab91a72b065</sys_update_name>
+        <sys_update_version display_value="sp_container_a771d334b07322107f44bab91a72b065">2771d334b07322107f44bab91a72b068</sys_update_version>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-03 12:47:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

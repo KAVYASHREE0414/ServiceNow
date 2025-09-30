@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.landing-page-widget {&#13;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;&#13;
+  color: #2c3e50;&#13;
+}&#13;
+&#13;
+/* Hero */&#13;
+.hero-section {&#13;
+  position: relative;&#13;
+  height: 400px;&#13;
+  background-size: cover;&#13;
+  background-position: center;&#13;
+  display: flex;&#13;
+  align-items: center;&#13;
+  justify-content: center;&#13;
+  text-align: center;&#13;
+}&#13;
+.hero-overlay {&#13;
+  position: absolute;&#13;
+  top: 0; left: 0;&#13;
+  width: 100%; height: 100%;&#13;
+  background: rgba(0,0,0,0.4);&#13;
+  backdrop-filter: blur(2px);&#13;
+}&#13;
+.hero-content {&#13;
+  position: relative;&#13;
+  z-index: 1;&#13;
+  color: white;&#13;
+}&#13;
+.hero-content h1 {&#13;
+  font-size: 42px;&#13;
+  font-weight: 700;&#13;
+  margin-bottom: 15px;&#13;
+  text-transform: uppercase;&#13;
+  letter-spacing: 1px;&#13;
+}&#13;
+.hero-content p {&#13;
+  font-size: 20px;&#13;
+  margin-bottom: 25px;&#13;
+}&#13;
+.hero-buttons .btn {&#13;
+  background: #3498db;&#13;
+  color: #fff;&#13;
+  padding: 12px 24px;&#13;
+  margin: 0 10px;&#13;
+  border-radius: 24px;&#13;
+  font-size: 16px;&#13;
+  text-decoration: none;&#13;
+  transition: background 0.3s ease;&#13;
+}&#13;
+.hero-buttons .btn:hover {&#13;
+  background: #2980b9;&#13;
+}&#13;
+&#13;
+/* Features */&#13;
+.features-section {&#13;
+  display: grid;&#13;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));&#13;
+  gap: 30px;&#13;
+  padding: 50px 20px;&#13;
+  max-width: 1000px;&#13;
+  margin: 0 auto;&#13;
+}&#13;
+.feature-card {&#13;
+  background: white;&#13;
+  border-radius: 15px;&#13;
+  padding: 25px;&#13;
+  text-align: center;&#13;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);&#13;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;&#13;
+}&#13;
+.feature-card:hover {&#13;
+  transform: translateY(-5px);&#13;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);&#13;
+}&#13;
+.feature-icon {&#13;
+  font-size: 36px;&#13;
+  color: #3498db;&#13;
+  margin-bottom: 15px;&#13;
+}&#13;
+.feature-card h3 {&#13;
+  font-size: 20px;&#13;
+  font-weight: 600;&#13;
+  margin-bottom: 10px;&#13;
+}&#13;
+.feature-card p {&#13;
+  font-size: 14px;&#13;
+  color: #7f8c8d;&#13;
+  margin-bottom: 15px;&#13;
+}&#13;
+.feature-link {&#13;
+  color: #3498db;&#13;
+  font-weight: 600;&#13;
+  text-decoration: none;&#13;
+}&#13;
+.feature-link:hover {&#13;
+  text-decoration: underline;&#13;
+}&#13;
+&#13;
+/* Footer */&#13;
+.landing-footer {&#13;
+  text-align: center;&#13;
+  padding: 25px;&#13;
+  background: #2c3e50;&#13;
+  color: white;&#13;
+  margin-top: 40px;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>naresh4</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>naresh4</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  data.title = "Welcome to the Gated Community Portal";
+  data.subtitle = "Explore services or find helpful knowledge articles below";
+  data.heroImage = "/images/hero_background.jpg"; // Replace with your image
+  data.links = [
+    { label: "Browse Catalog", url: "?id=gated-community" },
+    { label: "Read Knowledge Articles", url: "?id=kb-landing" }
+  ];
+  data.features = [
+    { icon: "fa-shopping-cart", title: "Catalog Services", description: "Order services and amenities with just a few clicks", url: "?id=gated-community" },
+    { icon: "fa-book", title: "Knowledge Base", description: "Explore guides and FAQs for our community", url: "?id=kb-landing" }
+  ];
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-09 03:56:07</sys_created_on>
+        <sys_id>f54fe93ed07322107f443dc785febba3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>naresh4</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_f54fe93ed07322107f443dc785febba3</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-09 04:07:17</sys_updated_on>
+        <template><![CDATA[<div class="landing-page-widget">
+
+  <!-- Hero Section -->
+  <section class="hero-section" ng-style="{'background-image': 'url(' + data.heroImage + ')'}">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>{{data.title}}</h1>
+      <p>{{data.subtitle}}</p>
+      <div class="hero-buttons">
+        <a ng-repeat="link in data.links" class="btn" ng-href="{{link.url}}">{{link.label}}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section">
+    <div class="feature-card" ng-repeat="f in data.features">
+      <i class="fa {{f.icon}} feature-icon"></i>
+      <h3>{{f.title}}</h3>
+      <p>{{f.description}}</p>
+      <a class="feature-link" ng-href="{{f.url}}">Learn More →</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="landing-footer">
+    <p>© {{:: (new Date().getFullYear()) }} Gated Community Portal • All Rights Reserved</p>
+  </footer>
+
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="DELETE">
+        <id>f54fe93ed07322107f443dc785febba3</id>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-09 03:56:05</sys_created_on>
+        <sys_id>878f2d3ed07322107f443dc785febb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-09 03:56:05</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_widget_f54fe93ed07322107f443dc785febba3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.landing-page-widget {&amp;#13;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;&amp;#13;
+  color: #2c3e50;&amp;#13;
+}&amp;#13;
+&amp;#13;
+/* Hero */&amp;#13;
+.hero-section {&amp;#13;
+  position: relative;&amp;#13;
+  height: 400px;&amp;#13;
+  background-size: cover;&amp;#13;
+  background-position: center;&amp;#13;
+  display: flex;&amp;#13;
+  align-items: center;&amp;#13;
+  justify-content: center;&amp;#13;
+  text-align: center;&amp;#13;
+}&amp;#13;
+.hero-overlay {&amp;#13;
+  position: absolute;&amp;#13;
+  top: 0; left: 0;&amp;#13;
+  width: 100%; height: 100%;&amp;#13;
+  background: rgba(0,0,0,0.4);&amp;#13;
+  backdrop-filter: blur(2px);&amp;#13;
+}&amp;#13;
+.hero-content {&amp;#13;
+  position: relative;&amp;#13;
+  z-index: 1;&amp;#13;
+  color: white;&amp;#13;
+}&amp;#13;
+.hero-content h1 {&amp;#13;
+  font-size: 42px;&amp;#13;
+  font-weight: 700;&amp;#13;
+  margin-bottom: 15px;&amp;#13;
+  text-transform: uppercase;&amp;#13;
+  letter-spacing: 1px;&amp;#13;
+}&amp;#13;
+.hero-content p {&amp;#13;
+  font-size: 20px;&amp;#13;
+  margin-bottom: 25px;&amp;#13;
+}&amp;#13;
+.hero-buttons .btn {&amp;#13;
+  background: #3498db;&amp;#13;
+  color: #fff;&amp;#13;
+  padding: 12px 24px;&amp;#13;
+  margin: 0 10px;&amp;#13;
+  border-radius: 24px;&amp;#13;
+  font-size: 16px;&amp;#13;
+  text-decoration: none;&amp;#13;
+  transition: background 0.3s ease;&amp;#13;
+}&amp;#13;
+.hero-buttons .btn:hover {&amp;#13;
+  background: #2980b9;&amp;#13;
+}&amp;#13;
+&amp;#13;
+/* Features */&amp;#13;
+.features-section {&amp;#13;
+  display: grid;&amp;#13;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));&amp;#13;
+  gap: 30px;&amp;#13;
+  padding: 50px 20px;&amp;#13;
+  max-width: 1000px;&amp;#13;
+  margin: 0 auto;&amp;#13;
+}&amp;#13;
+.feature-card {&amp;#13;
+  background: white;&amp;#13;
+  border-radius: 15px;&amp;#13;
+  padding: 25px;&amp;#13;
+  text-align: center;&amp;#13;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);&amp;#13;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;&amp;#13;
+}&amp;#13;
+.feature-card:hover {&amp;#13;
+  transform: translateY(-5px);&amp;#13;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);&amp;#13;
+}&amp;#13;
+.feature-icon {&amp;#13;
+  font-size: 36px;&amp;#13;
+  color: #3498db;&amp;#13;
+  margin-bottom: 15px;&amp;#13;
+}&amp;#13;
+.feature-card h3 {&amp;#13;
+  font-size: 20px;&amp;#13;
+  font-weight: 600;&amp;#13;
+  margin-bottom: 10px;&amp;#13;
+}&amp;#13;
+.feature-card p {&amp;#13;
+  font-size: 14px;&amp;#13;
+  color: #7f8c8d;&amp;#13;
+  margin-bottom: 15px;&amp;#13;
+}&amp;#13;
+.feature-link {&amp;#13;
+  color: #3498db;&amp;#13;
+  font-weight: 600;&amp;#13;
+  text-decoration: none;&amp;#13;
+}&amp;#13;
+.feature-link:hover {&amp;#13;
+  text-decoration: underline;&amp;#13;
+}&amp;#13;
+&amp;#13;
+/* Footer */&amp;#13;
+.landing-footer {&amp;#13;
+  text-align: center;&amp;#13;
+  padding: 25px;&amp;#13;
+  background: #2c3e50;&amp;#13;
+  color: white;&amp;#13;
+  margin-top: 40px;&amp;#13;
+}&amp;#13;
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;naresh4&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;naresh4&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  data.title = "Welcome to the Gated Community Portal";
+  data.subtitle = "Explore services or find helpful knowledge articles below";
+  data.heroImage = "/images/hero_background.jpg"; // Replace with your image
+  data.links = [
+    { label: "Browse Catalog", url: "?id=gated-community" },
+    { label: "Read Knowledge Articles", url: "?id=kb-landing" }
+  ];
+  data.features = [
+    { icon: "fa-shopping-cart", title: "Catalog Services", description: "Order services and amenities with just a few clicks", url: "?id=gated-community" },
+    { icon: "fa-book", title: "Knowledge Base", description: "Explore guides and FAQs for our community", url: "?id=kb-landing" }
+  ];
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DEPAVATH.NARESH&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 03:56:07&lt;/sys_created_on&gt;&lt;sys_id&gt;f54fe93ed07322107f443dc785febba3&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;naresh4&lt;/sys_name&gt;&lt;sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Resident service and visitor management system"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_f54fe93ed07322107f443dc785febba3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DEPAVATH.NARESH&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 04:07:17&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="landing-page-widget"&gt;
+
+  &lt;!-- Hero Section --&gt;
+  &lt;section class="hero-section" ng-style="{'background-image': 'url(' + data.heroImage + ')'}"&gt;
+    &lt;div class="hero-overlay"&gt;&lt;/div&gt;
+    &lt;div class="hero-content"&gt;
+      &lt;h1&gt;{{data.title}}&lt;/h1&gt;
+      &lt;p&gt;{{data.subtitle}}&lt;/p&gt;
+      &lt;div class="hero-buttons"&gt;
+        &lt;a ng-repeat="link in data.links" class="btn" ng-href="{{link.url}}"&gt;{{link.label}}&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;!-- Features Section --&gt;
+  &lt;section class="features-section"&gt;
+    &lt;div class="feature-card" ng-repeat="f in data.features"&gt;
+      &lt;i class="fa {{f.icon}} feature-icon"&gt;&lt;/i&gt;
+      &lt;h3&gt;{{f.title}}&lt;/h3&gt;
+      &lt;p&gt;{{f.description}}&lt;/p&gt;
+      &lt;a class="feature-link" ng-href="{{f.url}}"&gt;Learn More →&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;!-- Footer --&gt;
+  &lt;footer class="landing-footer"&gt;
+    &lt;p&gt;© {{:: (new Date().getFullYear()) }} Gated Community Portal • All Rights Reserved&lt;/p&gt;
+  &lt;/footer&gt;
+
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;f54fe93ed07322107f443dc785febba3&lt;/id&gt;&lt;sys_created_by&gt;DEPAVATH.NARESH&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 03:56:05&lt;/sys_created_on&gt;&lt;sys_id&gt;878f2d3ed07322107f443dc785febb48&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;DEPAVATH.NARESH&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 03:56:05&lt;/sys_updated_on&gt;&lt;table&gt;sp_widget&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>355604217</payload_hash>
+        <record_name>naresh4</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-09 04:07:17</sys_created_on>
+        <sys_id>43123172d0b322107f443dc785febb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1992ca817980000001</sys_recorded_at>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-09 04:07:17</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>0b12317298b32210b047305c0a499b45</update_guid>
+        <update_guid_history>0b12317298b32210b047305c0a499b45:355604217,2f8fa17ea6732210e0c20fbef0438905:698093889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="naresh4">e633f1f2d0b322107f443dc785febb85</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-09 04:12:10</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>32f7bfdfe70f4afd96f41d3a790e94d1</sys_id>
+        <sys_metadata>f54fe93ed07322107f443dc785febba3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>naresh4</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_widget_f54fe93ed07322107f443dc785febba3</sys_update_name>
+        <sys_update_version display_value="sp_widget_f54fe93ed07322107f443dc785febba3">43123172d0b322107f443dc785febb46</sys_update_version>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-09 04:12:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

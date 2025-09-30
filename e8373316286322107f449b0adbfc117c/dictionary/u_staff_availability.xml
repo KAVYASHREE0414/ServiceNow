@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1944abf72c2722107f4411d16edcb2e9" label="Staff Availabilities" max_length="40" name="u_staff_availability" type="collection">
+        <element label="Shift name" max_length="40" name="u_shift_name" type="string"/>
+        <element choice="1" label="Location" max_length="32" name="u_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Building B" value="building b"/>
+                <element inactive_on_update="false" label="Building A" value="building a"/>
+                <element inactive_on_update="false" label="Building C" value="building c"/>
+            </choice>
+        </element>
+        <element label="On call" max_length="40" name="u_on_call" type="boolean"/>
+        <element label="Role" max_length="32" name="u_role" reference="sys_user_role" type="reference"/>
+        <element label="Shift end" max_length="40" name="u_shift_end" type="glide_time"/>
+        <element label="Shift start" max_length="40" name="u_shift_start" type="glide_time"/>
+        <element label="Shift Date" max_length="40" name="u_shift_date" type="glide_date"/>
+        <element display="true" label="Name" max_length="32" name="u_staff_date" reference="u_staff_profile" type="reference"/>
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="days_of_week" max_length="10" name="u_days_of_week" type="string"/>
+        <index name="index">
+            <element name="u_location"/>
+        </index>
+        <index name="index2">
+            <element name="u_role"/>
+        </index>
+        <index name="index3">
+            <element name="u_shift_start"/>
+        </index>
+        <index name="index4">
+            <element name="u_staff_date"/>
+        </index>
+    </element>
+</database>

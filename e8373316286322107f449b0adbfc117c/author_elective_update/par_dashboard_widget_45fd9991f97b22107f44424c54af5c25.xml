@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">85fd1991f97b22107f44424c54af5c67</canvas>
+        <component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"top","showStackedValues":"none","showOverlappingLabels":false,"newReporting":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"sourceType":"table","tableOrViewName":"u_visitors","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MTc1MDY0MzQ5MDc4NDA3LjU2OTg4NjY0","dataCategories":["trend","group","simple"],"label":"Visitors"}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Top Residents By Visitors","showBorder":true,"bareBorder":false,"telemetry":"null","showDataPassthrough":false,"metrics":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MTc1MDY0MzQ5MDc4NDA3LjU2OTg4NjY0","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprNE1UYzFNRFkwTXpRNU1EYzROREEzTGpVMk9UZzROalkwMTc1Njk4MTc1MDY0NDQxNTUzNDk2LjM3NDIyOTM2","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MTc1MDY0MzQ5MDc4NDA3LjU2OTg4NjY0","groupByField":"u_flat_number","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"showChangeFrom":"previous","period":"M","dateFormat":"default","showDataTable":false,"chartVariation":"grouped","colorConfig":{"type":"singleColor","values":[{"color":"de699435d7033100b4964ebfae610331","backgroundColor":null,"iconColor":null,"metric":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprNE1UYzFNRFkwTXpRNU1EYzROREEzTGpVMk9UZzROalkwMTc1Njk4MTc1MDY0NDQxNTUzNDk2LjM3NDIyOTM2"}]},"componentId":"ffeiy7lb","id":"metrics","value":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MTc1MDY0MzQ5MDc4NDA3LjU2OTg4NjY0","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprNE1UYzFNRFkwTXpRNU1EYzROREEzTGpVMk9UZzROalkwMTc1Njk4MTc1MDY0NDQxNTUzNDk2LjM3NDIyOTM2","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"scoreType":null,"allowAdditionalGroupByPerMetric":false}</component_props>
+        <h>15</h>
+        <name>Top Residents By Visitors</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>45fd9991f97b22107f44424c54af5c25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Top Residents By Visitors</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>par_dashboard_widget_45fd9991f97b22107f44424c54af5c25</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <visualization/>
+        <w>24</w>
+        <widget_props/>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>par_dashboard_widget_45fd9991f97b22107f44424c54af5c25</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">85fd1991f97b22107f44424c54af5c67</canvas><component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"top","showStackedValues":"none","showOverlappingLabels":false,"newReporting":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"sourceType":"table","tableOrViewName":"u_visitors","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MTc1MDY0MzQ5MDc4NDA3LjU2OTg4NjY0","dataCategories":["trend","group","simple"],"label":"Visitors"}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Top Residents By Visitors","showBorder":true,"bareBorder":false,"telemetry":"null","showDataPassthrough":false,"metrics":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MTc1MDY0MzQ5MDc4NDA3LjU2OTg4NjY0","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprNE1UYzFNRFkwTXpRNU1EYzROREEzTGpVMk9UZzROalkwMTc1Njk4MTc1MDY0NDQxNTUzNDk2LjM3NDIyOTM2","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MTc1MDY0MzQ5MDc4NDA3LjU2OTg4NjY0","groupByField":"u_flat_number","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"showChangeFrom":"previous","period":"M","dateFormat":"default","showDataTable":false,"chartVariation":"grouped","colorConfig":{"type":"singleColor","values":[{"color":"de699435d7033100b4964ebfae610331","backgroundColor":null,"iconColor":null,"metric":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprNE1UYzFNRFkwTXpRNU1EYzROREEzTGpVMk9UZzROalkwMTc1Njk4MTc1MDY0NDQxNTUzNDk2LjM3NDIyOTM2"}]},"componentId":"ffeiy7lb","id":"metrics","value":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MTc1MDY0MzQ5MDc4NDA3LjU2OTg4NjY0","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprNE1UYzFNRFkwTXpRNU1EYzROREEzTGpVMk9UZzROalkwMTc1Njk4MTc1MDY0NDQxNTUzNDk2LjM3NDIyOTM2","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"scoreType":null,"allowAdditionalGroupByPerMetric":false}</component_props><h>15</h><name>Top Residents By Visitors</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by><sys_created_on>2025-09-04 10:48:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>45fd9991f97b22107f44424c54af5c25</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Top Residents By Visitors</sys_name><sys_overrides/><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>par_dashboard_widget_45fd9991f97b22107f44424c54af5c25</sys_update_name><sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by><sys_updated_on>2025-09-04 10:48:21</sys_updated_on><visualization/><w>24</w><widget_props/><x>0</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1181419213</payload_hash>
+        <record_name>Top Residents By Visitors</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_id>81fd9991f97b22107f44424c54af5c27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199145779ee0000001</sys_recorded_at>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>85fd9991597b2210764c7c650f8a6a26</update_guid>
+        <update_guid_history>85fd9991597b2210764c7c650f8a6a26:1181419213</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Top Residents By Visitors">a5fd9991f97b22107f44424c54af5c8c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:23</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>18699ef2160040be98fc2b5753cc2964</sys_id>
+        <sys_metadata>45fd9991f97b22107f44424c54af5c25</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Top Residents By Visitors</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_45fd9991f97b22107f44424c54af5c25</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_45fd9991f97b22107f44424c54af5c25">81fd9991f97b22107f44424c54af5c27</sys_update_version>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>u_community_maintenance_task</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Auto updating of staff member</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    // Get the assignment group/role for the task
+    var taskRole = current.assignment_group.getDisplayValue(); // or current.role if that's your field name
+
+    // Match only if Role is one of these (you can adjust the list)
+    var targetRoles = ['Plumber', 'Electrician', 'Carpenter'];
+    if (targetRoles.indexOf(taskRole) === -1) {
+        return;
+    }
+
+    // Query your staff table (replace 'staff_profile' if using different table name, e.g. 'x_gcvpms_staff')
+    var staffGR = new GlideRecord('staff_profile'); // <--- Use your staff table's actual name!
+    staffGR.addQuery('role', taskRole);
+    staffGR.addQuery('state', 'Available');
+    staffGR.query();
+
+    if (staffGR.next()) {
+        current.allocated_to = staffGR.sys_id;
+    } else {
+        current.allocated_to = '';
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-03 13:40:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>568b748db07b22107f44bab91a72b02b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Auto updating of staff member</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_script_568b748db07b22107f44bab91a72b02b</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-03 14:37:56</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=568b748db07b22107f44bab91a72b02b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sys_script_568b748db07b22107f44bab91a72b02b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_community_maintenance_task&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Auto updating of staff member&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+    // Get the assignment group/role for the task
+    var taskRole = current.assignment_group.getDisplayValue(); // or current.role if that's your field name
+
+    // Match only if Role is one of these (you can adjust the list)
+    var targetRoles = ['Plumber', 'Electrician', 'Carpenter'];
+    if (targetRoles.indexOf(taskRole) === -1) {
+        return;
+    }
+
+    // Query your staff table (replace 'staff_profile' if using different table name, e.g. 'x_gcvpms_staff')
+    var staffGR = new GlideRecord('staff_profile'); // &lt;--- Use your staff table's actual name!
+    staffGR.addQuery('role', taskRole);
+    staffGR.addQuery('state', 'Available');
+    staffGR.query();
+
+    if (staffGR.next()) {
+        current.allocated_to = staffGR.sys_id;
+    } else {
+        current.allocated_to = '';
+    }
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chandra Veera Nooka Sai Teja.Vinukonda&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-03 13:40:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;568b748db07b22107f44bab91a72b02b&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto updating of staff member&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Resident service and visitor management system"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_568b748db07b22107f44bab91a72b02b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Chandra Veera Nooka Sai Teja.Vinukonda&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-03 14:37:56&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=568b748db07b22107f44bab91a72b02b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1691878676</payload_hash>
+        <record_name>Auto updating of staff member</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-03 14:37:56</sys_created_on>
+        <sys_id>72e88141b0fb22107f44bab91a72b0df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199100351260000001</sys_recorded_at>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-03 14:37:56</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>76e88141b1fb22102adccf27f82dd9de</update_guid>
+        <update_guid_history>76e88141b1fb22102adccf27f82dd9de:-1691878676,3638c50131fb2210703863ab87e9b549:483075840,a515410d5abb2210ea4deb9242cd382c:-152562427,f514498976bb2210bfa283bfae7cadda:-1673311144,7923c1494dbb2210cba75497ac37064f:1881829615,20a1c9853dbb2210cfbf19a67ef5aeca:-1673311144,b11f3c81cebb22104ced94862d63edcb:-428397345,e87c3c8d827b22104cf5e839d4bd0ea1:481337219,a0eb748d5a7b2210ae506351eb02fba1:1834893045,d5cb788d327b2210bf277311dc5b75be:-1003362199</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-05 04:47:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>33dae17e70b448ab91490418871f9f89</sys_id>
+        <sys_metadata>568b748db07b22107f44bab91a72b02b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto updating of staff member</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent display_value="Community Maintenance Task">577e07bb2ca322107f4411d16edcb2d7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sys_script_568b748db07b22107f44bab91a72b02b</sys_update_name>
+        <sys_update_version display_value="sys_script_568b748db07b22107f44bab91a72b02b">72e88141b0fb22107f44bab91a72b0df</sys_update_version>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-05 04:47:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

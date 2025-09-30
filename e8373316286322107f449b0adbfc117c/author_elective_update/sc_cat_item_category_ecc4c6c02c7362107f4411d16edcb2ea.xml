@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Apple iPhone 13 pro">73b1bafa9752cd1021983d1e6253afb5</sc_cat_item>
+        <sc_category display_value="Gated Community Catalogs">db266bbb2c2722107f4411d16edcb293</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-08-31 16:25:28</sys_created_on>
+        <sys_id>ecc4c6c02c7362107f4411d16edcb2ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gated Community Catalogs.Apple iPhone 13 pro</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sc_cat_item_category_ecc4c6c02c7362107f4411d16edcb2ea</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-08-31 16:25:28</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sc_cat_item_category_ecc4c6c02c7362107f4411d16edcb2ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Apple iPhone 13 pro">73b1bafa9752cd1021983d1e6253afb5</sc_cat_item><sc_category display_value="Gated Community Catalogs">db266bbb2c2722107f4411d16edcb293</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>DEPAVATH.NARESH</sys_created_by><sys_created_on>2025-08-31 16:25:28</sys_created_on><sys_id>ecc4c6c02c7362107f4411d16edcb2ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gated Community Catalogs.Apple iPhone 13 pro</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sc_cat_item_category_ecc4c6c02c7362107f4411d16edcb2ea</sys_update_name><sys_updated_by>DEPAVATH.NARESH</sys_updated_by><sys_updated_on>2025-08-31 16:25:28</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>337861787</payload_hash>
+        <record_name>Gated Community Catalogs.Apple iPhone 13 pro</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-08-31 16:25:28</sys_created_on>
+        <sys_id>6cc48ac02c7362107f4411d16edcb2a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19900f2ae670000001</sys_recorded_at>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-08-31 16:25:28</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>60c48ac0b2736210d6a1effd6fbb9da6</update_guid>
+        <update_guid_history>60c48ac0b2736210d6a1effd6fbb9da6:337861787</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Gated Community Catalogs.Apple iPhone 13 pro">59ffcb142c3f22107f442c9c5a417f9c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-01 16:32:30</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>a493511a6f9b40b09a5df608ca129c40</sys_id>
+        <sys_metadata>ecc4c6c02c7362107f4411d16edcb2ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gated Community Catalogs.Apple iPhone 13 pro</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_ecc4c6c02c7362107f4411d16edcb2ea</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_ecc4c6c02c7362107f4411d16edcb2ea">6cc48ac02c7362107f4411d16edcb2a6</sys_update_version>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-01 16:32:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

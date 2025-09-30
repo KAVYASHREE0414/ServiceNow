@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3a67eda8a57322107f44045be8157901" extends="sys_import_set_row" label="CMT staff tasks" max_length="40" name="u_cmt_staff_tasks" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=category" label="category" max_length="40" name="u_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=resident" label="resident" max_length="40" name="u_resident" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=flat_no" label="flat_no" max_length="40" name="u_flat_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=building" label="building" max_length="40" name="u_building" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=state" label="state" max_length="40" name="u_state" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">23ac4d59f9f722107f44424c54af5c45</canvas>
+        <component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component>
+        <component_props>{"src":"upload_ChatGPT Image Sep 4, 2025, 04_14_15 PM.png","sources":[],"fit":"fill","position":"center center","width":null,"height":null,"alt":"","href":null,"configAria":"{\"link\":{}}","landmark":null,"supportRtl":false,"id":"src","value":"upload_ChatGPT Image Sep 4, 2025, 04_14_15 PM.png","propLabel":"Image source"}</component_props>
+        <h>14</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>91fd9991f97b22107f44424c54af5c3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>par_dashboard_widget_91fd9991f97b22107f44424c54af5c3d</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>par_dashboard_widget_91fd9991f97b22107f44424c54af5c3d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">23ac4d59f9f722107f44424c54af5c45</canvas><component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component><component_props>{"src":"upload_ChatGPT Image Sep 4, 2025, 04_14_15 PM.png","sources":[],"fit":"fill","position":"center center","width":null,"height":null,"alt":"","href":null,"configAria":"{\"link\":{}}","landmark":null,"supportRtl":false,"id":"src","value":"upload_ChatGPT Image Sep 4, 2025, 04_14_15 PM.png","propLabel":"Image source"}</component_props><h>14</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by><sys_created_on>2025-09-04 10:48:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>91fd9991f97b22107f44424c54af5c3d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>par_dashboard_widget_91fd9991f97b22107f44424c54af5c3d</sys_update_name><sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by><sys_updated_on>2025-09-04 10:48:21</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1368188616</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_id>ddfd9991f97b22107f44424c54af5c3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19914577b9e0000001</sys_recorded_at>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>d1fd9991de7b22105ba6c491b6a3843e</update_guid>
+        <update_guid_history>d1fd9991de7b22105ba6c491b6a3843e:-1368188616</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1c2c39d9f9fb22107f44424c54af5c89</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 13:00:11</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>0d7d404c462c42d4ba1b02aa0efffbe4</sys_id>
+        <sys_metadata>91fd9991f97b22107f44424c54af5c3d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_91fd9991f97b22107f44424c54af5c3d</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_91fd9991f97b22107f44424c54af5c3d">ddfd9991f97b22107f44424c54af5c3e</sys_update_version>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 13:00:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

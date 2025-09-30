@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">0dfd9991f97b22107f44424c54af5c2b</canvas>
+        <component display_value="Line">18ac962264404bcc0039359d184b15f3</component>
+        <component_props>{"applyDateRange":false,"bareBorder":false,"chartVariation":"stacked","configVersion":"23.0.0-ci-SNAPSHOT","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"","id":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5NzgwNjI4Mjg3MDg3MzQwNC4wOTAyMjU5NQ==","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"u_parking_slot","label":"Parking Slot"}],"dateFormat":"default","disableTooltip":false,"emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"extensionType":"line","filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5NzgwNjI4Mjg3MDg3MzQwNC4wOTAyMjU5NQ==","groupByField":"u_status","isChoice":true,"isPaBucket":false,"isRange":false,"metric":"ZEdGaWJHVjFYM0JoY210cGJtZGZjMnh2ZERFM05UWTVOemd3TmpJNE1qZzNNRGczTXpRd05DNHdPVEF5TWpVNU5RPT0xNzU2OTc4MDYyODI5OTE5NjA5MjYuMDg5MDkxOTc="}],"hideZeroValues":false,"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headerTitle":"Parking Slot Availability Trend","hideMatrixAggregate":false,"hideYAxis0":false,"hideYAxis1":true,"hideYAxis2":true,"hideYAxis3":true,"hideYAxis4":true,"legendExpandToFit":true,"legendHorizontalAlignment":"center","legendPosition":"bottom","lineStrokeWidth":"2","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5NzgwNjI4Mjg3MDg3MzQwNC4wOTAyMjU5NQ==","id":"ZEdGaWJHVjFYM0JoY210cGJtZGZjMnh2ZERFM05UWTVOemd3TmpJNE1qZzNNRGczTXpRd05DNHdPVEF5TWpVNU5RPT0xNzU2OTc4MDYyODI5OTE5NjA5MjYuMDg5MDkxOTc=","transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}],"numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":2,"refreshFrequency":null,"scoreType":"latest","showBorder":true,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showHeader":true,"showHeaderSeparator":false,"showLegend":true,"showLegendValue":false,"showSecondGroupAggregate":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showContinuousLine":true,"enableAddZerosAtApi":true,"showMarkers":false,"showTrend":false,"showXGrid":false,"showYGrid":true,"sortBy":"value","sortByOrder":"desc","telemetry":"null","trendBy":{"trendByFrequency":"dayOfWeek","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_created_on","metric":"ZEdGaWJHVjFYM0JoY210cGJtZGZjMnh2ZERFM05UWTVOemd3TmpJNE1qZzNNRGczTXpRd05DNHdPVEF5TWpVNU5RPT0xNzU2OTc4MDYyODI5OTE5NjA5MjYuMDg5MDkxOTc="}]},"wrapTitle":false,"yAxis0Position":"left","showDataTable":false,"colorConfig":{"type":"default"},"componentId":"g11iwoap","id":"metrics","value":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5NzgwNjI4Mjg3MDg3MzQwNC4wOTAyMjU5NQ==","id":"ZEdGaWJHVjFYM0JoY210cGJtZGZjMnh2ZERFM05UWTVOemd3TmpJNE1qZzNNRGczTXpRd05DNHdPVEF5TWpVNU5RPT0xNzU2OTc4MDYyODI5OTE5NjA5MjYuMDg5MDkxOTc=","transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}],"numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"period":null,"showChangeFrom":null,"allowAdditionalGroupByPerMetric":true}</component_props>
+        <h>14</h>
+        <name>Parking Slot Availability Trend</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19fd9991f97b22107f44424c54af5c3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Slot Availability Trend</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>par_dashboard_widget_19fd9991f97b22107f44424c54af5c3a</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <visualization/>
+        <w>23</w>
+        <widget_props/>
+        <x>25</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>par_dashboard_widget_19fd9991f97b22107f44424c54af5c3a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">0dfd9991f97b22107f44424c54af5c2b</canvas><component display_value="Line">18ac962264404bcc0039359d184b15f3</component><component_props>{"applyDateRange":false,"bareBorder":false,"chartVariation":"stacked","configVersion":"23.0.0-ci-SNAPSHOT","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"","id":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5NzgwNjI4Mjg3MDg3MzQwNC4wOTAyMjU5NQ==","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"u_parking_slot","label":"Parking Slot"}],"dateFormat":"default","disableTooltip":false,"emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"extensionType":"line","filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"disableRanges":false,"groupBy":[{"dataSource":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5NzgwNjI4Mjg3MDg3MzQwNC4wOTAyMjU5NQ==","groupByField":"u_status","isChoice":true,"isPaBucket":false,"isRange":false,"metric":"ZEdGaWJHVjFYM0JoY210cGJtZGZjMnh2ZERFM05UWTVOemd3TmpJNE1qZzNNRGczTXpRd05DNHdPVEF5TWpVNU5RPT0xNzU2OTc4MDYyODI5OTE5NjA5MjYuMDg5MDkxOTc="}],"hideZeroValues":false,"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false}],"headerTitle":"Parking Slot Availability Trend","hideMatrixAggregate":false,"hideYAxis0":false,"hideYAxis1":true,"hideYAxis2":true,"hideYAxis3":true,"hideYAxis4":true,"legendExpandToFit":true,"legendHorizontalAlignment":"center","legendPosition":"bottom","lineStrokeWidth":"2","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5NzgwNjI4Mjg3MDg3MzQwNC4wOTAyMjU5NQ==","id":"ZEdGaWJHVjFYM0JoY210cGJtZGZjMnh2ZERFM05UWTVOemd3TmpJNE1qZzNNRGczTXpRd05DNHdPVEF5TWpVNU5RPT0xNzU2OTc4MDYyODI5OTE5NjA5MjYuMDg5MDkxOTc=","transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}],"numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":2,"refreshFrequency":null,"scoreType":"latest","showBorder":true,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showHeader":true,"showHeaderSeparator":false,"showLegend":true,"showLegendValue":false,"showSecondGroupAggregate":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showContinuousLine":true,"enableAddZerosAtApi":true,"showMarkers":false,"showTrend":false,"showXGrid":false,"showYGrid":true,"sortBy":"value","sortByOrder":"desc","telemetry":"null","trendBy":{"trendByFrequency":"dayOfWeek","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_created_on","metric":"ZEdGaWJHVjFYM0JoY210cGJtZGZjMnh2ZERFM05UWTVOemd3TmpJNE1qZzNNRGczTXpRd05DNHdPVEF5TWpVNU5RPT0xNzU2OTc4MDYyODI5OTE5NjA5MjYuMDg5MDkxOTc="}]},"wrapTitle":false,"yAxis0Position":"left","showDataTable":false,"colorConfig":{"type":"default"},"componentId":"g11iwoap","id":"metrics","value":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5NzgwNjI4Mjg3MDg3MzQwNC4wOTAyMjU5NQ==","id":"ZEdGaWJHVjFYM0JoY210cGJtZGZjMnh2ZERFM05UWTVOemd3TmpJNE1qZzNNRGczTXpRd05DNHdPVEF5TWpVNU5RPT0xNzU2OTc4MDYyODI5OTE5NjA5MjYuMDg5MDkxOTc=","transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}],"numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"period":null,"showChangeFrom":null,"allowAdditionalGroupByPerMetric":true}</component_props><h>14</h><name>Parking Slot Availability Trend</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by><sys_created_on>2025-09-04 10:48:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>19fd9991f97b22107f44424c54af5c3a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Parking Slot Availability Trend</sys_name><sys_overrides/><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>par_dashboard_widget_19fd9991f97b22107f44424c54af5c3a</sys_update_name><sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by><sys_updated_on>2025-09-04 10:48:21</sys_updated_on><visualization/><w>23</w><widget_props/><x>25</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1596282193</payload_hash>
+        <record_name>Parking Slot Availability Trend</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_id>95fd9991f97b22107f44424c54af5c3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19914577b820000001</sys_recorded_at>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>99fd9991fa7b221026a42a29e8f20e3b</update_guid>
+        <update_guid_history>99fd9991fa7b221026a42a29e8f20e3b:-1596282193</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Parking Slot Availability Trend">2dfd9991f97b22107f44424c54af5c83</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:23</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>16b21c8f815c47d48225ce9293d71110</sys_id>
+        <sys_metadata>19fd9991f97b22107f44424c54af5c3a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Slot Availability Trend</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_19fd9991f97b22107f44424c54af5c3a</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_19fd9991f97b22107f44424c54af5c3a">95fd9991f97b22107f44424c54af5c3c</sys_update_version>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

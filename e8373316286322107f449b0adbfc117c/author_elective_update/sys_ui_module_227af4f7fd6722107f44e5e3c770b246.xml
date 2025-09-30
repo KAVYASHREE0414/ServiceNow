@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Staff Shift">ea7af4f7fd6722107f44e5e3c770b242</application>
+        <filter/>
+        <name>Staff Shifts</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>u_staff_shift_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-30 16:22:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>227af4f7fd6722107f44e5e3c770b246</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staff Shifts</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_ui_module_227af4f7fd6722107f44e5e3c770b246</sys_update_name>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-30 16:22:28</sys_updated_on>
+        <table>u_staff_shift</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sys_ui_module_227af4f7fd6722107f44e5e3c770b246</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Staff Shift">ea7af4f7fd6722107f44e5e3c770b242</application><filter/><name>Staff Shifts</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_staff_shift_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>KAVYASHREE.PUNURU</sys_created_by><sys_created_on>2025-08-30 16:22:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>227af4f7fd6722107f44e5e3c770b246</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Staff Shifts</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sys_ui_module_227af4f7fd6722107f44e5e3c770b246</sys_update_name><sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by><sys_updated_on>2025-08-30 16:22:28</sys_updated_on><table>u_staff_shift</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>537145370</payload_hash>
+        <record_name>Staff Shifts</record_name>
+        <reverted_from/>
+        <source>2a298fcc3d8122107f4488addddbe258</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-30 16:22:28</sys_created_on>
+        <sys_id>267af4f7fd6722107f44e5e3c770b248</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198fbc9922c0000001</sys_recorded_at>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-30 16:22:28</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2a7af4f7046722101a8e945f94f44b47</update_guid>
+        <update_guid_history>2a7af4f7046722101a8e945f94f44b47:537145370</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 04:53:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>1ed505648fdb47ac9b7a6ecb9788b690</sys_id>
+        <sys_metadata>227af4f7fd6722107f44e5e3c770b246</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staff Shifts</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sys_ui_module_227af4f7fd6722107f44e5e3c770b246</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_227af4f7fd6722107f44e5e3c770b246">267af4f7fd6722107f44e5e3c770b248</sys_update_version>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 04:53:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <semantic_tag/>
+        <size>1</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">bf44f005b07b22107f44bab91a72b007</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-09-03 13:08:14</sys_created_on>
+        <sys_id>ac64f405b07b22107f44bab91a72b0c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_column_ac64f405b07b22107f44bab91a72b0c7</sys_update_name>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-09-03 13:08:14</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_column_ac64f405b07b22107f44bab91a72b0c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><semantic_tag/><size>1</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">bf44f005b07b22107f44bab91a72b007</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>Bachanagoni.Pranitha</sys_created_by><sys_created_on>2025-09-03 13:08:14</sys_created_on><sys_id>ac64f405b07b22107f44bab91a72b0c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sp_column_ac64f405b07b22107f44bab91a72b0c7</sys_update_name><sys_updated_by>Bachanagoni.Pranitha</sys_updated_by><sys_updated_on>2025-09-03 13:08:14</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1484696285</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-09-03 13:08:14</sys_created_on>
+        <sys_id>ac64f405b07b22107f44bab91a72b0c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1990fb12f910000001</sys_recorded_at>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-09-03 13:08:14</sys_updated_on>
+        <type>Column</type>
+        <update_guid>a064f405247b2210398c479f1afaabc9</update_guid>
+        <update_guid_history>a064f405247b2210398c479f1afaabc9:1484696285</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">57843c05b07b22107f44bab91a72b0ee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-09-03 13:08:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>0119016f8af848ce86f656e808bb8164</sys_id>
+        <sys_metadata>ac64f405b07b22107f44bab91a72b0c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_column_ac64f405b07b22107f44bab91a72b0c7</sys_update_name>
+        <sys_update_version display_value="sp_column_ac64f405b07b22107f44bab91a72b0c7">ac64f405b07b22107f44bab91a72b0c9</sys_update_version>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-09-03 13:08:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="70177abb2c2322107f4411d16edcb2cc" extends="task" label="Staff Profiles" max_length="40" name="u_staff_profile" type="collection">
+        <element label="Workload date" max_length="40" name="u_workload_date" type="glide_date"/>
+        <element label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
+        <element label="Group" max_length="32" name="u_group" reference="sys_user_group" type="reference"/>
+        <element label="Phone number" max_length="20" name="u_phone_number" type="phone_number_e164"/>
+        <element default="1" label="Max_Concurrent" max_length="40" name="u_max_concurrent" type="integer"/>
+        <element default="true" label="state" max_length="40" name="u_active" type="boolean"/>
+        <element display="true" label="Email" mandatory="true" max_length="32" name="u_email" reference="sys_user" type="reference"/>
+        <element default="0" label="Current Workload" max_length="40" name="u_current_workload" type="integer"/>
+        <element choice="1" label="State" max_length="40" name="u_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" value="avail"/>
+                <element inactive_on_update="false" label="Not Available" value="NA"/>
+            </choice>
+        </element>
+        <element choice="1" label="Role" mandatory="true" max_length="32" name="u_role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Electrician" value="electrician"/>
+                <element inactive_on_update="false" label="Plumber" value="plumber"/>
+                <element inactive_on_update="false" label="Carpenter" value="carpenter"/>
+            </choice>
+        </element>
+        <element label="Shift Count" max_length="40" name="u_shift_count" type="string"/>
+    </element>
+</database>

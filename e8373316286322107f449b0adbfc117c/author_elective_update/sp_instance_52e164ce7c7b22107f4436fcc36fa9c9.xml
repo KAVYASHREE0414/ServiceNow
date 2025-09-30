@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">28e1608e7c7b22107f4436fcc36fa9d8</sp_column>
+        <sp_widget display_value="Form">fd1f4ec347730200ba13a5554ee490c0</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-06 14:21:26</sys_created_on>
+        <sys_id>52e164ce7c7b22107f4436fcc36fa9c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_instance_52e164ce7c7b22107f4436fcc36fa9c9</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-06 14:30:10</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"disableUIActions": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"showFormView": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"omitHeaderOptions": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=52e164ce7c7b22107f4436fcc36fa9c9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_instance_52e164ce7c7b22107f4436fcc36fa9c9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;28e1608e7c7b22107f4436fcc36fa9d8&lt;/sp_column&gt;&lt;sp_widget display_value="Form"&gt;fd1f4ec347730200ba13a5554ee490c0&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DEPAVATH.NARESH&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-06 14:21:26&lt;/sys_created_on&gt;&lt;sys_id&gt;52e164ce7c7b22107f4436fcc36fa9c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Resident service and visitor management system"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_52e164ce7c7b22107f4436fcc36fa9c9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DEPAVATH.NARESH&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-06 14:30:10&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"disableUIActions": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"showFormView": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"omitHeaderOptions": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=52e164ce7c7b22107f4436fcc36fa9c9"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-101812917</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-06 14:30:10</sys_created_on>
+        <sys_id>0ee3e8027cbb22107f4436fcc36fa916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1991f6f47830000001</sys_recorded_at>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-06 14:30:10</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>c2e3e80254bb221043579a86dea6c216</update_guid>
+        <update_guid_history>c2e3e80254bb221043579a86dea6c216:-101812917,5ee164ce407b22103fc706c843b47aca:-537655329</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">78f324ce7c7b22107f4436fcc36fa929</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-06 14:30:21</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2b3360c5b7a34e31adfac3ea106fab11</sys_id>
+        <sys_metadata>52e164ce7c7b22107f4436fcc36fa9c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_instance_52e164ce7c7b22107f4436fcc36fa9c9</sys_update_name>
+        <sys_update_version display_value="sp_instance_52e164ce7c7b22107f4436fcc36fa9c9">0ee3e8027cbb22107f4436fcc36fa916</sys_update_version>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-06 14:30:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

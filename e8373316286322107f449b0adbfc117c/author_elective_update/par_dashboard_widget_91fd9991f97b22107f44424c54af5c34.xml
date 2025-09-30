@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">0dfd9991f97b22107f44424c54af5c2b</canvas>
+        <component display_value="Dial">63f050cf050137731a828878839e0b33</component>
+        <component_props>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"default"},"configVersion":"23.0.0-ci-SNAPSHOT","dataSources":[{"isDatabaseView":false,"allowRealTime":true,"sourceType":"table","tableOrViewName":"u_visitors","filterQuery":"u_visit_date_timeONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MDcyNDcwMDkxMTI1MDg1LjQzMjUyODYx","dataCategories":["trend","group","simple"],"label":"Visitors"}],"dateFormat":"default","description":"","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"followFilters":true,"headerTitle":"Total  Visitors Today","hideMatrixAggregate":false,"innerRadius":0.7,"metrics":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MDcyNDcwMDkxMTI1MDg1LjQzMjUyODYx","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprNE1EY3lORGN3TURreE1USTFNRGcxTGpRek1qVXlPRFl4MTc1Njk4MDcyNDcwMDgzNzk3MjYuOTc1MzM3NDk4","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"minValue":0,"newReporting":false,"numberOfPeriods":3,"period":"M","showAbsolutePeriod":false,"showBorder":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showMaximumRange":false,"showMetricLabel":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"showZero":true,"sortByOrder":"desc","telemetry":"null","valueLabelSize":"md","wrapTitle":false,"componentId":"e5rbw6op","id":"metrics","value":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MDcyNDcwMDkxMTI1MDg1LjQzMjUyODYx","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprNE1EY3lORGN3TURreE1USTFNRGcxTGpRek1qVXlPRFl4MTc1Njk4MDcyNDcwMDgzNzk3MjYuOTc1MzM3NDk4","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label","filterPerMetric":[],"sortBy":"value","showDateRangeByDefault":false,"allowChangeDateRange":false,"scoreType":null}</component_props>
+        <h>12</h>
+        <name>Total  Visitors Today</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>91fd9991f97b22107f44424c54af5c34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total  Visitors Today</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>par_dashboard_widget_91fd9991f97b22107f44424c54af5c34</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props/>
+        <x>36</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>par_dashboard_widget_91fd9991f97b22107f44424c54af5c34</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">0dfd9991f97b22107f44424c54af5c2b</canvas><component display_value="Dial">63f050cf050137731a828878839e0b33</component><component_props>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"default"},"configVersion":"23.0.0-ci-SNAPSHOT","dataSources":[{"isDatabaseView":false,"allowRealTime":true,"sourceType":"table","tableOrViewName":"u_visitors","filterQuery":"u_visit_date_timeONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MDcyNDcwMDkxMTI1MDg1LjQzMjUyODYx","dataCategories":["trend","group","simple"],"label":"Visitors"}],"dateFormat":"default","description":"","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"followFilters":true,"headerTitle":"Total  Visitors Today","hideMatrixAggregate":false,"innerRadius":0.7,"metrics":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MDcyNDcwMDkxMTI1MDg1LjQzMjUyODYx","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprNE1EY3lORGN3TURreE1USTFNRGcxTGpRek1qVXlPRFl4MTc1Njk4MDcyNDcwMDgzNzk3MjYuOTc1MzM3NDk4","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"minValue":0,"newReporting":false,"numberOfPeriods":3,"period":"M","showAbsolutePeriod":false,"showBorder":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showMaximumRange":false,"showMetricLabel":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"showZero":true,"sortByOrder":"desc","telemetry":"null","valueLabelSize":"md","wrapTitle":false,"componentId":"e5rbw6op","id":"metrics","value":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MDcyNDcwMDkxMTI1MDg1LjQzMjUyODYx","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprNE1EY3lORGN3TURreE1USTFNRGcxTGpRek1qVXlPRFl4MTc1Njk4MDcyNDcwMDgzNzk3MjYuOTc1MzM3NDk4","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label","filterPerMetric":[],"sortBy":"value","showDateRangeByDefault":false,"allowChangeDateRange":false,"scoreType":null}</component_props><h>12</h><name>Total  Visitors Today</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by><sys_created_on>2025-09-04 10:48:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>91fd9991f97b22107f44424c54af5c34</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Total  Visitors Today</sys_name><sys_overrides/><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>par_dashboard_widget_91fd9991f97b22107f44424c54af5c34</sys_update_name><sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by><sys_updated_on>2025-09-04 10:48:21</sys_updated_on><visualization/><w>12</w><widget_props/><x>36</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>934419257</payload_hash>
+        <record_name>Total  Visitors Today</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_id>5dfd9991f97b22107f44424c54af5c35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19914577abd0000001</sys_recorded_at>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>51fd9991157b22109191dbbbe91e1e35</update_guid>
+        <update_guid_history>51fd9991157b22109191dbbbe91e1e35:934419257</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Total  Visitors Today">65fd9991f97b22107f44424c54af5c99</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:23</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>5741fd18cb454a4c85609ecb8bd18744</sys_id>
+        <sys_metadata>91fd9991f97b22107f44424c54af5c34</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total  Visitors Today</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_91fd9991f97b22107f44424c54af5c34</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_91fd9991f97b22107f44424c54af5c34">5dfd9991f97b22107f44424c54af5c35</sys_update_version>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

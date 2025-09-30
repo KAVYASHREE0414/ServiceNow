@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">6fac4d59f9f722107f44424c54af5c4a</canvas>
+        <component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"top","showStackedValues":"none","showOverlappingLabels":false,"newReporting":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"sourceType":"table","tableOrViewName":"u_visitors","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV1X3Zpc2l0b3JzMTc1Njk3NTE3ODMzNjQyMjIwMzU2Ljk3NDA0NTU2","dataCategories":["trend","group","simple"],"label":"Visitors"}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"No of vistors per day","showBorder":true,"bareBorder":false,"telemetry":"null","showDataPassthrough":false,"metrics":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk3NTE3ODMzNjQyMjIwMzU2Ljk3NDA0NTU2","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprM05URTNPRE16TmpReU1qSXdNelUyTGprM05EQTBOVFUyMTc1Njk3NTE3ODMzNzI5ODU3NjEuNzI5MDAxOTU2NQ==","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk3NTE3ODMzNjQyMjIwMzU2Ljk3NDA0NTU2","groupByField":"sys_created_on","isRange":true,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"showChangeFrom":"previous","period":"M","dateFormat":"default","showDataTable":true,"chartVariation":"grouped","colorConfig":{"type":"singleColor","values":[{"color":"de699435d7033100b4964ebfae610331","backgroundColor":null,"iconColor":null,"metric":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprM05URTNPRE16TmpReU1qSXdNelUyTGprM05EQTBOVFUyMTc1Njk3NTE3ODMzNzI5ODU3NjEuNzI5MDAxOTU2NQ=="}]},"componentId":"la1lxy1","id":"metrics","value":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk3NTE3ODMzNjQyMjIwMzU2Ljk3NDA0NTU2","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprM05URTNPRE16TmpReU1qSXdNelUyTGprM05EQTBOVFUyMTc1Njk3NTE3ODMzNzI5ODU3NjEuNzI5MDAxOTU2NQ==","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"scoreType":null,"allowAdditionalGroupByPerMetric":false}</component_props>
+        <h>18</h>
+        <name>No of vistors per day</name>
+        <stored_component display_value="No of vistors per day">bd8585b3fccb0ab3ef38c8e2b487abe0</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>15fd9991f97b22107f44424c54af5c42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>No of vistors per day</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>par_dashboard_widget_15fd9991f97b22107f44424c54af5c42</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <visualization/>
+        <w>24</w>
+        <widget_props/>
+        <x>24</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>par_dashboard_widget_15fd9991f97b22107f44424c54af5c42</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">6fac4d59f9f722107f44424c54af5c4a</canvas><component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"top","showStackedValues":"none","showOverlappingLabels":false,"newReporting":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"sourceType":"table","tableOrViewName":"u_visitors","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV1X3Zpc2l0b3JzMTc1Njk3NTE3ODMzNjQyMjIwMzU2Ljk3NDA0NTU2","dataCategories":["trend","group","simple"],"label":"Visitors"}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"No of vistors per day","showBorder":true,"bareBorder":false,"telemetry":"null","showDataPassthrough":false,"metrics":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk3NTE3ODMzNjQyMjIwMzU2Ljk3NDA0NTU2","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprM05URTNPRE16TmpReU1qSXdNelUyTGprM05EQTBOVFUyMTc1Njk3NTE3ODMzNzI5ODU3NjEuNzI5MDAxOTU2NQ==","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk3NTE3ODMzNjQyMjIwMzU2Ljk3NDA0NTU2","groupByField":"sys_created_on","isRange":true,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"showChangeFrom":"previous","period":"M","dateFormat":"default","showDataTable":true,"chartVariation":"grouped","colorConfig":{"type":"singleColor","values":[{"color":"de699435d7033100b4964ebfae610331","backgroundColor":null,"iconColor":null,"metric":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprM05URTNPRE16TmpReU1qSXdNelUyTGprM05EQTBOVFUyMTc1Njk3NTE3ODMzNzI5ODU3NjEuNzI5MDAxOTU2NQ=="}]},"componentId":"la1lxy1","id":"metrics","value":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk3NTE3ODMzNjQyMjIwMzU2Ljk3NDA0NTU2","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprM05URTNPRE16TmpReU1qSXdNelUyTGprM05EQTBOVFUyMTc1Njk3NTE3ODMzNzI5ODU3NjEuNzI5MDAxOTU2NQ==","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label","filterPerMetric":[],"showDateRangeByDefault":false,"allowChangeDateRange":false,"scoreType":null,"allowAdditionalGroupByPerMetric":false}</component_props><h>18</h><name>No of vistors per day</name><stored_component display_value="No of vistors per day">bd8585b3fccb0ab3ef38c8e2b487abe0</stored_component><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by><sys_created_on>2025-09-04 10:48:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>15fd9991f97b22107f44424c54af5c42</sys_id><sys_mod_count>0</sys_mod_count><sys_name>No of vistors per day</sys_name><sys_overrides/><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>par_dashboard_widget_15fd9991f97b22107f44424c54af5c42</sys_update_name><sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by><sys_updated_on>2025-09-04 10:48:21</sys_updated_on><visualization/><w>24</w><widget_props/><x>24</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1668858958</payload_hash>
+        <record_name>No of vistors per day</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_id>51fd9991f97b22107f44424c54af5c44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19914577be50000001</sys_recorded_at>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>55fd99912a7b221046368db0fdea2443</update_guid>
+        <update_guid_history>55fd99912a7b221046368db0fdea2443:1668858958</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="No of vistors per day">f71c39d9f9fb22107f44424c54af5c80</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 13:00:09</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>04f95d08e2d54fa89ff44d8ce139fdf1</sys_id>
+        <sys_metadata>15fd9991f97b22107f44424c54af5c42</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>No of vistors per day</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_15fd9991f97b22107f44424c54af5c42</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_15fd9991f97b22107f44424c54af5c42">51fd9991f97b22107f44424c54af5c44</sys_update_version>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 13:00:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

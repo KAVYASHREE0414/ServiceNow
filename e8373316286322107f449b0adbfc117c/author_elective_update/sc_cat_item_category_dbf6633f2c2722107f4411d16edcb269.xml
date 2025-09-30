@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Apple iPhone 4 Cable">526b6328901b2100772e740ccdbe2516</sc_cat_item>
+        <sc_category display_value="Gated Community Catalogs">db266bbb2c2722107f4411d16edcb293</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-08-31 04:56:10</sys_created_on>
+        <sys_id>dbf6633f2c2722107f4411d16edcb269</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gated Community Catalogs.Apple iPhone 4 Cable</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sc_cat_item_category_dbf6633f2c2722107f4411d16edcb269</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-08-31 04:56:10</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sc_cat_item_category_dbf6633f2c2722107f4411d16edcb269</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Apple iPhone 4 Cable">526b6328901b2100772e740ccdbe2516</sc_cat_item><sc_category display_value="Gated Community Catalogs">db266bbb2c2722107f4411d16edcb293</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>DEPAVATH.NARESH</sys_created_by><sys_created_on>2025-08-31 04:56:10</sys_created_on><sys_id>dbf6633f2c2722107f4411d16edcb269</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gated Community Catalogs.Apple iPhone 4 Cable</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sc_cat_item_category_dbf6633f2c2722107f4411d16edcb269</sys_update_name><sys_updated_by>DEPAVATH.NARESH</sys_updated_by><sys_updated_on>2025-08-31 04:56:10</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-42326206</payload_hash>
+        <record_name>Gated Community Catalogs.Apple iPhone 4 Cable</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-08-31 04:56:10</sys_created_on>
+        <sys_id>5bf6e33f2c2722107f4411d16edcb2d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198fe7b9d8d0000001</sys_recorded_at>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-08-31 04:56:10</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>5ff6e33f43272210d753ca1f0302f9cf</update_guid>
+        <update_guid_history>5ff6e33f43272210d753ca1f0302f9cf:-42326206</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Gated Community Catalogs.Apple iPhone 4 Cable">64c48ac02c7362107f4411d16edcb2b3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-08-31 16:25:28</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>209d67c706234fb38780f027a3418c91</sys_id>
+        <sys_metadata>dbf6633f2c2722107f4411d16edcb269</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gated Community Catalogs.Apple iPhone 4 Cable</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_dbf6633f2c2722107f4411d16edcb269</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_dbf6633f2c2722107f4411d16edcb269">5bf6e33f2c2722107f4411d16edcb2d0</sys_update_version>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-08-31 16:25:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

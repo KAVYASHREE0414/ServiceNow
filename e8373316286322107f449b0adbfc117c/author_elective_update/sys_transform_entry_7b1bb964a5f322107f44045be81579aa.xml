@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="CMT staff availabilities TM">3b86bdeca5b322107f44045be81579c9</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[var sp = new GlideRecord('x_<scope>_cmt_staff_profile');
+sp.addQuery('name', source.u_staff);   // e.g., "Ramesh K"
+sp.query();
+if (sp.next()) {
+  answer = sp.sys_id.toString();
+}]]></source_script>
+        <source_table>u_cmt_staff_shifts</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-02 05:00:57</sys_created_on>
+        <sys_id>7b1bb964a5f322107f44045be81579aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_transform_entry_7b1bb964a5f322107f44045be81579aa</sys_update_name>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-02 05:00:57</sys_updated_on>
+        <target_field>u_staff_date</target_field>
+        <target_table>u_staff_availability</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+    <sys_es_latest_script action="DELETE">
+        <id>7b1bb964a5f322107f44045be81579aa</id>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-02 05:00:57</sys_created_on>
+        <sys_id>344b7964a5f322107f44045be815790e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-02 05:00:57</sys_updated_on>
+        <table>sys_transform_entry</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sys_transform_entry_7b1bb964a5f322107f44045be81579aa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="CMT staff availabilities TM"&gt;3b86bdeca5b322107f44045be81579c9&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;[Script]&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[var sp = new GlideRecord('x_&lt;scope&gt;_cmt_staff_profile');
+sp.addQuery('name', source.u_staff);   // e.g., "Ramesh K"
+sp.query();
+if (sp.next()) {
+  answer = sp.sys_id.toString();
+}]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_cmt_staff_shifts&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;KAVYASHREE.PUNURU&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-02 05:00:57&lt;/sys_created_on&gt;&lt;sys_id&gt;7b1bb964a5f322107f44045be81579aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;[Script]&lt;/sys_name&gt;&lt;sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Resident service and visitor management system"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_7b1bb964a5f322107f44045be81579aa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;KAVYASHREE.PUNURU&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-02 05:00:57&lt;/sys_updated_on&gt;&lt;target_field&gt;u_staff_date&lt;/target_field&gt;&lt;target_table&gt;u_staff_availability&lt;/target_table&gt;&lt;use_source_script&gt;true&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;7b1bb964a5f322107f44045be81579aa&lt;/id&gt;&lt;sys_created_by&gt;KAVYASHREE.PUNURU&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-02 05:00:57&lt;/sys_created_on&gt;&lt;sys_id&gt;344b7964a5f322107f44045be815790e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;KAVYASHREE.PUNURU&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-02 05:00:57&lt;/sys_updated_on&gt;&lt;table&gt;sys_transform_entry&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1445114413</payload_hash>
+        <record_name>[Script]</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-02 05:00:57</sys_created_on>
+        <sys_id>344b31a4a5f322107f44045be8157932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19908ccb5170000001</sys_recorded_at>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-02 05:00:57</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>384b31a4bbf322105f1a66d9f1585331</update_guid>
+        <update_guid_history>384b31a4bbf322105f1a66d9f1585331:1445114413</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-02 06:14:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>08b3f44e10764644bcf6575338cc1b84</sys_id>
+        <sys_metadata>7b1bb964a5f322107f44045be81579aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_7b1bb964a5f322107f44045be81579aa</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_7b1bb964a5f322107f44045be81579aa">344b31a4a5f322107f44045be8157932</sys_update_version>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-09-02 06:14:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

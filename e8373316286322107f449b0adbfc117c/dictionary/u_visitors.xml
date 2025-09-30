@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2bc357d754eb22107f44a1aea5d10d56" extends="task" label="Visitors" max_length="40" name="u_visitors" type="collection">
+        <element label="Parking Needed" max_length="40" name="u_parking_needed" type="boolean"/>
+        <element label="Email" max_length="40" name="u_email" type="string"/>
+        <element label="Mobile" mandatory="true" max_length="40" name="u_mobile" type="phone_number_e164"/>
+        <element label="Visitor Name" mandatory="true" max_length="40" name="u_visitor_name" type="string"/>
+        <element choice="1" label="Vehicle Type" max_length="32" name="u_vehicle_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Two Wheeler" value="twowheeler"/>
+                <element inactive_on_update="false" label="Four Wheeler" value="fourwheele"/>
+            </choice>
+        </element>
+        <element label="Parking Slot" max_length="32" name="u_parking_slot" reference="u_parking_slot" type="reference"/>
+        <element label="Approver" max_length="32" name="u_approver" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Government Proof ID" max_length="40" name="u_id" reference_qual="null" reference_qual_condition="null" type="string">
+            <choice/>
+        </element>
+        <element choice="1" label=" Parking Slot Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" value="available"/>
+                <element inactive_on_update="false" label="Not Available" value="NA"/>
+                <element inactive_on_update="false" label="Reserved" value="res"/>
+            </choice>
+        </element>
+        <element label="Flat Number" mandatory="true" max_length="40" name="u_flat_number" type="string"/>
+        <element label="Check out time" max_length="40" name="u_check_out_time" type="glide_date_time"/>
+        <element label="Visit date/time" mandatory="true" max_length="40" name="u_visit_date_time" type="glide_date_time"/>
+        <element label="Purpose" mandatory="true" max_length="40" name="u_purpose" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Number" max_length="40" name="u_vehicle_number" type="string"/>
+    </element>
+</database>

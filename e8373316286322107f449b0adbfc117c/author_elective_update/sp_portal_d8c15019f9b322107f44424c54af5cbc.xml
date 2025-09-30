@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <alternate_portal/>
+        <communication_channels/>
+        <css_variables/>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="home_index">f300dc15f9b322107f44424c54af5c5b</homepage>
+        <icon/>
+        <inactive>false</inactive>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <rtl_enabled>false</rtl_enabled>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-04 05:15:38</sys_created_on>
+        <sys_id>d8c15019f9b322107f44424c54af5cbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>naresh</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_portal_d8c15019f9b322107f44424c54af5cbc</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-04 05:15:38</sys_updated_on>
+        <theme/>
+        <title>naresh</title>
+        <ts_index_group/>
+        <url_suffix>naresh</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=d8c15019f9b322107f44424c54af5cbc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_portal_d8c15019f9b322107f44424c54af5cbc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><alternate_portal/><communication_channels/><css_variables/><dark_theme/><default>false</default><enable_ais>false</enable_ais><enable_certificate_based_authentication>false</enable_certificate_based_authentication><enable_favorites>false</enable_favorites><hide_portal_name>false</hide_portal_name><homepage display_value="home_index">f300dc15f9b322107f44424c54af5c5b</homepage><icon/><inactive>false</inactive><kb_knowledge_base/><kb_knowledge_page/><login_page/><logo/><notfound_page/><quick_start_config/><rtl_enabled>false</rtl_enabled><sc_catalog/><sc_catalog_page/><sc_category_page/><search_application/><search_results_configuration/><sp_chat_queue/><sp_rectangle_menu/><sys_class_name>sp_portal</sys_class_name><sys_created_by>DEPAVATH.NARESH</sys_created_by><sys_created_on>2025-09-04 05:15:38</sys_created_on><sys_id>d8c15019f9b322107f44424c54af5cbc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>naresh</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sp_portal_d8c15019f9b322107f44424c54af5cbc</sys_update_name><sys_updated_by>DEPAVATH.NARESH</sys_updated_by><sys_updated_on>2025-09-04 05:15:38</sys_updated_on><theme/><title>naresh</title><ts_index_group/><url_suffix>naresh</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=d8c15019f9b322107f44424c54af5cbc"/></record_update>]]></payload>
+        <payload_hash>299274324</payload_hash>
+        <record_name>naresh</record_name>
+        <reverted_from/>
+        <source>2a298fcc3d8122107f4488addddbe258</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-04 05:15:39</sys_created_on>
+        <sys_id>7fc1d019f9b322107f44424c54af5c74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1991326e2f70000001</sys_recorded_at>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-04 05:15:39</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>73c1d01951b3221090e0b69d1ada0874</update_guid>
+        <update_guid_history>73c1d01951b3221090e0b69d1ada0874:299274324</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="naresh">2087acd5f93722107f44424c54af5c61</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-04 06:50:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>2b1eb7a590574f5c9b773d3cec6da2c4</sys_id>
+        <sys_metadata>d8c15019f9b322107f44424c54af5cbc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>naresh</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_portal_d8c15019f9b322107f44424c54af5cbc</sys_update_name>
+        <sys_update_version display_value="sp_portal_d8c15019f9b322107f44424c54af5cbc">7fc1d019f9b322107f44424c54af5c74</sys_update_version>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-04 06:50:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

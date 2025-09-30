@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>standard</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.text-center button {&#13;
+  background-color: #0078d7;       /* Brand blue */&#13;
+  color: #fff;                     /* White text */&#13;
+  font-size: 20px;                 /* Larger text */&#13;
+  font-weight: 600;                /* Semi-bold */&#13;
+  padding: 16px 40px;              /* Big button size */&#13;
+  border: none;                    /* Remove border */&#13;
+  border-radius: 12px;             /* Rounded corners */&#13;
+  cursor: pointer;                 /* Hand cursor */&#13;
+  transition: all 0.3s ease;       /* Smooth hover animation */&#13;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Soft shadow */&#13;
+}&#13;
+&#13;
+/* Hover effect */&#13;
+.text-center button:hover {&#13;
+  background-color: #005a9e;       /* Darker blue */&#13;
+  transform: translateY(-2px);     /* Slight lift */&#13;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);&#13;
+}&#13;
+&#13;
+/* Active (click) effect */&#13;
+.text-center button:active {&#13;
+  transform: translateY(0);        /* Pressed down */&#13;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  element.find('.create-task-btn').on('click', function() {
+    var url = "/sp?id=form&table=u_community_maintenance_task&sys_id=-1";
+    window.open(url, "_self"); // opens inside Service Portal
+  });
+}
+]]></link>
+        <name>Copy of naresh</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 05:51:13</sys_created_on>
+        <sys_id>31b6fbca947322107f448691b50f3c36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of naresh</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_31b6fbca947322107f448691b50f3c36</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-07 05:51:13</sys_updated_on>
+        <template><![CDATA[<div class="text-center">
+  <button >
+    Submit Issue
+  </button>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_widget_31b6fbca947322107f448691b50f3c36</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.text-center button {&amp;#13;
+  background-color: #0078d7;       /* Brand blue */&amp;#13;
+  color: #fff;                     /* White text */&amp;#13;
+  font-size: 20px;                 /* Larger text */&amp;#13;
+  font-weight: 600;                /* Semi-bold */&amp;#13;
+  padding: 16px 40px;              /* Big button size */&amp;#13;
+  border: none;                    /* Remove border */&amp;#13;
+  border-radius: 12px;             /* Rounded corners */&amp;#13;
+  cursor: pointer;                 /* Hand cursor */&amp;#13;
+  transition: all 0.3s ease;       /* Smooth hover animation */&amp;#13;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Soft shadow */&amp;#13;
+}&amp;#13;
+&amp;#13;
+/* Hover effect */&amp;#13;
+.text-center button:hover {&amp;#13;
+  background-color: #005a9e;       /* Darker blue */&amp;#13;
+  transform: translateY(-2px);     /* Slight lift */&amp;#13;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);&amp;#13;
+}&amp;#13;
+&amp;#13;
+/* Active (click) effect */&amp;#13;
+.text-center button:active {&amp;#13;
+  transform: translateY(0);        /* Pressed down */&amp;#13;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);&amp;#13;
+}&amp;#13;
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  element.find('.create-task-btn').on('click', function() {
+    var url = "/sp?id=form&amp;table=u_community_maintenance_task&amp;sys_id=-1";
+    window.open(url, "_self"); // opens inside Service Portal
+  });
+}
+]]&gt;&lt;/link&gt;&lt;name&gt;Copy of naresh&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DEPAVATH.NARESH&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-07 05:51:13&lt;/sys_created_on&gt;&lt;sys_id&gt;31b6fbca947322107f448691b50f3c36&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy of naresh&lt;/sys_name&gt;&lt;sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Resident service and visitor management system"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_31b6fbca947322107f448691b50f3c36&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DEPAVATH.NARESH&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-07 05:51:13&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="text-center"&gt;
+  &lt;button &gt;
+    Submit Issue
+  &lt;/button&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-788365547</payload_hash>
+        <record_name>Copy of naresh</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 05:51:13</sys_created_on>
+        <sys_id>f1b6fbca947322107f448691b50f3c38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19922ba873e0000001</sys_recorded_at>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-07 05:51:13</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>f5b6fbca827322103abc6b7a79486937</update_guid>
+        <update_guid_history>f5b6fbca827322103abc6b7a79486937:-788365547</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Copy of naresh">5fb63fca947322107f448691b50f3cf2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 05:51:20</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>afa205a3d0fc43b0a646ebe0d4f6c100</sys_id>
+        <sys_metadata>31b6fbca947322107f448691b50f3c36</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of naresh</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_widget_31b6fbca947322107f448691b50f3c36</sys_update_name>
+        <sys_update_version display_value="sp_widget_31b6fbca947322107f448691b50f3c36">f1b6fbca947322107f448691b50f3c38</sys_update_version>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-07 05:51:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

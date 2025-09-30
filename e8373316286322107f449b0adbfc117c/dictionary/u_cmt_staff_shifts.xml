@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="03576da8a57322107f44045be8157982" extends="sys_import_set_row" label="CMT staff shifts" max_length="40" name="u_cmt_staff_shifts" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=shift_name" label="shift_name" max_length="40" name="u_shift_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=end_time" label="end_time" max_length="40" name="u_end_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=days_of_week" label="days_of_week" max_length="40" name="u_days_of_week" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=staff" display="true" label="staff" max_length="40" name="u_staff" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=start_time" label="start_time" max_length="40" name="u_start_time" type="string"/>
+    </element>
+</database>

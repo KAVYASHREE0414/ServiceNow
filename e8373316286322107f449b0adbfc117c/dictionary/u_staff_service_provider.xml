@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7a8937d6286322107f449b0adbfc11a0" label="Staff/Service Provider" max_length="40" name="u_staff_service_provider" type="collection">
+        <element label="Email" max_length="100" name="u_email" type="string"/>
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+            </choice>
+        </element>
+        <element label="Name" mandatory="true" max_length="100" name="u_name" type="string"/>
+        <element choice="1" label="Role" mandatory="true" max_length="40" name="u_role" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" display="true" label="Shift" mandatory="true" max_length="40" name="u_shift" type="choice">
+            <choice/>
+        </element>
+        <element label="Phone" mandatory="true" max_length="20" name="u_phone" type="string"/>
+    </element>
+</database>

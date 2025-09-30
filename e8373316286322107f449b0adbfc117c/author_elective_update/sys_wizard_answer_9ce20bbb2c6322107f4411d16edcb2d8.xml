@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Community Maintenance Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Community Maintenance Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">f224c7483d0122107f4488addddbe2c5</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 02:18:24</sys_created_on>
+        <sys_id>9ce20bbb2c6322107f4411d16edcb2d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Community Maintenance Task</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_wizard_answer_9ce20bbb2c6322107f4411d16edcb2d8</sys_update_name>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 02:18:24</sys_updated_on>
+        <table/>
+        <target_url>u_community_maintenance_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sys_wizard_answer_9ce20bbb2c6322107f4411d16edcb2d8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Community Maintenance Task</answer><button_label/><dependent_value/><element/><name>Community Maintenance Task</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">f224c7483d0122107f4488addddbe2c5</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>KAVYASHREE.PUNURU</sys_created_by><sys_created_on>2025-08-31 02:18:24</sys_created_on><sys_id>9ce20bbb2c6322107f4411d16edcb2d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Community Maintenance Task</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sys_wizard_answer_9ce20bbb2c6322107f4411d16edcb2d8</sys_update_name><sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by><sys_updated_on>2025-08-31 02:18:24</sys_updated_on><table/><target_url>u_community_maintenance_task.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1107742784</payload_hash>
+        <record_name>Community Maintenance Task</record_name>
+        <reverted_from/>
+        <source>d5928f003d0122107f4488addddbe2a9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-04-17 04:02:55</sys_created_on>
+        <sys_id>a5dd477b2ca322107f4411d16edcb2b4</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19641e9f9980000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>65dd477bdba3221077e48047cb85c1b4</update_guid>
+        <update_guid_history>65dd477bdba3221077e48047cb85c1b4:-1107742784</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 03:06:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>4aa05ce334c048179531ab40134a30e1</sys_id>
+        <sys_metadata>9ce20bbb2c6322107f4411d16edcb2d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Community Maintenance Task</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent display_value="Task">f224c7483d0122107f4488addddbe2c5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_9ce20bbb2c6322107f4411d16edcb2d8</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_9ce20bbb2c6322107f4411d16edcb2d8">a5dd477b2ca322107f4411d16edcb2b4</sys_update_version>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 03:06:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

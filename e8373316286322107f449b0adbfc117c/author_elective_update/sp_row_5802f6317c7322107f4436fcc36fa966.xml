@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_column/>
+        <sp_container display_value="Home Index  - Container 4">a16ba6397c3322107f4436fcc36fa92c</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+        <sys_created_on>2025-09-06 06:12:32</sys_created_on>
+        <sys_id>5802f6317c7322107f4436fcc36fa966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_row_5802f6317c7322107f4436fcc36fa966</sys_update_name>
+        <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+        <sys_updated_on>2025-09-06 06:12:32</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_row_5802f6317c7322107f4436fcc36fa966</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><sp_column/><sp_container display_value="Home Index  - Container 4">a16ba6397c3322107f4436fcc36fa92c</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>BHAGYA SREE.BALI</sys_created_by><sys_created_on>2025-09-06 06:12:32</sys_created_on><sys_id>5802f6317c7322107f4436fcc36fa966</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sp_row_5802f6317c7322107f4436fcc36fa966</sys_update_name><sys_updated_by>BHAGYA SREE.BALI</sys_updated_by><sys_updated_on>2025-09-06 06:12:32</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>114248391</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+        <sys_created_on>2025-09-06 06:12:32</sys_created_on>
+        <sys_id>5802f6317c7322107f4436fcc36fa968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1991da7ace50000001</sys_recorded_at>
+        <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+        <sys_updated_on>2025-09-06 06:12:32</sys_updated_on>
+        <type>Row</type>
+        <update_guid>5c02f631a773221095bb2c83c142af67</update_guid>
+        <update_guid_history>5c02f631a773221095bb2c83c142af67:114248391</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">390c0c427c3b22107f4436fcc36fa964</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+        <sys_created_on>2025-09-06 12:45:50</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>6607f1492b1d442ca1947dfc171d14b1</sys_id>
+        <sys_metadata>5802f6317c7322107f4436fcc36fa966</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_row_5802f6317c7322107f4436fcc36fa966</sys_update_name>
+        <sys_update_version display_value="sp_row_5802f6317c7322107f4436fcc36fa966">5802f6317c7322107f4436fcc36fa968</sys_update_version>
+        <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+        <sys_updated_on>2025-09-06 12:45:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

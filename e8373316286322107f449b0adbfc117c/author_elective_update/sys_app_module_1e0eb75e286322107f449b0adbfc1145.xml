@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Visitors">1e0eb75e286322107f449b0adbfc1142</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Visitor Tables</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_visitor_table</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>u_visitor_table_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-08-26 14:45:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e0eb75e286322107f449b0adbfc1145</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitor Tables</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_app_module_1e0eb75e286322107f449b0adbfc1145</sys_update_name>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-08-26 14:45:58</sys_updated_on>
+        <timeline_page/>
+        <title>Visitor Tables</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sys_app_module_1e0eb75e286322107f449b0adbfc1145</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Visitors">1e0eb75e286322107f449b0adbfc1142</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Visitor Tables</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_visitor_table</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_visitor_table_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>Bachanagoni.Pranitha</sys_created_by><sys_created_on>2025-08-26 14:45:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1e0eb75e286322107f449b0adbfc1145</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Visitor Tables</sys_name><sys_overrides/><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sys_app_module_1e0eb75e286322107f449b0adbfc1145</sys_update_name><sys_updated_by>Bachanagoni.Pranitha</sys_updated_by><sys_updated_on>2025-08-26 14:45:58</sys_updated_on><timeline_page/><title>Visitor Tables</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1492677037</payload_hash>
+        <record_name>Visitor Tables</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-08-26 14:45:58</sys_created_on>
+        <sys_id>920eb75e286322107f449b0adbfc1148</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198e6d7ca480000001</sys_recorded_at>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-08-26 14:45:58</sys_updated_on>
+        <type>Module</type>
+        <update_guid>960eb75e2f6322105c2fefe43d37e147</update_guid>
+        <update_guid_history>960eb75e2f6322105c2fefe43d37e147:1492677037</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Visitor Tables">a110c06228a322107f449b0adbfc11a1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-08-26 14:54:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2309a28b466241f09cfaf31cc4e88744</sys_id>
+        <sys_metadata>1e0eb75e286322107f449b0adbfc1145</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitor Tables</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sys_app_module_1e0eb75e286322107f449b0adbfc1145</sys_update_name>
+        <sys_update_version display_value="sys_app_module_1e0eb75e286322107f449b0adbfc1145">920eb75e286322107f449b0adbfc1148</sys_update_version>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-08-26 14:54:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

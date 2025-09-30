@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3c0361b34cf322107f4404918c7d227b" extends="task" label="Conversations" max_length="40" name="u_conversations" type="collection">
+        <element choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="close"/>
+                <element inactive_on_update="false" label="Active" value="active"/>
+            </choice>
+        </element>
+        <element label="Staff" max_length="32" name="u_staff" reference="u_staff_profile" type="reference"/>
+        <element label="Resident" max_length="32" name="u_resident" reference="u_residents" type="reference"/>
+    </element>
+</database>

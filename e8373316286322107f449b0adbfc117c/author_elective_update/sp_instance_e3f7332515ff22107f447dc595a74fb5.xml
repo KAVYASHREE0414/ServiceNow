@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e6f30b6515fb22107f447dc595a74f73</sp_column>
+        <sp_widget display_value="Resident Visitors Dashboard">8986f36115ff22107f447dc595a74f02</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Rashmika.Masaram</sys_created_by>
+        <sys_created_on>2025-09-05 16:39:49</sys_created_on>
+        <sys_id>e3f7332515ff22107f447dc595a74fb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_instance_e3f7332515ff22107f447dc595a74fb5</sys_update_name>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:39:49</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=e3f7332515ff22107f447dc595a74fb5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_instance_e3f7332515ff22107f447dc595a74fb5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">e6f30b6515fb22107f447dc595a74f73</sp_column><sp_widget display_value="Resident Visitors Dashboard">8986f36115ff22107f447dc595a74f02</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>Rashmika.Masaram</sys_created_by><sys_created_on>2025-09-05 16:39:49</sys_created_on><sys_id>e3f7332515ff22107f447dc595a74fb5</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sp_instance_e3f7332515ff22107f447dc595a74fb5</sys_update_name><sys_updated_by>Rashmika.Masaram</sys_updated_by><sys_updated_on>2025-09-05 16:39:49</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=e3f7332515ff22107f447dc595a74fb5"/></record_update>]]></payload>
+        <payload_hash>-1042053554</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Rashmika.Masaram</sys_created_by>
+        <sys_created_on>2025-09-05 16:39:49</sys_created_on>
+        <sys_id>e7f7332515ff22107f447dc595a74fb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1991abf9d7d0000001</sys_recorded_at>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:39:49</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>ebf7332500ff22101a1949e2317792b6</update_guid>
+        <update_guid_history>ebf7332500ff22101a1949e2317792b6:-1042053554</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d798f72515ff22107f447dc595a74f2e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Rashmika.Masaram</sys_created_by>
+        <sys_created_on>2025-09-05 16:42:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>77ec93d80fbd4980bf1f06a97ff86d90</sys_id>
+        <sys_metadata>e3f7332515ff22107f447dc595a74fb5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_instance_e3f7332515ff22107f447dc595a74fb5</sys_update_name>
+        <sys_update_version display_value="sp_instance_e3f7332515ff22107f447dc595a74fb5">e7f7332515ff22107f447dc595a74fb7</sys_update_version>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:42:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
