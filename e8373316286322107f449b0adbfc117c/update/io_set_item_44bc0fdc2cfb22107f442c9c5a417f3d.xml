@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Street Lights / Pole Lights">b52c47dc2cfb22107f442c9c5a417fd1</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:18:13</sys_created_on>
+        <sys_id>44bc0fdc2cfb22107f442c9c5a417f3d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Standard Employee Questions.Street Lights / Pole Lights</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>io_set_item_44bc0fdc2cfb22107f442c9c5a417f3d</sys_update_name>
+        <sys_updated_by>bud.richman</sys_updated_by>
+        <sys_updated_on>2025-09-01 16:18:13</sys_updated_on>
+        <variable_set display_value="Standard Employee Questions">e01cab1a4f334200086eeed18110c71f</variable_set>
+    </io_set_item>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Add Resident - Container 2</name>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_page display_value="add_resident">821378cfd07362107f443dc785febb93</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>Rashmika.Masaram</sys_created_by>
+        <sys_created_on>2025-09-09 18:11:32</sys_created_on>
+        <sys_id>8a53bccfd07362107f443dc785febba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Resident - Container 2</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_container_8a53bccfd07362107f443dc785febba2</sys_update_name>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-09 18:11:32</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_container_8a53bccfd07362107f443dc785febba2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Add Resident - Container 2</name><order>2</order><semantic_tag/><sp_page display_value="add_resident">821378cfd07362107f443dc785febb93</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>Rashmika.Masaram</sys_created_by><sys_created_on>2025-09-09 18:11:32</sys_created_on><sys_id>8a53bccfd07362107f443dc785febba2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Add Resident - Container 2</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sp_container_8a53bccfd07362107f443dc785febba2</sys_update_name><sys_updated_by>Rashmika.Masaram</sys_updated_by><sys_updated_on>2025-09-09 18:11:32</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1286573701</payload_hash>
+        <record_name>Add Resident - Container 2</record_name>
+        <reverted_from/>
+        <source>2a298fcc3d8122107f4488addddbe258</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Rashmika.Masaram</sys_created_by>
+        <sys_created_on>2025-09-09 18:11:32</sys_created_on>
+        <sys_id>42533003d0b362107f443dc785febb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1992fad061b0000001</sys_recorded_at>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-09 18:11:32</sys_updated_on>
+        <type>Container</type>
+        <update_guid>46533003bdb362104fee7ad34709e43e</update_guid>
+        <update_guid_history>46533003bdb362104fee7ad34709e43e:1286573701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Add Resident - Container 2">5463bccfd07362107f443dc785febb8d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Rashmika.Masaram</sys_created_by>
+        <sys_created_on>2025-09-09 18:11:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>2d877f804af240d0816c4a74f16e02c4</sys_id>
+        <sys_metadata>8a53bccfd07362107f443dc785febba2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Resident - Container 2</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_container_8a53bccfd07362107f443dc785febba2</sys_update_name>
+        <sys_update_version display_value="sp_container_8a53bccfd07362107f443dc785febba2">42533003d0b362107f443dc785febb3f</sys_update_version>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-09 18:11:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

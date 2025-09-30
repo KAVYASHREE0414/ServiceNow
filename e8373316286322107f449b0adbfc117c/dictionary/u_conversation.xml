@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="88fe8167fcfb22107f44d350ad212187" label="conversation" max_length="40" name="u_conversation" type="collection">
+        <element label="Name" mandatory="true" max_length="500" name="u_name" type="string"/>
+        <element label="resident" mandatory="true" max_length="32" name="u_resident" reference="sys_user" type="reference"/>
+        <element label="provider" mandatory="true" max_length="32" name="u_provider" reference="sys_user" type="reference"/>
+        <element choice="1" label="status" mandatory="true" max_length="40" name="u_status" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="u_provider"/>
+        </index>
+        <index name="index2">
+            <element name="u_resident"/>
+        </index>
+    </element>
+</database>

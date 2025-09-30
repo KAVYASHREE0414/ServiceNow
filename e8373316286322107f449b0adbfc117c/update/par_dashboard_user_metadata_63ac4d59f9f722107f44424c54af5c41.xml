@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="INSERT_OR_UPDATE">
+        <background_color/>
+        <cache_expiration_time>24</cache_expiration_time>
+        <card_bg_image/>
+        <created_by_user display_value="Chandra Veera Nooka Sai Teja  Vinukonda">3a503b1a282322107f449b0adbfc1120</created_by_user>
+        <created_on>2025-09-04 09:32:52</created_on>
+        <dashboard display_value="Resident &amp; Visitor Management Dashboard">e7ac8d19f9f722107f44424c54af5c05</dashboard>
+        <edit_locked/>
+        <enable_data_cache>false</enable_data_cache>
+        <include_custom_insights>true</include_custom_insights>
+        <include_key_contributors>true</include_key_contributors>
+        <include_kpi_signals>true</include_kpi_signals>
+        <include_predictive_target>true</include_predictive_target>
+        <include_predictive_thresholds>true</include_predictive_thresholds>
+        <include_process_mining>true</include_process_mining>
+        <include_severity>true</include_severity>
+        <include_target>true</include_target>
+        <include_thresholds>true</include_thresholds>
+        <include_trends>true</include_trends>
+        <include_widget_notification>true</include_widget_notification>
+        <last_updated_on>2025-09-06 09:40:42</last_updated_on>
+        <po_project_id_list>[]</po_project_id_list>
+        <refresh_information>false</refresh_information>
+        <refresh_interval>-1</refresh_interval>
+        <requested_by_user/>
+        <schedule_repetition>false</schedule_repetition>
+        <show_insights_panel>true</show_insights_panel>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 09:32:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>63ac4d59f9f722107f44424c54af5c41</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_63ac4d59f9f722107f44424c54af5c41</sys_update_name>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-06 10:06:28</sys_updated_on>
+        <updated_by_user display_value="Rashmika Masaram">f2efef96282322107f449b0adbfc11ea</updated_by_user>
+        <use_custom_tab_colors>false</use_custom_tab_colors>
+    </par_dashboard_user_metadata>
+</record_update>

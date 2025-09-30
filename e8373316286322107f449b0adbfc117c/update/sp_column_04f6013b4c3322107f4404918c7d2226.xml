@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">84f6013b4c3322107f4404918c7d2223</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-09-12 03:32:35</sys_created_on>
+        <sys_id>04f6013b4c3322107f4404918c7d2226</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_column_04f6013b4c3322107f4404918c7d2226</sys_update_name>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-09-12 03:32:35</sys_updated_on>
+    </sp_column>
+</record_update>

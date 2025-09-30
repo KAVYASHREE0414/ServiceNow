@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Community Maintenance Task Form - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="community_task_form">a085548e7c3b22107f4436fcc36fa9dd</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-06 13:29:34</sys_created_on>
+        <sys_id>6606dc8e7c3b22107f4436fcc36fa923</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Community Maintenance Task Form - Container 1</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_container_6606dc8e7c3b22107f4436fcc36fa923</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-06 13:31:03</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_container_6606dc8e7c3b22107f4436fcc36fa923</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Community Maintenance Task Form - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="community_task_form">a085548e7c3b22107f4436fcc36fa9dd</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>DEPAVATH.NARESH</sys_created_by><sys_created_on>2025-09-06 13:29:34</sys_created_on><sys_id>6606dc8e7c3b22107f4436fcc36fa923</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Community Maintenance Task Form - Container 1</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sp_container_6606dc8e7c3b22107f4436fcc36fa923</sys_update_name><sys_updated_by>DEPAVATH.NARESH</sys_updated_by><sys_updated_on>2025-09-06 13:31:03</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1101428832</payload_hash>
+        <record_name>Community Maintenance Task Form - Container 1</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-06 13:31:03</sys_created_on>
+        <sys_id>80665c8e7c3b22107f4436fcc36fa9c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1991f3925fd0000001</sys_recorded_at>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-06 13:31:03</sys_updated_on>
+        <type>Container</type>
+        <update_guid>48665c8e233b2210e3fa2b68d4b639c4</update_guid>
+        <update_guid_history>48665c8e233b2210e3fa2b68d4b639c4:-1101428832,ce56d48e883b22101cd8c4ebeabc7b05:-435298465,2a0610ce933b2210749efa413ddf50cb:-1101428832</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Community Maintenance Task Form - Container 1">f820ecca7c7b22107f4436fcc36fa901</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-06 14:13:42</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>253ff9b555af42a6bae0735cd0abeab1</sys_id>
+        <sys_metadata>6606dc8e7c3b22107f4436fcc36fa923</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Community Maintenance Task Form - Container 1</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_container_6606dc8e7c3b22107f4436fcc36fa923</sys_update_name>
+        <sys_update_version display_value="sp_container_6606dc8e7c3b22107f4436fcc36fa923">80665c8e7c3b22107f4436fcc36fa9c5</sys_update_version>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-06 14:13:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

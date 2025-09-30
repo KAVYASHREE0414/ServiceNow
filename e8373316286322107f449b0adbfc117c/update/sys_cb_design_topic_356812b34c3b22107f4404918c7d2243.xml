@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Visitors Bots">a96812b34c3b22107f4404918c7d223c</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"858449a216ee439993e64d669513c991","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"858449a216ee439993e64d669513c991"}],"goals":[{"name":"primary","trigger_id":"858449a216ee439993e64d669513c991","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":"gs.getMessageLang(\"va:topic:e5f7d2734c3b22107f4404918c7d22fe:node:4c4dd38b60034576845edb37f4a8504a:field:GreetingMsg {0}\", vaContext.getRequesterLang(), [vaInputs.user.first_name.getDisplayValue()])"},"id":"4c4dd38b60034576845edb37f4a8504a","name":"Start","expert_mode":false},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"35ec93ef286948cdaa4c2b3a21bcebd1","name":"End","expert_mode":false}],"edges":[{"type":"Edge","source_node_id":"4c4dd38b60034576845edb37f4a8504a","target_node_id":"35ec93ef286948cdaa4c2b3a21bcebd1","id":"2e09920a6de5463fb05d6adbb9703823"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","auto_select":false,"id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"e8373316286322107f449b0adbfc117c","domain":"global","topic_type":"STANDARD","channels":[],"dialog_acts_enabled":false,"id":"e5f7d2734c3b22107f4404918c7d22fe","name":"Visitors Bots","key_phrases":["Visitors Bots","Hello","I want the flat number of reidents inside the community?"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"description":"","model_type":"nlu_keyword","foundational":false,"modify_confirmation_enabled":false,"context_profiles":[],"title":"Visitors Bots","library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>e5f7d2734c3b22107f4404918c7d22fe</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.74",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "4c4dd38b60034576845edb37f4a8504a": {
+          "id": "4c4dd38b60034576845edb37f4a8504a",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hi "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.first_name}}",
+                      "displayValue": "Input Variables➛User➛First name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "How Can I help You"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "35ec93ef286948cdaa4c2b3a21bcebd1": {
+          "id": "35ec93ef286948cdaa4c2b3a21bcebd1",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "2e09920a6de5463fb05d6adbb9703823",
+          "edgeType": "Edge",
+          "source": "4c4dd38b60034576845edb37f4a8504a",
+          "target": "35ec93ef286948cdaa4c2b3a21bcebd1",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <name>Visitors Bots</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-12 09:28:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>356812b34c3b22107f4404918c7d2243</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_cb_design_topic_356812b34c3b22107f4404918c7d2243</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-12 09:28:30</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

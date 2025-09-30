@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-09-11 09:29:34</sys_created_on>
+        <sys_id>230f4567fcfb22107f44d350ad2121a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_conversation.u_conversation_user</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_security_acl display_value="u_conversation">6f0f4567fcfb22107f44d350ad212183</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_230f4567fcfb22107f44d350ad2121a2</sys_update_name>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-09-11 09:29:34</sys_updated_on>
+        <sys_user_role display_value="u_conversation_user" name="u_conversation_user">db0f8167fcfb22107f44d350ad2121ed</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

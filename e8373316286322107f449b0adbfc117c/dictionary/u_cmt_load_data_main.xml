@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="53e469e4a57322107f44045be81579f6" extends="sys_import_set_row" label="CMT load data main" max_length="40" name="u_cmt_load_data_main" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=type" label="type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>

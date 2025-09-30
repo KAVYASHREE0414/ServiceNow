@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.kb-widget {&#13;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;&#13;
+  max-width: 1200px;&#13;
+  margin: 0 auto;&#13;
+  padding: 20px;&#13;
+  background: #f8f9fa;&#13;
+}&#13;
+&#13;
+.kb-header {&#13;
+  margin-bottom: 25px;&#13;
+  background: white;&#13;
+  padding: 20px;&#13;
+  border-radius: 12px;&#13;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);&#13;
+  text-align: center;&#13;
+}&#13;
+&#13;
+.kb-title {&#13;
+  color: #2c3e50;&#13;
+  font-size: 28px;&#13;
+  font-weight: 600;&#13;
+  margin: 0;&#13;
+}&#13;
+&#13;
+.kb-grid {&#13;
+  display: grid;&#13;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));&#13;
+  gap: 25px;&#13;
+}&#13;
+&#13;
+.kb-card {&#13;
+  background: white;&#13;
+  border-radius: 15px;&#13;
+  padding: 20px;&#13;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);&#13;
+  transition: all 0.3s ease;&#13;
+}&#13;
+&#13;
+.kb-card:hover {&#13;
+  transform: translateY(-5px);&#13;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);&#13;
+}&#13;
+&#13;
+.kb-article-title {&#13;
+  font-size: 18px;&#13;
+  font-weight: 600;&#13;
+  color: #2c3e50;&#13;
+  margin-bottom: 10px;&#13;
+  line-height: 1.3;&#13;
+}&#13;
+&#13;
+.kb-article-title a {&#13;
+  color: #3498db;&#13;
+  text-decoration: none;&#13;
+}&#13;
+&#13;
+.kb-article-title a:hover {&#13;
+  text-decoration: underline;&#13;
+}&#13;
+&#13;
+.kb-article-text {&#13;
+  color: #7f8c8d;&#13;
+  font-size: 14px;&#13;
+  line-height: 1.5;&#13;
+  margin-bottom: 15px;&#13;
+  display: -webkit-box;&#13;
+  -webkit-line-clamp: 3;&#13;
+  -webkit-box-orient: vertical;&#13;
+  overflow: hidden;&#13;
+}&#13;
+&#13;
+.kb-meta {&#13;
+  font-size: 12px;&#13;
+  color: #95a5a6;&#13;
+  display: flex;&#13;
+  gap: 15px;&#13;
+  flex-wrap: wrap;&#13;
+}&#13;
+&#13;
+.kb-empty {&#13;
+  text-align: center;&#13;
+  padding: 60px 20px;&#13;
+  color: #7f8c8d;&#13;
+}&#13;
+&#13;
+.kb-empty .empty-icon {&#13;
+  font-size: 48px;&#13;
+  margin-bottom: 20px;&#13;
+  color: #bdc3c7;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>naresh3</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>naresh3</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    data.articles = [];
+    var kbSysId = '95af071354eb22107f44a1aea5d10ded'; // Community Amenities KB sys_id
+
+    try {
+        var gr = new GlideRecord('kb_knowledge');
+        gr.addQuery('kb_knowledge_base', kbSysId);
+        gr.addQuery('active', true);
+        gr.orderBy('short_description');
+        gr.query();
+
+        while (gr.next()) {
+            data.articles.push({
+                sys_id: gr.getUniqueValue(),
+                number: gr.getDisplayValue('number'),
+                short_description: gr.getDisplayValue('short_description'),
+                text: gs.stripTags(gr.article_body.toString()),  // ✅ correct field
+                created_on: gr.getDisplayValue('sys_created_on'),
+                created_by: gr.getDisplayValue('sys_created_by')
+            });
+        }
+    } catch (e) {
+        gs.error('Error fetching knowledge articles: ' + e.message, 'KBWidget');
+    }
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-08 19:42:31</sys_created_on>
+        <sys_id>7d5e7b6abd3362107f443f3bb0ac63b3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>naresh3</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_7d5e7b6abd3362107f443f3bb0ac63b3</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-09 04:29:48</sys_updated_on>
+        <template><![CDATA[<div class="kb-widget">
+  <div class="kb-header">
+    <h2 class="kb-title">Community Amenities Knowledge Articles</h2>
+  </div>
+
+  <div class="kb-grid" ng-if="data.articles.length > 0">
+    <div class="kb-card" ng-repeat="article in data.articles track by article.sys_id">
+      <div class="kb-card-body">
+        <h3 class="kb-article-title">
+          <a href="?id=kb_article&sys_id={{article.sys_id}}">{{article.short_description}}</a>
+        </h3>
+        <p class="kb-article-text">
+          {{article.text | limitTo: 150}}{{article.text.length > 150 ? '...' : ''}}
+        </p>
+        <div class="kb-meta">
+          <span class="kb-number">#{{article.number}}</span>
+          <span class="kb-date">{{article.created_on}}</span>
+          <span class="kb-author">by {{article.created_by}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="kb-empty" ng-if="data.articles.length === 0">
+    <i class="fa fa-file-text-o empty-icon"></i>
+    <h3>No Articles Found</h3>
+    <p>There are no knowledge articles available in this knowledge base.</p>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>7d5e7b6abd3362107f443f3bb0ac63b3</id>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-08 19:42:30</sys_created_on>
+        <sys_id>b49e3f6abd3362107f443f3bb0ac63c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-08 19:42:30</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

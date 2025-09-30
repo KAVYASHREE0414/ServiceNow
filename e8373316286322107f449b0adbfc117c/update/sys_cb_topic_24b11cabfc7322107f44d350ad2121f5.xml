@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description>To direct and help the resident to know more about the resident portal.</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{"graph_api_version":"1.0.74","variables":{},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"4e4697b89f71428393dca17309c972a0":{"id":"4e4697b89f71428393dca17309c972a0","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"de9516fe0e4a4e22a990d5f87b045054":{"id":"de9516fe0e4a4e22a990d5f87b045054","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"fa9b0ce97bab41c4ab6944557acf7dad","edgeType":"Edge","source":"4e4697b89f71428393dca17309c972a0","target":"de9516fe0e4a4e22a990d5f87b045054","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>Resident_Assistance</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Resident_Assistance</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>Rashmika.Masaram</sys_created_by>
+        <sys_created_on>2025-09-11 05:01:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>24b11cabfc7322107f44d350ad2121f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resident_Assistance</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_cb_topic_24b11cabfc7322107f44d350ad2121f5</sys_update_name>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-11 05:01:29</sys_updated_on>
+        <title>Resident_Assistance</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=24b11cabfc7322107f44d350ad2121f5"/>
+</record_update>

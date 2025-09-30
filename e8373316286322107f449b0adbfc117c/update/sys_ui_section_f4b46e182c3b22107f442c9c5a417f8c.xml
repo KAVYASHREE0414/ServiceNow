@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f4b46e182c3b22107f442c9c5a417f8c" sys_domain="global" table="u_cmt_group_mapping" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-01 13:23:31</sys_created_on>
+            <sys_id>78b46e182c3b22107f442c9c5a417f93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_group_mapping" sys_domain="global" view="Default view">f4b46e182c3b22107f442c9c5a417f8c</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-01 13:23:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_category</element>
+            <position>1</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-01 13:23:31</sys_created_on>
+            <sys_id>fcb46e182c3b22107f442c9c5a417f93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_group_mapping" sys_domain="global" view="Default view">f4b46e182c3b22107f442c9c5a417f8c</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-01 13:23:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_building</element>
+            <position>2</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-01 13:23:31</sys_created_on>
+            <sys_id>74b46e182c3b22107f442c9c5a417f94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_group_mapping" sys_domain="global" view="Default view">f4b46e182c3b22107f442c9c5a417f8c</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-01 13:23:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-01 13:23:31</sys_created_on>
+            <sys_id>f8b46e182c3b22107f442c9c5a417f94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_group_mapping" sys_domain="global" view="Default view">f4b46e182c3b22107f442c9c5a417f8c</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-01 13:23:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_assignment_group</element>
+            <position>4</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-01 13:23:31</sys_created_on>
+            <sys_id>70b46e182c3b22107f442c9c5a417f95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_group_mapping" sys_domain="global" view="Default view">f4b46e182c3b22107f442c9c5a417f8c</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-01 13:23:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_active</element>
+            <position>5</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-01 13:23:31</sys_created_on>
+            <sys_id>34b4ae182c3b22107f442c9c5a417fe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_group_mapping" sys_domain="global" view="Default view">f4b46e182c3b22107f442c9c5a417f8c</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-01 13:23:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-01 13:23:31</sys_created_on>
+            <sys_id>b8b4ae182c3b22107f442c9c5a417fe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_group_mapping" sys_domain="global" view="Default view">f4b46e182c3b22107f442c9c5a417f8c</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-01 13:23:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_maintenance_type</element>
+            <position>7</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-04 07:19:54</sys_created_on>
+            <sys_id>ff3e6091f97722107f44424c54af5c1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_group_mapping" sys_domain="global" view="Default view">f4b46e182c3b22107f442c9c5a417f8c</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-04 07:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <position>8</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-04 07:21:03</sys_created_on>
+            <sys_id>308e6811f97722107f44424c54af5cb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_group_mapping" sys_domain="global" view="Default view">f4b46e182c3b22107f442c9c5a417f8c</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-04 07:21:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_cmt_group_mapping</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-01 13:23:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4b46e182c3b22107f442c9c5a417f8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_cmt_group_mapping</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_ui_section_f4b46e182c3b22107f442c9c5a417f8c</sys_update_name>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-01 13:23:31</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

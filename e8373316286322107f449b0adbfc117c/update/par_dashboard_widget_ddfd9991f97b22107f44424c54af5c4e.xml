@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">85fd1991f97b22107f44424c54af5c67</canvas>
+        <component display_value="Dial">63f050cf050137731a828878839e0b33</component>
+        <component_props>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"default"},"configVersion":"23.0.0-ci-SNAPSHOT","dataSources":[{"isDatabaseView":false,"allowRealTime":true,"sourceType":"table","tableOrViewName":"u_visitors","filterQuery":"u_visit_date_timeONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MDcyNDcwMDkxMTI1MDg1LjQzMjUyODYx","dataCategories":["trend","group","simple"],"label":"Visitors"}],"dateFormat":"default","description":"","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"followFilters":true,"headerTitle":"Total  Visitors Today","hideMatrixAggregate":false,"innerRadius":0.7,"metrics":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MDcyNDcwMDkxMTI1MDg1LjQzMjUyODYx","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprNE1EY3lORGN3TURreE1USTFNRGcxTGpRek1qVXlPRFl4MTc1Njk4MDcyNDcwMDgzNzk3MjYuOTc1MzM3NDk4","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"minValue":0,"newReporting":false,"numberOfPeriods":3,"period":"M","showAbsolutePeriod":false,"showBorder":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":false,"showMaximumRange":false,"showMetricLabel":false,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"showZero":true,"sortByOrder":"desc","telemetry":"null","valueLabelSize":"md","wrapTitle":false,"componentId":"e5rbw6op","id":"metrics","value":[{"dataSource":"dGFibGV1X3Zpc2l0b3JzMTc1Njk4MDcyNDcwMDkxMTI1MDg1LjQzMjUyODYx","id":"ZEdGaWJHVjFYM1pwYzJsMGIzSnpNVGMxTmprNE1EY3lORGN3TURreE1USTFNRGcxTGpRek1qVXlPRFl4MTc1Njk4MDcyNDcwMDgzNzk3MjYuOTc1MzM3NDk4","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label","filterPerMetric":[],"sortBy":"value","showDateRangeByDefault":false,"allowChangeDateRange":false,"scoreType":null}</component_props>
+        <h>12</h>
+        <name>Total  Visitors Today</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ddfd9991f97b22107f44424c54af5c4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total  Visitors Today</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>par_dashboard_widget_ddfd9991f97b22107f44424c54af5c4e</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props/>
+        <x>36</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

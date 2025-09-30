@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>smart_dispatch</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Smart Dispatch</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+        <sys_created_on>2025-09-02 12:33:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80f26fe8a5fb22107f44045be815790a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Smart Dispatch</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_hub_flow_80f26fe8a5fb22107f44045be815790a</sys_update_name>
+        <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+        <sys_updated_on>2025-09-02 12:43:44</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=80f26fe8a5fb22107f44045be815790a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=80f26fe8a5fb22107f44045be815790a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=80f26fe8a5fb22107f44045be815790a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=80f26fe8a5fb22107f44045be815790a^sys_idNOT IN0cf26fe8a5fb22107f44045be815790a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>80f26fe8a5fb22107f44045be815790a</id>
+        <name>Smart Dispatch</name>
+        <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+        <sys_created_on>2025-09-02 12:33:55</sys_created_on>
+        <sys_id>0cf26fe8a5fb22107f44045be815790a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+        <sys_updated_on>2025-09-02 12:33:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0cf26fe8a5fb22107f44045be815790a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=80f26fe8a5fb22107f44045be815790a^sys_idNOT IN3f256baca5fb22107f44045be81579a8,7b25a320a53f22107f44045be8157966"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Smart Dispatch">80f26fe8a5fb22107f44045be815790a</model>
+        <model_id>80f26fe8a5fb22107f44045be815790a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_80f26fe8a5fb22107f44045be815790a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+        <sys_created_on>2025-09-02 12:43:44</sys_created_on>
+        <sys_id>3f256baca5fb22107f44045be81579a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+        <sys_updated_on>2025-09-02 12:43:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3f256baca5fb22107f44045be81579a8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Smart Dispatch">80f26fe8a5fb22107f44045be815790a</model>
+        <model_id>80f26fe8a5fb22107f44045be815790a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_80f26fe8a5fb22107f44045be815790a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+        <sys_created_on>2025-09-02 12:43:44</sys_created_on>
+        <sys_id>7b25a320a53f22107f44045be8157966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+        <sys_updated_on>2025-09-02 12:43:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7b25a320a53f22107f44045be8157966"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=80f26fe8a5fb22107f44045be815790a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=80f26fe8a5fb22107f44045be815790a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=80f26fe8a5fb22107f44045be815790a^sys_idNOT IN3725a320a53f22107f44045be8157973"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Smart Dispatch">80f26fe8a5fb22107f44045be815790a</flow>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+        <sys_created_on>2025-09-02 12:43:44</sys_created_on>
+        <sys_id>3725a320a53f22107f44045be8157973</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+        <sys_updated_on>2025-09-02 12:43:44</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY2W7jNhT9FUJPLeACWuw4ztvUyaABshS2p0WRpgIlkrYwEuVKlDKeQf69l9osa3G8yKnzEkAkw3vu4bnnkn76objYoq5ypcyw5VKlpzhc0IBjd7ZaUhgWctjk2JNzHuYECz9YKVciiGhPYYHvzai3dLGAxQy7IQz6AaGBcqX1lBi7EZ2uwlsCO8H/J9tkeyrZNHxHpu17XsQdsTI9LAFwzG1qChx+hWXECSHA6o9s9Thfi+7Xa9EsXWsvHJcElCtXT889ZYkDiCgkmh+VKQHpmRu5o4c0SUeCtZmNRzpVbUMzdF1V9cu+Zl0YlqYTA1NVhXVV4irJiQb+1szQbwCcUFKQVqM2oJg8cndVrFhAsimNHv4WOt9h90tVrmMUsrJpOld8mhlt6bC98B2bPi6F4/N0JMWZTvpu5PGHFL8knDIcuSInHEaiEPajSwlZgsgQsenCf5nkAT87PMkum3R9G7vFFxYicKxI0FAeBXNcOBQz5Sb0oyBBP7kZP06uzT8/zca/3UzMyc10Nrkdz26uldckL/PfSO6YIsywmGk6r4VKPjvUlQfII88CND0ltANnKT7Zwolzib721rIf+5w4CSs16dv5VLgp/Tz7bdpX1Vb126WIeQXgMHTmnBJT+LfTm/vfZ3/9EwrY9+9IVQ2iHSzscTmFRNgXFxgTiluEbbGSsMvUNGAXDSyV098m8WxkF433VfV/UnlmcYeK3PMJda/X2ykwOZ+D7B2+jIRk6wVzEcKRm5gQs8SjXAqY3lJ9mltd+m+LPog4bGEWJ1SXfkJkweidE0ICT1C4OVvJljDP7rItJxFHPhwl/EF2FABZAuVWyG49PM84ZlPqUluUZMG+hOWvewdqgc9LqIugCSu1mEU4kBfKU0pjh0cGf+6y7uukxxUyK43u8KrPTy+peE1jzKJMV4ey3jXVsJimDtUBZsRQVVsvVXwdYit2URHKSSp/v7oPE4m6OwiySnwGXi3XyE7iijeVmZMghZPZy7gbaFpH0HQJrWKTxl4+WYg1Hb7e1Oy21Dq+RGASy5sf2dUu5YIdfJG5/gtY9AGeaGH76zzwI06qJiX3RA5H6xXop4y/nzv0R+YHdDuAzRXn5Ixr2os7EV+dzBMNplkj2qcqWKEBLmgNRiPLxjpjw4sh1bWKJ67BNSL+EF74hgbjJhG3+WKjnOImFe7hiEcArLnj3gCP98VMro2umM59DP97WVBuAtTAdKXD1Wxw7jqE5nPdekAtdLyu+q584C5LSkZnlyN7oA2H9hDeQeACrE8trPX1AR4NL4zLQcUFavC2QRcNbL3L6yhchQmQFof4kk6d1+8Bp5RySIWQjWv/fs7hxpv8D06DlHqqPBaUGI0foAef/3K7XoemFFpl8kTuqrHvgkIeLDotDMsXi9rNAkL/CuMboeWNtIWVs3uSVUQSb+Z6oicZ7V8ORsxoNh42ajKeNcR28Gd/EdmxbuLWCmy6kexaBnFjNbVeIQ4QdkU85bvFlstPV6RonZOin44U4+gLV16hre/QQ8B+oMaW3DaO6W4yJjV9Vrb0ax/BBIIgyGEo+8WSEmStkFhQoNSFmzUERDL6sV5e7i11KIWC3xdIelev9TgYRtm16vzaV0UK7/GCpmSIBwOj5e48qr6gm2C+kcXZN7O9ayVuKr2tHW2/fat7Nva0kpA3dbJjt+o06+aWdVzWjU3rrayPb0fb3v8NKM600Tz/B1/DSy8SIAAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=80f26fe8a5fb22107f44045be815790a^sys_idNOT IN7f25a320a53f22107f44045be8157974"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Smart Dispatch">80f26fe8a5fb22107f44045be815790a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+        <sys_created_on>2025-09-02 12:43:44</sys_created_on>
+        <sys_id>7f25a320a53f22107f44045be8157974</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+        <sys_updated_on>2025-09-02 12:43:44</sys_updated_on>
+        <ui_id>5aa2d5a1-c415-4bd8-af7b-fec45f328205</ui_id>
+        <values>H4sIAAAAAAAA/9VXTU/jMBD9K1HOUZWQUlhuCIS0B0ACtBeELCdxWmtdO2s7LQXx33cc20lpA5TSZeHo8Xy8mXkzcW4fQ1qER+FhOYxjnOwfHsRxmsbxaJTmOMmydJRncTbMwijkeEpAU+OMETjOMKvNuUZK47JEeIYpwxllVC/guqCqYnjxy2ldG53guNOhRIFWPqGskISHR7d3UVhhCTE0keHR48qVXlQEgSlh4OzGQAguDJ5oY/jPjNfTMQH8EXHrWsjCYImjkNxrwgsCoUrMFInCKeYF1kIuWokkuLjkrBNMKNfgMTTK94o+gPvD2OiVBNLKib1rj8hVzIrziaA5uaw0FdxKLFB7KVg95Rc2AVNrUuKaaV9rkNQK/JHKYDYgHKLyeiLmVz7gGeVNeu6SiRyz9oS1ljSrNXQJekEYmYIjNMVVRfkYVVLMaGMMWKaDMYPDoGRiDkEVHfMBzg3wAZQID85AftqIf2FJTRbn4AaMARBl0G1ki65ELZuqzFDOatVcSMyV9RU+NbVCf2qD0mbt8kO2RKCgckkrfQwGM+JSeYo2Yvh+3FEiF7ygJqZaovk6pbem78my/02x9Rr3AXZEfiZzRE52RmSA+5+orGX99Zj8Fjdtwm8QND94lQT7Xb+VkBrZyv0bhp5RwopnC3YDcN740pAtyBYv4XUELU2MlU279+037QfpWRbI1oVyRnnzQQKHEOYL8zZ+fXn9WOFB0/6OtY0Mq3ydvTjQInjYfss2ffX83QCkN7wGRMGNRdkD3O9X795RN90ZddO991EXiHP72KJvq9ZTYP+eMa3z+g9GH6/qA4mWDJKnu5b6J9vFTN4bc8/EXJnN9F3Ducwse3P6AsF2/Fr65CGOTMAJmLp4yA4rmtNiTHQX3WsVQs8x+91379jVzlCT3odfXsNXZ2+UdHMGM4AkUdCq5adXAo+N9fWQRFa83Xb4yTUZN8XbFKK3PMf3wVWLsRe4WxG0jeE4Pdzh++szPm++8L3T4+v/LX41tqXw3V92SUYmIA8AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=80f26fe8a5fb22107f44045be815790a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=80f26fe8a5fb22107f44045be815790a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=80f26fe8a5fb22107f44045be815790a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=80f26fe8a5fb22107f44045be815790a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_80f26fe8a5fb22107f44045be815790a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+        <sys_created_on>2025-09-02 12:43:44</sys_created_on>
+        <sys_id>7b25a320a53f22107f44045be8157968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+        <sys_updated_on>2025-09-02 12:43:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_80f26fe8a5fb22107f44045be815790a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>BHAGYA SREE.BALI</sys_created_by>
+        <sys_created_on>2025-09-02 12:43:44</sys_created_on>
+        <sys_id>bf25a320a53f22107f44045be8157965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>BHAGYA SREE.BALI</sys_updated_by>
+        <sys_updated_on>2025-09-02 12:43:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_80f26fe8a5fb22107f44045be815790a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_80f26fe8a5fb22107f44045be815790a"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=80f26fe8a5fb22107f44045be815790a"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=80f26fe8a5fb22107f44045be815790a"/>
+</record_update>

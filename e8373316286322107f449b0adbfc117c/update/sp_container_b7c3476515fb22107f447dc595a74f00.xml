@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Resident &amp; Visitor Dashboard Page - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="resident_visitor_management_dashboard">a8138fa115fb22107f447dc595a74f29</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>Rashmika.Masaram</sys_created_by>
+        <sys_created_on>2025-09-05 12:51:50</sys_created_on>
+        <sys_id>b7c3476515fb22107f447dc595a74f00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resident &amp; Visitor Dashboard Page - Container 1</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_container_b7c3476515fb22107f447dc595a74f00</sys_update_name>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-05 12:51:50</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

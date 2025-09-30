@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.ChatUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ChatUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ChatUtils = Class.create();
+ChatUtils.prototype = {
+  initialize: function() {},
+
+  getOrCreateConversation: function(residentId, providerId) {
+    if (!residentId || !providerId) return '';
+    var conv = new GlideRecord('u_conversation');
+    conv.addQuery('u_resident', residentId);
+    conv.addQuery('u_provider', providerId);
+    conv.query();
+    if (conv.next()) return '' + conv.sys_id;
+
+    conv.initialize();
+    conv.u_resident = residentId;
+    conv.u_provider = providerId;
+    conv.u_status = 'Active';
+    conv.u_name = 'conv_' + residentId + '_' + providerId;
+    return '' + conv.insert();
+  },
+
+  createMessage: function(conversationId, fromId, toId, message) {
+    if (!conversationId || !fromId || !message) return '';
+    var m = new GlideRecord('u_chat_message');
+    m.initialize();
+    m.u_message = message;
+    m.u_from = fromId;
+    m.u_to = toId;
+    m.u_conversation = conversationId;
+    var msgSysId = m.insert();
+
+    // update conversation metadata
+    var conv = new GlideRecord('u_conversation');
+    if (conv.get(conversationId)) {
+      conv.u_last_message = message;
+      conv.u_last_message_at = m.sys_created_on;
+      conv.update();
+    }
+    return '' + msgSysId;
+  },
+
+  getMessages: function(conversationId, limit) {
+    var out = [];
+    if (!conversationId) return out;
+    var gr = new GlideRecord('u_chat_message');
+    gr.addQuery('u_conversation', conversationId);
+    gr.orderBy('sys_created_on');
+    if (limit) gr.setLimit(limit);
+    gr.query();
+    while (gr.next()) {
+      out.push({
+        sys_id: '' + gr.sys_id,
+        from: gr.u_from.getDisplayValue(),
+        fromId: '' + gr.u_from,
+        toId: '' + gr.u_to,
+        message: '' + gr.u_message,
+        time: '' + gr.sys_created_on
+      });
+    }
+    return out;
+  },
+
+  type: 'ChatUtils'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-09-11 10:53:53</sys_created_on>
+        <sys_id>97026563fc7f22107f44d350ad212111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ChatUtils</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_script_include_97026563fc7f22107f44d350ad212111</sys_update_name>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-09-11 10:53:53</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>97026563fc7f22107f44d350ad212111</id>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-09-11 10:53:52</sys_created_on>
+        <sys_id>a252ad23fc7f22107f44d350ad2121c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-09-11 10:53:52</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

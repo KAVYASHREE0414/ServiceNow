@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">0dfd9991f97b22107f44424c54af5c2b</canvas>
+        <component display_value="Pie">96abe7e38d8790718022c5630a92176c</component>
+        <component_props>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"default"},"configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"value","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"","id":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5ODAwNzMzNjI2Mjg4NzU5NS4yNjc2ODcxMzQ=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"u_parking_slot"}],"dateFormat":"default","emptyStateHeading":"No data available.","emptyStateIllustration":"add-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5ODAwNzMzNjI2Mjg4NzU5NS4yNjc2ODcxMzQ=","groupByField":"u_vehicle_type","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true}],"headerTitle":"Parking Slot Allocation By Type","hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5ODAwNzMzNjI2Mjg4NzU5NS4yNjc2ODcxMzQ=","id":"ZEdGaWJHVjFYM0JoY210cGJtZGZjMnh2ZERFM05UWTVPREF3TnpNek5qSTJNamc0TnpVNU5TNHlOamMyT0RjeE16UT0xNzU2OTgwMDczMzYyNDk4MjU0MDQuODM1NjU4NjI=","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"durationFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":2,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","showAbsolutePeriod":false,"showBorder":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":true,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":true,"showRegisterValue":true,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":"null","truncationType":"start","wrapTitle":true,"showDataTable":false}</component_props>
+        <h>14</h>
+        <name>Parking Slot Allocation By Type</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1fd9991f97b22107f44424c54af5c36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Slot Allocation By Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>par_dashboard_widget_d1fd9991f97b22107f44424c54af5c36</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <visualization/>
+        <w>24</w>
+        <widget_props/>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>par_dashboard_widget_d1fd9991f97b22107f44424c54af5c36</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">0dfd9991f97b22107f44424c54af5c2b</canvas><component display_value="Pie">96abe7e38d8790718022c5630a92176c</component><component_props>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"default"},"configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"value","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"","id":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5ODAwNzMzNjI2Mjg4NzU5NS4yNjc2ODcxMzQ=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"u_parking_slot"}],"dateFormat":"default","emptyStateHeading":"No data available.","emptyStateIllustration":"add-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5ODAwNzMzNjI2Mjg4NzU5NS4yNjc2ODcxMzQ=","groupByField":"u_vehicle_type","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true}],"headerTitle":"Parking Slot Allocation By Type","hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV1X3Bhcmtpbmdfc2xvdDE3NTY5ODAwNzMzNjI2Mjg4NzU5NS4yNjc2ODcxMzQ=","id":"ZEdGaWJHVjFYM0JoY210cGJtZGZjMnh2ZERFM05UWTVPREF3TnpNek5qSTJNamc0TnpVNU5TNHlOamMyT0RjeE16UT0xNzU2OTgwMDczMzYyNDk4MjU0MDQuODM1NjU4NjI=","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"durationFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":2,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","showAbsolutePeriod":false,"showBorder":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":true,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":true,"showRegisterValue":true,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":"null","truncationType":"start","wrapTitle":true,"showDataTable":false}</component_props><h>14</h><name>Parking Slot Allocation By Type</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by><sys_created_on>2025-09-04 10:48:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d1fd9991f97b22107f44424c54af5c36</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Parking Slot Allocation By Type</sys_name><sys_overrides/><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>par_dashboard_widget_d1fd9991f97b22107f44424c54af5c36</sys_update_name><sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by><sys_updated_on>2025-09-04 10:48:21</sys_updated_on><visualization/><w>24</w><widget_props/><x>0</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1866975305</payload_hash>
+        <record_name>Parking Slot Allocation By Type</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:21</sys_created_on>
+        <sys_id>11fd9991f97b22107f44424c54af5c38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19914577af30000001</sys_recorded_at>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:21</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>15fd9991d47b2210463d773f5a533d37</update_guid>
+        <update_guid_history>15fd9991d47b2210463d773f5a533d37:1866975305</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Parking Slot Allocation By Type">35fd9991f97b22107f44424c54af5ca6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 10:48:23</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>15e66cf133fb4d7284f1baf47db1acc4</sys_id>
+        <sys_metadata>d1fd9991f97b22107f44424c54af5c36</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Slot Allocation By Type</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_d1fd9991f97b22107f44424c54af5c36</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_d1fd9991f97b22107f44424c54af5c36">11fd9991f97b22107f44424c54af5c38</sys_update_version>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 10:48:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

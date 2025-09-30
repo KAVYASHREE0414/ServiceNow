@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="angular-truncate">09e1f1416712220023c82e08f585ef1e</sp_dependency>
+        <sp_widget display_value="Copy of Header Menu">c5f212e515f722107f447dc595a74f3e</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-05 09:18:22</sys_created_on>
+        <sys_id>49f2d6e515f722107f447dc595a74fca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-truncate.Copy of Header Menu</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_49f2d6e515f722107f447dc595a74fca</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-05 09:18:22</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="86b704b3fd6322107f44e5e3c770b205" extends="task" label="Parking Slot" max_length="40" name="u_parking_slot" type="collection">
+        <element display="true" label="Slot Number" mandatory="true" max_length="5" name="u_slot_number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Reserved" value="reserved"/>
+                <element inactive_on_update="false" label="Not Available" value="NA"/>
+                <element inactive_on_update="false" label="Available" value="available"/>
+            </choice>
+        </element>
+        <element label="Parking Slot" max_length="32" name="u_parking_slot" reference="u_visitors" reference_qual="u_parking_slotISNOTEMPTY^EQ" reference_qual_condition="u_parking_slotISNOTEMPTY^EQ" type="reference"/>
+        <element choice="1" label="Vehicle Type" mandatory="true" max_length="40" name="u_vehicle_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Four Wheeler" value="fourwheeler"/>
+                <element inactive_on_update="false" label="Two Wheeler" value="twowheeler"/>
+            </choice>
+        </element>
+        <element label="Location" max_length="40" name="u_location" type="string"/>
+        <element label="Allocated to" max_length="40" name="u_allocated_to" reference="u_visitors" type="string"/>
+    </element>
+</database>

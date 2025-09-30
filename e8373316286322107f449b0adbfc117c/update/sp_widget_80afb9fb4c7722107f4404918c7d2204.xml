@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>work_load</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Work load</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    // Get current logged-in user
+    var user = gs.getUser();
+    var userSysId = user.getID();
+    
+    // Find staff profile for this user
+    var staffGR = new GlideRecord("u_staff_profile");
+    staffGR.addQuery("u_user", userSysId); // assuming u_user field links to sys_user
+    staffGR.query();
+
+    if (staffGR.next()) {
+        data.staff = {
+            sys_id: staffGR.sys_id.toString(),
+            name: staffGR.u_name.toString(),
+            email: staffGR.u_email.toString(),
+            role: staffGR.u_role.toString()
+        };
+
+        // Fetch tasks allocated to this staff
+        var taskGR = new GlideRecord("u_community_maintenance_task");
+        taskGR.addQuery("u_allocated_to", staffGR.sys_id);
+        taskGR.query();
+
+        data.tasks = [];
+        while (taskGR.next()) {
+            data.tasks.push({
+                sys_id: taskGR.sys_id.toString(),
+                issue: taskGR.u_issue.getDisplayValue(),
+                status: taskGR.u_status.getDisplayValue(),
+                resident: taskGR.u_resident.getDisplayValue()
+            });
+        }
+
+        data.workload = data.tasks.length;
+    } else {
+        data.staff = null;
+        data.tasks = [];
+        data.workload = 0;
+    }
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-12 07:44:51</sys_created_on>
+        <sys_id>80afb9fb4c7722107f4404918c7d2204</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Work load</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_80afb9fb4c7722107f4404918c7d2204</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-12 08:00:48</sys_updated_on>
+        <template><![CDATA[<div class="container">
+
+  <div ng-if="c.data.staff">
+    <div class="card p-3 mb-4">
+      <h4>{{c.data.staff.name}}'s Workload</h4>
+      <p>Email: {{c.data.staff.email}}</p>
+      <p>Role: {{c.data.staff.role}}</p>
+      <p><strong>Total Tasks:</strong> {{c.data.workload}}</p>
+    </div>
+
+    <div class="card p-3">
+      <h5>Allocated Tasks</h5>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Issue</th>
+            <th>Status</th>
+            <th>Resident</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="task in c.data.tasks">
+            <td>{{task.issue}}</td>
+            <td>{{task.status}}</td>
+            <td>{{task.resident}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>80afb9fb4c7722107f4404918c7d2204</id>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-12 07:44:51</sys_created_on>
+        <sys_id>dfa0027f4c7722107f4404918c7d22e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-12 07:44:51</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

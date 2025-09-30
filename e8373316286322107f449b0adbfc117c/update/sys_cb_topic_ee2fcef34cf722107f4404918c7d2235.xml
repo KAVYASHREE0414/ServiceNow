@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description/>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{"graph_api_version":"1.0.74","variables":{},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"47037e17637e4cfe9cd3ba0dd13a147c":{"id":"47037e17637e4cfe9cd3ba0dd13a147c","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"2d2737a9f6d84415be6d339f1e7e7ae0":{"id":"2d2737a9f6d84415be6d339f1e7e7ae0","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"361f4349e6f24f5bbbcb744bd7d105a2","edgeType":"Edge","source":"47037e17637e4cfe9cd3ba0dd13a147c","target":"2d2737a9f6d84415be6d339f1e7e7ae0","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>Community _Guideline_Assistance</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Community _Guideline_Assistance</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-12 08:48:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ee2fcef34cf722107f4404918c7d2235</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Community _Guideline_Assistance</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_cb_topic_ee2fcef34cf722107f4404918c7d2235</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-12 08:48:09</sys_updated_on>
+        <title>Community _Guideline_Assistance</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=ee2fcef34cf722107f4404918c7d2235"/>
+</record_update>

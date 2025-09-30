@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_allocated_to" label="Allocated to" language="en" table="u_community_maintenance_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_allocated_to</element>
+            <help/>
+            <hint/>
+            <label>Allocated to</label>
+            <language>en</language>
+            <name>u_community_maintenance_task</name>
+            <plural>Allocated to</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+            <sys_created_on>2025-09-03 13:14:43</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Allocated to</sys_name>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_documentation_u_community_maintenance_task_u_allocated_to_en</sys_update_name>
+            <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+            <sys_updated_on>2025-09-03 13:14:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

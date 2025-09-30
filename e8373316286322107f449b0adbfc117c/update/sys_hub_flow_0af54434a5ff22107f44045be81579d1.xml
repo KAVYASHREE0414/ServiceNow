@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=5820000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Update Parking Status</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>parking_status_update</internal_name>
+        <label_cache>[{"name":"71d1e9f4-008e-4b29-8ae4-789bff05ac47.Record","label":"1 - Look Up Record➛Visitors Record","reference":"u_visitors","reference_display":"Visitors Record","type":"reference","base_type":"reference","usedInstances":{"357002da-b7ec-4f34-8df3-6eb4a33cf7cc":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Parking Slot Record","reference":"u_parking_slot","reference_display":"Parking Slot","type":"reference","base_type":"reference","usedInstances":{"71d1e9f4-008e-4b29-8ae4-789bff05ac47":["conditions"]},"attributes":{}}]</label_cache>
+        <master_snapshot>c72cdc70a57362107f44045be81579f1</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Parking Status Update</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>5b2c10b0a57362107f44045be815791f</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 15:06:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0af54434a5ff22107f44045be81579d1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Parking Status Update</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_hub_flow_0af54434a5ff22107f44045be81579d1</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-03 15:39:24</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0af54434a5ff22107f44045be81579d1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0af54434a5ff22107f44045be81579d1"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="u_parking_slot">u_statusCHANGESTOreserved<item display_value="Reserved" endquery="false" field="u_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="reserved"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b2c10b0a57362107f44045be815791f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <table>u_parking_slot</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>0af54434a5ff22107f44045be81579d1</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_id>172c10b0a57362107f44045be8157920</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <trigger display_value="">5b2c10b0a57362107f44045be815791f</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=0af54434a5ff22107f44045be81579d1^sys_idNOT IN172c10b0a57362107f44045be8157920"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0af54434a5ff22107f44045be81579d1"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0af54434a5ff22107f44045be81579d1^sys_idNOT IN82f54434a5ff22107f44045be81579d2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0af54434a5ff22107f44045be81579d1</id>
+        <name>Parking Status Update</name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 15:06:58</sys_created_on>
+        <sys_id>82f54434a5ff22107f44045be81579d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 15:06:58</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=82f54434a5ff22107f44045be81579d2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0af54434a5ff22107f44045be81579d1^sys_idNOT IN2ef80478a5ff22107f44045be81579e0,66f80478a5ff22107f44045be81579da,aef80478a5ff22107f44045be81579dd"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Parking Status Update">0af54434a5ff22107f44045be81579d1</model>
+        <model_id>0af54434a5ff22107f44045be81579d1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0af54434a5ff22107f44045be81579d1</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 15:20:07</sys_created_on>
+        <sys_id>2ef80478a5ff22107f44045be81579e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 15:20:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2ef80478a5ff22107f44045be81579e0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Parking Status Update">0af54434a5ff22107f44045be81579d1</model>
+        <model_id>0af54434a5ff22107f44045be81579d1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0af54434a5ff22107f44045be81579d1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 15:20:07</sys_created_on>
+        <sys_id>66f80478a5ff22107f44045be81579da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 15:20:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=66f80478a5ff22107f44045be81579da"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e1fd8f403d0522107f4488addddbe23d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Parking Status Update">0af54434a5ff22107f44045be81579d1</model>
+        <model_id>0af54434a5ff22107f44045be81579d1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0af54434a5ff22107f44045be81579d1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 15:20:07</sys_created_on>
+        <sys_id>aef80478a5ff22107f44045be81579dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 15:20:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=aef80478a5ff22107f44045be81579dd"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=0af54434a5ff22107f44045be81579d1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0af54434a5ff22107f44045be81579d1"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=0af54434a5ff22107f44045be81579d1^sys_idNOT INbef84478a5ff22107f44045be8157916"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Parking Status Update">0af54434a5ff22107f44045be81579d1</flow>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 15:20:07</sys_created_on>
+        <sys_id>bef84478a5ff22107f44045be8157916</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 15:20:31</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=0af54434a5ff22107f44045be81579d1^sys_idNOT IN3af84478a5ff22107f44045be815791a,bef84478a5ff22107f44045be8157918"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Parking Status Update">0af54434a5ff22107f44045be81579d1</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 15:20:07</sys_created_on>
+        <sys_id>3af84478a5ff22107f44045be815791a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-03 15:39:24</sys_updated_on>
+        <ui_id>357002da-b7ec-4f34-8df3-6eb4a33cf7cc</ui_id>
+        <values>H4sIAAAAAAAA/+1UTYvbMBD9K8Fnx8ix83krhEAP3YW05LJdjGyNE4Esu5Kc3TTkv3dky0l2N92GJVAK9W3GM2/em3noYe9x5s28GBgJp+Eoi8IoGhAymMRhOorScMAiChB6vidpAVipICsVw3hLRW0T+/04ZCFM87hPyAT6cTqY9icU4v54Mk3znAxpFo+DZdN3OGAn47oSdLdyAJjJNlwwBdKbPTz6XkUVzjKgvNn+1S+zqyARNAWBjfMyqwuQpvd5jhjX6ui6l52Q18LsDIyZQ0+4TeIvyyckvgfPBiQDHJdTocH3CioZNaXaeTOjakwooOxeit2xYsOlaZUW9Fnzn4gfE1uXA0rL3BaOYeI21C2n5BncV4aXss0Ymopuc6WoC3nXSrC7hZzWwpztttaIB5WlbEm0DPOvm/Jp2c1bcNmoc2xFmVFxjKgxiqe1AW3PAQKapRS0qrhcJ5Uqt7xpRipFsBYYBLkon3Cm5msZ0MzyDnBBNFhgft6kV1RxK+ILwmDzoRGf/Kjt3FaGI5w0mhvBSXMoLNWZ4pX5hMBbcDQPvjNyOnzPANn0dO8zzJOZ62TLNcdb6rc+XZ3+fMyv3+zE3l078Vq2L5p/w9459kXOGXZ4M8NO/pJhHaN/zLF/8ikZvPtQnV26saZ+4VFtqKn195qQCK12waqXSj7oWSgQ2ECvhfavZt8BLDgIpi/I6UzrBiRbN+D40t7MueGINN//B/eGD+7jLw6YYy07CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Parking Status Update">0af54434a5ff22107f44045be81579d1</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 15:20:07</sys_created_on>
+        <sys_id>bef84478a5ff22107f44045be8157918</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-03 15:39:24</sys_updated_on>
+        <ui_id>71d1e9f4-008e-4b29-8ae4-789bff05ac47</ui_id>
+        <values>H4sIAAAAAAAA/9VY227bOBD9FUHPjlfyTXbeFgkMFNhtgDbNSzYgKJGKidKkSlJOE8P/vkNRtB1bvsRx0fTNGs7lzMyZEeX7echIeBmSUTTKR6P+MImibjeKBoNuhuM07Q6yNEpxL2yFAk8paBqccgqPM8xL+1yiGdPMSKVBSJguOH6+q8/uVifZhHGiqAgv7x9aYYEVeDNUhZfzjSPzXFDEcUo5OLi1wYLPNnLraKCvjLeB2wD+EQnnWipisUStkP40VBAKoXLMNW2FUywIhiSelxJFMbkRfCWYMGHAY2iVf2r2Au6HkdXLKaSVUXe2fER1lZw4m0iW0ZvCMCmcxAF1h5KXU/HZJWDrS3NccuPrC5JSgz9aWMwWRI0o/zqRT198wDETVXr1IZcZ5ssnbIxiaWmotr2gnE7BEZriomDiERVKzlhlDFim7UcOD+2cyycIqtmjaOPMAm9DiXB7DPLrSnyHFbNZ/AtuwBgAMQ7dRq7oWpaqqsoMZbzU1YHCQjtf4aKqFfpRWpQu6zo/5EoECjpTrDB/g8GM1qksWp7L/b0UGa0okUlBmI2pXxEa2PndJq+5NP+V4ITM51fQdUNJIFXwrSD2J4rbWamgwGax2Kb+iV5OG5Or9TyOrUGjcVNh6oF5JasHJj7bwPSi6DeNjFHlx5uYQzPgEj4wCDHZSwKy6reWyiBXuabV7tfkFsc3zk9j75hRTl4t+SOAe+MbS8Qgfd6VS03e3MbY2PadP37bf0jqAiCCXL2Z4ExUL1sAeh5O9/dSI403eFC1f8XoSoZ1ts1lHBgZvJy+gau+ev4eAdIbfgVEwa1D2QDc717vvqZu92zU7XbeRl0gzv18iX5ZtYYC+zuVbZ3Xf7H6eFMf2LVmEC8eltS/Oi1m/NaYHRtzYza7bxrOdWa5k+sdBDvzjW3HsLV+5XRPwLSOh9ywoidGHqlZRfdaRJonzL83ndfsWs5Qld67b3/x3g+EdO32x3I0hT6xAq6kimZABY2woiiXpSCovoyuvQ2hbzlT2tTK2zvkCzWlEoGEkQvMhAaVdrDUPsdmOSI7b/gpD3x6NQYdQHpBlV6wTO9txdixj3pnvAe+Zx+NMeNV6eGjoljrHVVKqh076UDX9rT/yIV1JKj4rKDev9Ga+N642Q5g/SO+UN+7dTKK014HD5JuHEdRHJEkGiZJPByk+QAnvXw1aAhpkcFaBM85EAPcI08E39Voe7W43Xjy3yiwc/8a1y6OxeuNr6Wwn6+dxAQWMPQ58IAPp1Tvi1RKTrFY0bP/2xbGR/mnpWS3m7Vxon+amvarXuYl+ybYj5J+sqQY0qgzjEl2MUzi5KKXk8HFiOD+BR6l/aRLaNbLT38/P/wPwYPr3WsUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=0af54434a5ff22107f44045be81579d1"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=0af54434a5ff22107f44045be81579d1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0af54434a5ff22107f44045be81579d1"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0af54434a5ff22107f44045be81579d1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0af54434a5ff22107f44045be81579d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 15:20:07</sys_created_on>
+        <sys_id>2af80478a5ff22107f44045be81579e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 15:20:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0af54434a5ff22107f44045be81579d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 15:20:07</sys_created_on>
+        <sys_id>62f80478a5ff22107f44045be81579dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 15:20:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0af54434a5ff22107f44045be81579d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 15:20:07</sys_created_on>
+        <sys_id>eef80478a5ff22107f44045be81579df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 15:20:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0af54434a5ff22107f44045be81579d1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0af54434a5ff22107f44045be81579d1"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Update Parking Status</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>parking_status_update</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Parking Slot Record","reference":"u_parking_slot","reference_display":"Parking Slot","type":"reference","base_type":"reference","usedInstances":{"71d1e9f4-008e-4b29-8ae4-789bff05ac47":["conditions"]},"attributes":{}},{"name":"71d1e9f4-008e-4b29-8ae4-789bff05ac47.Record","label":"1 - Look Up Record➛Visitors Record","reference":"u_visitors","reference_display":"Visitors","type":"reference","base_type":"reference","usedInstances":{"357002da-b7ec-4f34-8df3-6eb4a33cf7cc":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Parking Status Update</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Parking Status Update">0af54434a5ff22107f44045be81579d1</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c72cdc70a57362107f44045be81579f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c72cdc70a57362107f44045be81579f1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c72cdc70a57362107f44045be81579f1"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c72cdc70a57362107f44045be81579f1"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c72cdc70a57362107f44045be81579f1^sys_idNOT IN832cdc70a57362107f44045be81579f2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c72cdc70a57362107f44045be81579f1</id>
+        <name>Parking Status Update</name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_id>832cdc70a57362107f44045be81579f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=832cdc70a57362107f44045be81579f2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c72cdc70a57362107f44045be81579f1^sys_idNOT IN032cdc70a57362107f44045be81579ff,472cdc70a57362107f44045be81579f3,4b2c10b0a57362107f44045be8157905"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Parking Status Update">c72cdc70a57362107f44045be81579f1</model>
+        <model_id>c72cdc70a57362107f44045be81579f1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c72cdc70a57362107f44045be81579f1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_id>032cdc70a57362107f44045be81579ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=032cdc70a57362107f44045be81579ff"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Parking Status Update">c72cdc70a57362107f44045be81579f1</model>
+        <model_id>c72cdc70a57362107f44045be81579f1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c72cdc70a57362107f44045be81579f1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_id>472cdc70a57362107f44045be81579f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=472cdc70a57362107f44045be81579f3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Parking Status Update">c72cdc70a57362107f44045be81579f1</model>
+        <model_id>c72cdc70a57362107f44045be81579f1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c72cdc70a57362107f44045be81579f1</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_id>4b2c10b0a57362107f44045be8157905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4b2c10b0a57362107f44045be8157905"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c72cdc70a57362107f44045be81579f1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c72cdc70a57362107f44045be81579f1"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=c72cdc70a57362107f44045be81579f1^sys_idNOT IN5f2c10b0a57362107f44045be8157912"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Parking Status Update">c72cdc70a57362107f44045be81579f1</flow>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_id>5f2c10b0a57362107f44045be8157912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=c72cdc70a57362107f44045be81579f1^sys_idNOT IN5f2c10b0a57362107f44045be8157910,d72c10b0a57362107f44045be8157912"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Parking Status Update">c72cdc70a57362107f44045be81579f1</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_id>5f2c10b0a57362107f44045be8157910</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <ui_id>71d1e9f4-008e-4b29-8ae4-789bff05ac47</ui_id>
+        <values>H4sIAAAAAAAA/+VY227bOBD9FUHPjlfyTXbeFgkMFOg2QJPmpS0ISqRiojSpkpTTxPC/71CkbK+t2FbrAAn2zZwZDs9czpDy12XISHgZkkk0ySeT4TiJon4/ikajfobjNO2PsjRK8SDshALPKVganHIKywXmpV2XaME0M1JpEBKmC46f7r3ufqPJZowTRUV4+fV7JyywAm+GqvByuaM6FQ7HKeVgeufx7MAzT8V6iSqdk33c3hZ8cgqpiIUSdUL6y1BBKGDIMde0E86xIBhieFpLFMXkRvCNYMaEAY+hNf6l2TOcO46sXU4hqow63XqJfJKcOL/GBt8aVWamVN40m0mWUe3yQWiOS26utmXO4KYwTAq3xYXtdktezsUnl45w7aCuCUhKDSBoYQO1yH0Y+e1MPn6uUU6ZqHLilVxmmK9X2BjF0tJYPMuQcjoHR2iOi4KJB1QouWDVZsAy7z5wWHRzLh/hUM0eRBdnFngX8oq7U5BfV+J7rJiN4h9wA5sBEOPQIciVUMtSValcoIyXulIoLLTzFa46oX7SVxxrvYkcUo5+lha3y4OPGLmk2S2ZYoX5G1wsqA9u1akZMTzYgpNNy2VSEGZR6P/QAnr8h02H5tJ8K8EJWS6voHkMJYFUwZeC2J8o7malgpSb1WqfQL/ppSXZjkdak+1qO9Sm8D3t9mQfmxx42sVno90git4T8eDwt8e79kxyKThCp5gcbDKy6SctlUEul03XTD3M95iyo2/HgRPg1Ry4sV0bpE8vIfYUyBnlpOnmmVrFzs3T+3/ePG+SAACIIFc9JjgT1TMCgL4WM4YHWy+Nd/qsaq8NLyoZ1tk+I3BgZPDcmgknwKmZcAtnB3cOTwPE+i6oWmb3HqiFngD9sxGg3zsPAZbrMNeJbMh5/XK01aztn6093rWHFtzaEK+aCNbqzLjtmb3VPoH7rRi83WxOc/1Cz535ifkCIzuvOQJmsNWfhxx/0SMjD9RsTq+tiDSPmP9o0vuOQ3WhqvBe4bkaH/xiSreeqyxHc6gcK+BVrWgGzaERVhTlshQE+ff01sULlcyZ0sYb7w+azxT4IwIJxAzMjAaVdbC2bnkRH4+jTuWHPKgD8afpAAIJqkCCdSDtwm4ztAZnfLiee2hNMeNVNeBTqdgqJ1VKqhcG15FCHuiIE6faiaDis4L687HXRIHG8XcE67v47j7/aMooTgc9PEr6cRxFcUSSaJwk8XiU5iOcDPINRxHSIoNpCp5zaBVwj+rWqOsc7c8fN1LbDpoTUNUteC2F/fTuJSawsKC+QQ3rOHA/UFIpOcViZ6LcwT3x19Tj9/06fHNT5V38C1Wyu91MO1Fjrl/r3VCyL4L9LOkH22JjGvXGMckuxkmcXAxyMrqYEDy8wJN0mPQJzQb5OZ8C3/8FaKioo80VAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Parking Status Update">c72cdc70a57362107f44045be81579f1</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_id>d72c10b0a57362107f44045be8157912</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <ui_id>357002da-b7ec-4f34-8df3-6eb4a33cf7cc</ui_id>
+        <values>H4sIAAAAAAAA/+WU227iMBCGXwX5OqCEhOPdqghppW4r0RU33SqaxJNiyTms7dCyiHffSeIApahLpd6gzZ3nYP//5LMft0xwNmUBctebeMPY93y/77r9ceBFQz/y+twHRI85LIMUqVJhnCtO6zXIsgpstyOPezhJgq7rjrEbRP1JdwwYdEfjSZQk7gDiYNRb1H27HXVyoQsJm6XdgCLxSkiuMGPTxyeHFaDoLIOKTbcnqUvFSohQUumiVXuq3myKas3zuEwxM6Fog7e2c2Yzne8zylBTJcdzHYavBjOOJCQBqdFhKWQcTK42bGpUSQGFwO8zudlXrERmGqMpvGrxh04O3KouQXIW2yHsl6EdUBNOZmDggXaOTan288pFjLqZCccESmlujmNNwX1hRJ41LQYi2Xbnskyzu2YibL/B0f8oNYnAovJZKW9sJQ+r/GXRipyLrB6JtSjzGOR+BcYoEZWmkrNlKLGecQpFIbLnsFD5WtTNJCXtPUta9BKZv9CZWjxnPYgr3T2aKvTmFJ/V4SUoUZn4QdtQ885heqNvJGh9sEIzDH+XlZLGmLUQ1lOoRxDWJFTNsRKF+UZHrdEK3zn2OkSDjwiLJwegjvY8XIkyXAstCAn9nvblIfM56i/Q1FL/s/7X5zVa8N/Fbo97O3dNwmI/+DLsx9eEvbVx9dz/i3a3/+F7ekRSDbh+Q7o2YEr9q3Rdn4A9A/y5ks+Rf4G+lvy5QMn1GcEt9piSNoNhY+AEfZvsLG1y/+p/Gf/e0K2/K7oF/83j//QXmsAt4w0JAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=c72cdc70a57362107f44045be81579f1"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=c72cdc70a57362107f44045be81579f1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c72cdc70a57362107f44045be81579f1"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c72cdc70a57362107f44045be81579f1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c72cdc70a57362107f44045be81579f1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_id>072c10b0a57362107f44045be8157903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c72cdc70a57362107f44045be81579f1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_id>8b2c10b0a57362107f44045be8157909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c72cdc70a57362107f44045be81579f1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_id>cb2cdc70a57362107f44045be81579fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c72cdc70a57362107f44045be81579f1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c72cdc70a57362107f44045be81579f1"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>0af54434a5ff22107f44045be81579d1</sys_id>
+        <latest_snapshot>c72cdc70a57362107f44045be81579f1</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch1-02-21-2025_03-05-2025_2133.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0af54434a5ff22107f44045be81579d1^sys_idNOT INd72c10b0a57362107f44045be8157921"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d72c10b0a57362107f44045be8157921","name":"plan","plan_signature":null}}</plan>
+        <plan_id>0af54434a5ff22107f44045be81579d1</plan_id>
+        <snapshot>60816838a57362107f44045be8157962</snapshot>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-02 16:43:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d72c10b0a57362107f44045be8157921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-02 16:43:59</sys_updated_on>
+        <trigger display_value="">5b2c10b0a57362107f44045be815791f</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0af54434a5ff22107f44045be81579d1"/>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Parking slot utilization">94840d9df9b722107f44424c54af5cff</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-04 08:57:09</sys_created_on>
+        <sys_id>50844d9df9b722107f44424c54af5c00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>94840d9df9b722107f44424c54af5cff</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_report_users_groups_50844d9df9b722107f44424c54af5c00</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-04 08:57:09</sys_updated_on>
+        <user_id display_value="Chandra Veera Nooka Sai Teja  Vinukonda">3a503b1a282322107f449b0adbfc1120</user_id>
+    </sys_report_users_groups>
+</record_update>

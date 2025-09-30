@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ChatController($scope, $interval) {
+  $scope.newMessage = '';
+  $scope.pollMs = $scope.data.poll_ms || 3000;
+
+  // Refresh messages
+  function refresh(convId) {
+    return $scope.server.update({
+      conversation_id: convId || $scope.data.conversationId
+    }).then(function() {
+      // Scroll to bottom after messages update
+      setTimeout(function() {
+        var el = document.getElementById('chat-messages');
+        if (el) {
+          el.scrollTop = el.scrollHeight;
+        }
+      }, 50);
+    });
+  }
+
+  // Send message
+  $scope.sendMessage = function() {
+    if (!$scope.newMessage || !$scope.newMessage.trim()) {
+      return;
+    }
+    $scope.server.update({
+      action: 'send',
+      new_message: $scope.newMessage.trim(),
+      conversation_id: $scope.data.conversationId,
+      to_user: $scope.data.to_user
+    }).then(function() {
+      $scope.newMessage = '';
+      refresh();
+    });
+  };
+
+  // Poll for updates
+  var poller = $interval(function() {
+    if ($scope.data.conversationId) {
+      refresh();
+    }
+  }, $scope.pollMs);
+
+  // Cleanup on destroy
+  $scope.$on('$destroy', function() {
+    if (angular.isDefined(poller)) {
+      $interval.cancel(poller);
+      poller = undefined;
+    }
+  });
+
+  // Initial refresh
+  if ($scope.data.conversationId) {
+    refresh();
+  }
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>customs_chats</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Customs_chats</name>
+        <option_schema>[&#13;
+  {"name":"conversation_id","label":"Conversation Sys ID","type":"string"},&#13;
+  {"name":"resident_id","label":"Resident Sys ID","type":"string"},&#13;
+  {"name":"provider_id","label":"Provider Sys ID","type":"string"},&#13;
+  {"name":"to_user","label":"Recipient Sys ID (for Send)","type":"string"},&#13;
+  {"name":"poll_ms","label":"Poll Interval (ms)","type":"integer","default":3000}&#13;
+]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  data.messages = [];
+  data.currentUserId = gs.getUserID();
+
+  var chat = new ChatUtils();
+
+  // Inputs
+  var convId   = (input && input.conversation_id) || options.conversation_id || '';
+  var resId    = (input && input.resident_id)     || options.resident_id     || '';
+  var provId   = (input && input.provider_id)     || options.provider_id     || '';
+  data.to_user = (input && input.to_user)         || options.to_user         || '';
+  data.poll_ms = (options.poll_ms ? parseInt(options.poll_ms,10) : 3000);
+
+  // Ensure conversation
+  data.conversationId = convId;
+  if (!data.conversationId && resId && provId) {
+    data.conversationId = chat.getOrCreateConversation(resId, provId);
+  }
+
+  // Handle send
+  if (input && input.action === 'send' && input.new_message && data.conversationId) {
+    chat.createMessage(
+      data.conversationId,
+      data.currentUserId,
+      (input.to_user || data.to_user || ''),
+      input.new_message
+    );
+  }
+
+  // Load messages
+  if (data.conversationId) {
+    data.messages = chat.getMessages(data.conversationId, 200);
+  }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-11 14:54:00</sys_created_on>
+        <sys_id>93f75e23fcb362107f44d350ad2121d8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Customs_chats</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_93f75e23fcb362107f44d350ad2121d8</sys_update_name>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-11 15:18:24</sys_updated_on>
+        <template><![CDATA[<div class="chat-box" style="height:520px; display:flex; flex-direction:column;">
+  <div id="chat-messages" class="messages flex-grow-1" style="overflow:auto; padding:8px; background:#fafafa; border:1px solid #eee; border-radius:8px;">
+    <div ng-repeat="m in data.messages track by m.sys_id" style="margin:8px 0; display:flex;">
+      <div ng-class="{'me': m.fromId === data.currentUserId, 'other': m.fromId !== data.currentUserId}"
+           style="max-width:75%; padding:8px 10px; border-radius:10px;">
+        <div ng-if="m.fromId !== data.currentUserId" style="font-weight:600; margin-bottom:2px;">{{m.from}}</div>
+        <div style="white-space:pre-wrap;">{{m.message}}</div>
+        <div style="font-size:11px; color:#666; margin-top:2px;">{{m.time}}</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="padding:8px 0; display:flex;">
+    <input type="text" class="form-control" ng-model="newMessage" placeholder="Type a message…"
+           ng-keypress="$event.which===13 && sendMessage()" />
+    <button class="btn btn-primary" style="margin-left:8px;" ng-click="sendMessage()">Send</button>
+  </div>
+</div>
+
+<style>
+  .me    { margin-left:auto; background:#0b5ed7; color:#fff; }
+  .other { margin-right:auto; background:#f1f3f5; color:#111; }
+</style>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>93f75e23fcb362107f44d350ad2121d8</id>
+        <sys_created_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_created_by>
+        <sys_created_on>2025-09-11 14:54:00</sys_created_on>
+        <sys_id>00591ea3fcb362107f44d350ad2121fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chandra Veera Nooka Sai Teja.Vinukonda</sys_updated_by>
+        <sys_updated_on>2025-09-11 14:54:00</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

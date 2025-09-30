@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d40148e228a322107f449b0adbfc1146" label="Purchase" max_length="40" name="u_purchase" type="collection">
+        <element choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Planned" sequence="0" value="planned"/>
+                <element inactive_on_update="false" label="Ordered" sequence="1" value="ordered"/>
+                <element inactive_on_update="false" label="Received" sequence="2" value="received"/>
+                <element inactive_on_update="false" label="Paid" sequence="3" value="paid"/>
+            </choice>
+        </element>
+        <element label="Cost" max_length="38" name="u_cost" type="decimal"/>
+        <element choice="1" label="category" max_length="40" name="u_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Grocery" sequence="0" value="grocery"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="1" value="maintenance"/>
+                <element inactive_on_update="false" label="Utility" sequence="2" value="utility"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element label="Purchase Date" max_length="255" name="u_purchase_date" type="glide_date"/>
+        <element label="Vendor" max_length="200" name="u_vendor" type="string"/>
+        <element label="Quantity" max_length="40" name="u_quantity" type="integer"/>
+        <element default="PUR-{00000}" label="Number" max_length="40" name="u_number" type="string"/>
+        <element choice="1" label="Unit" max_length="40" name="u_unit" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Nos" sequence="0" value="nos"/>
+                <element inactive_on_update="false" label="Kg" sequence="1" value="kg"/>
+                <element inactive_on_update="false" label="Litre" sequence="2" value="litre"/>
+                <element inactive_on_update="false" label="packet" sequence="3" value="packet"/>
+            </choice>
+        </element>
+        <element label="Notes" max_length="2000" name="u_notes" type="string"/>
+        <element label="item name" max_length="200" name="u_item_name" type="string"/>
+    </element>
+</database>

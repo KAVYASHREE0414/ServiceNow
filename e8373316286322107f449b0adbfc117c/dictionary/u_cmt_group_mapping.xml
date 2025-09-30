@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1c0aa5d02cf322107f442c9c5a417fc7" label="CMT group mapping" max_length="40" name="u_cmt_group_mapping" type="collection">
+        <element choice="1" label="Maintenance Type" max_length="40" name="u_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Electrical" value="electrical"/>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Plumbing" value="plumbing"/>
+                <element inactive_on_update="false" label="Carpentry" value="Carpentry"/>
+            </choice>
+        </element>
+        <element label="Assignment group" mandatory="true" max_length="32" name="u_assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Building" max_length="32" name="u_building" reference="cmn_location" type="reference"/>
+        <element default="True" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="u_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Carpentry" value="carpentry"/>
+                <element inactive_on_update="false" label="Plumbing" value="plumbing"/>
+                <element inactive_on_update="false" label="Electrical" value="electrical"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="u_building"/>
+        </index>
+    </element>
+</database>

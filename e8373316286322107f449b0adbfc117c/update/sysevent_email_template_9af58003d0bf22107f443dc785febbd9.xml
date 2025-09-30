@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>u_community_maintenance_task</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<!-- CMT - Task Assigned to Staff (HTML template) -->
+<p>&nbsp;&nbsp;</p>
+<table style="font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 13px; line-height: 1.5; color: #112827;" role="presentation" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="padding: 20px 16px;"><!-- Greeting -->
+<p style="margin: 0 0 12px 0;">Hello ${u_allocated_to.name},</p>
+<p style="margin: 0 0 18px 0;">A new community maintenance task has been assigned to you.</p>
+<!-- Details card -->
+<table style="border: 1px solid #e5e5e5; border-radius: 6px; overflow: hidden;" role="presentation" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="background: #f8fafb; padding: 8px 10px; color: #607280; border-right: 1px solid #e5e5e5;"><strong>Task Number</strong></td>
+<td style="padding: 8px 10px; color: #112827;">${number}</td>
+</tr>
+<tr>
+<td style="background: #f8fafb; padding: 8px 10px; color: #607280; border-right: 1px solid #e5e5e5;"><strong>Priority</strong></td>
+<td style="padding: 8px 10px; color: #112827;">${priority}</td>
+</tr>
+<tr>
+<td style="background: #f8fafb; padding: 8px 10px; color: #607280; border-right: 1px solid #e5e5e5;"><strong>Category</strong></td>
+<td style="padding: 8px 10px; color: #112827;">${u_category}</td>
+</tr>
+<tr>
+<td style="background: #f8fafb; padding: 8px 10px; color: #607280; border-right: 1px solid #e5e5e5;"><strong>Building</strong></td>
+<td style="padding: 8px 10px; color: #112827;">${u_building}</td>
+</tr>
+<!-- Optional: Flat / Unit --> <!--
+          <tr>
+            <td style="background:#f8fafb;padding:8px 10px;color:#607280;border-right:1px solid #e5e5e5;"><strong>Flat / Unit</strong></td>
+            <td style="padding:8px 10px;color:#112827;">${u_flat_number}</td>
+          </tr>
+          -->
+<tr>
+<td style="background: #f8fafb; padding: 8px 10px; color: #607280; border-right: 1px solid #e5e5e5;"><strong>Short Description</strong></td>
+<td style="padding: 8px 10px; color: #112827;">${short_description}</td>
+</tr>
+</tbody>
+</table>
+<!-- Button --> <!-- Button -->
+<p style="margin: 18px 0 6px 0;"><a style="background: #1a73e8; color: #ffffff; text-decoration: none; padding: 10px 16px; border-radius: 4px; display: inline-block; font-weight: bold;" href="${URI}/u_community_maintenance_task.do?sys_id=${sys_id}" target="_blank" rel="noopener"> Open Task </a></p>
+</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Task assigned to staff template</name>
+        <sms_alternate/>
+        <subject/>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-09-09 14:56:50</sys_created_on>
+        <sys_id>9af58003d0bf22107f443dc785febbd9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Task assigned to staff template</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sysevent_email_template_9af58003d0bf22107f443dc785febbd9</sys_update_name>
+        <sys_updated_by>Mukesh yadav</sys_updated_by>
+        <sys_updated_on>2025-09-09 18:06:57</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_required_skills</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 09:53:25</sys_created_on>
+        <sys_id>e3eaa0802cbb22107f4411d16edcb29e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_required_skills</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e3eaa0802cbb22107f4411d16edcb29e</sys_update_name>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 09:53:25</sys_updated_on>
+        <table>u_community_maintenance_task</table>
+        <ui_policy display_value="&quot;Set read-only fields&quot;">a97a68402cbb22107f4411d16edcb24c</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e3eaa0802cbb22107f4411d16edcb29e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sys_ui_policy_action_e3eaa0802cbb22107f4411d16edcb29e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>u_required_skills</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>KAVYASHREE.PUNURU</sys_created_by><sys_created_on>2025-08-31 09:53:25</sys_created_on><sys_id>e3eaa0802cbb22107f4411d16edcb29e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_required_skills</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sys_ui_policy_action_e3eaa0802cbb22107f4411d16edcb29e</sys_update_name><sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by><sys_updated_on>2025-08-31 09:53:25</sys_updated_on><table>u_community_maintenance_task</table><ui_policy display_value="&quot;Set read-only fields&quot;">a97a68402cbb22107f4411d16edcb24c</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e3eaa0802cbb22107f4411d16edcb29e"/></record_update>]]></payload>
+        <payload_hash>-381210527</payload_hash>
+        <record_name>u_required_skills</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 09:53:25</sys_created_on>
+        <sys_id>650b24802cbb22107f4411d16edcb23b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198ff8bc10e0000001</sys_recorded_at>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 09:53:25</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>ed0bac405dbb2210d4be8244a6ae747e</update_guid>
+        <update_guid_history>ed0bac405dbb2210d4be8244a6ae747e:-381210527</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+        <sys_created_on>2025-08-31 09:54:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0eeaa2b188da4300b28e06010ca665e4</sys_id>
+        <sys_metadata>e3eaa0802cbb22107f4411d16edcb29e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_required_skills</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e3eaa0802cbb22107f4411d16edcb29e</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e3eaa0802cbb22107f4411d16edcb29e">650b24802cbb22107f4411d16edcb23b</sys_update_version>
+        <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+        <sys_updated_on>2025-08-31 09:54:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

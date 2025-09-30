@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="DELETE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="flat">f2484632d03722107f443dc785febb72</sc_catalog>
+        <sp_portal display_value="Resident Management">ab7fb4c1b0bb22107f44bab91a72b0d8</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-09-09 05:44:35</sys_created_on>
+        <sys_id>5c68c632d03722107f443dc785febb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>flat.Resident Management</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_5c68c632d03722107f443dc785febb15</sys_update_name>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-09-09 05:44:35</sys_updated_on>
+    </m2m_sp_portal_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>m2m_sp_portal_catalog_5c68c632d03722107f443dc785febb15</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog"><m2m_sp_portal_catalog action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sc_catalog display_value="flat">f2484632d03722107f443dc785febb72</sc_catalog><sp_portal display_value="Resident Management">ab7fb4c1b0bb22107f44bab91a72b0d8</sp_portal><sys_class_name>m2m_sp_portal_catalog</sys_class_name><sys_created_by>Bachanagoni.Pranitha</sys_created_by><sys_created_on>2025-09-09 05:44:35</sys_created_on><sys_id>5c68c632d03722107f443dc785febb15</sys_id><sys_mod_count>0</sys_mod_count><sys_name>flat.Resident Management</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>m2m_sp_portal_catalog_5c68c632d03722107f443dc785febb15</sys_update_name><sys_updated_by>Bachanagoni.Pranitha</sys_updated_by><sys_updated_on>2025-09-09 05:44:35</sys_updated_on></m2m_sp_portal_catalog></record_update>]]></payload>
+        <payload_hash>2098403290</payload_hash>
+        <record_name>flat.Resident Management</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-09-09 05:44:35</sys_created_on>
+        <sys_id>9868c632d03722107f443dc785febb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1992d012b3d0000001</sys_recorded_at>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-09-09 05:44:35</sys_updated_on>
+        <type>Portal Catalog</type>
+        <update_guid>9c68c63257372210bb5c9141a8a74918</update_guid>
+        <update_guid_history>9c68c63257372210bb5c9141a8a74918:2098403290</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="flat.Resident Management">5f988e32d03722107f443dc785febb05</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-09-09 05:45:36</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_catalog">m2m_sp_portal_catalog</sys_db_object>
+        <sys_id>17577b219a0c448985399d499ac32369</sys_id>
+        <sys_metadata>5c68c632d03722107f443dc785febb15</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>flat.Resident Management</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_catalog_5c68c632d03722107f443dc785febb15</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_catalog_5c68c632d03722107f443dc785febb15">9868c632d03722107f443dc785febb19</sys_update_version>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-09-09 05:45:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>standard</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn {
+  width: 100%;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{
+	"href": "www.google.com",
+	"button_text": "Go to google"
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>color</field_list>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Copy of link-button</name>
+        <option_schema>[{"name":"href","section":"Presentation","label":"Link for button","type":"string"},{"name":"button_text","section":"Presentation","label":"Contents of button","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles>snc_external,snc_internal</roles>
+        <script><![CDATA[data.buttonMsg = gs.getMessage(options.button_text || "Click Here");
+data.socialQAEnabled = true;
+data.canReadKnowledgeBase = true;
+if (options.href == "?id=sqanda_new_question") {
+	data.socialQAEnabled = gs.getProperty('glide.sp.socialqa.enabled') === 'true';
+	data.knowledgeBase = $sp.getPortalRecord().getValue("sqanda_knowledge_base") || gs.getProperty("glide.service_portal.sqanda.default_kb");
+	data.canReadKnowledgeBase = $sp.canReadRecord("kb_knowledge_base", data.knowledgeBase);
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-04 13:07:35</sys_created_on>
+        <sys_id>30dd3d5df9fb22107f44424c54af5cd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of link-button</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_30dd3d5df9fb22107f44424c54af5cd4</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-04 13:07:35</sys_updated_on>
+        <template><![CDATA[<a ng-href="{{options.href}}" class="btn btn-{{options.color}} m-b" ng-if="data.socialQAEnabled && data.canReadKnowledgeBase">{{data.buttonMsg}}</a>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_widget_30dd3d5df9fb22107f44424c54af5cd4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.btn {
+  width: 100%;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data&gt;{
+	"href": "www.google.com",
+	"button_text": "Go to google"
+}&lt;/demo_data&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;color&lt;/field_list&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;Copy of link-button&lt;/name&gt;&lt;option_schema&gt;[{"name":"href","section":"Presentation","label":"Link for button","type":"string"},{"name":"button_text","section":"Presentation","label":"Contents of button","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles&gt;snc_external,snc_internal&lt;/roles&gt;&lt;script&gt;&lt;![CDATA[data.buttonMsg = gs.getMessage(options.button_text || "Click Here");
+data.socialQAEnabled = true;
+data.canReadKnowledgeBase = true;
+if (options.href == "?id=sqanda_new_question") {
+	data.socialQAEnabled = gs.getProperty('glide.sp.socialqa.enabled') === 'true';
+	data.knowledgeBase = $sp.getPortalRecord().getValue("sqanda_knowledge_base") || gs.getProperty("glide.service_portal.sqanda.default_kb");
+	data.canReadKnowledgeBase = $sp.canReadRecord("kb_knowledge_base", data.knowledgeBase);
+}]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DEPAVATH.NARESH&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-04 13:07:35&lt;/sys_created_on&gt;&lt;sys_id&gt;30dd3d5df9fb22107f44424c54af5cd4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy of link-button&lt;/sys_name&gt;&lt;sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Resident service and visitor management system"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_30dd3d5df9fb22107f44424c54af5cd4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DEPAVATH.NARESH&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-04 13:07:35&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;a ng-href="{{options.href}}" class="btn btn-{{options.color}} m-b" ng-if="data.socialQAEnabled &amp;&amp; data.canReadKnowledgeBase"&gt;{{data.buttonMsg}}&lt;/a&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1085200051</payload_hash>
+        <record_name>Copy of link-button</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-04 13:07:35</sys_created_on>
+        <sys_id>f8ddf19df9fb22107f44424c54af5c40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19914d6f3270000001</sys_recorded_at>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-04 13:07:35</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>f0dd3d5d06fb2210a3d8f4ea0b70dcd6</update_guid>
+        <update_guid_history>f0dd3d5d06fb2210a3d8f4ea0b70dcd6:1085200051</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Copy of link-button">83edbd5df9fb22107f44424c54af5c3f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-04 13:08:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>6218532b78c0408295aad1fd28945ce4</sys_id>
+        <sys_metadata>30dd3d5df9fb22107f44424c54af5cd4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of link-button</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_widget_30dd3d5df9fb22107f44424c54af5cd4</sys_update_name>
+        <sys_update_version display_value="sp_widget_30dd3d5df9fb22107f44424c54af5cd4">f8ddf19df9fb22107f44424c54af5c40</sys_update_version>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-04 13:08:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="73d4e730b0f322107f44bab91a72b040" extends="sys_import_set_row" label="CMT-Phone numbers" max_length="40" name="u_cmt_phone_numbers" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Role" label="Role" max_length="40" name="u_role" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mobile Number" label="Mobile Number" max_length="40" name="u_mobile_number" type="string"/>
+    </element>
+</database>

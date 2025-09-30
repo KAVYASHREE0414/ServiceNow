@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="577e07bb2ca322107f4411d16edcb2d7" extends="task" label="Community Maintenance Task" max_length="40" name="u_community_maintenance_task" type="collection">
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="u_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Carpentry" value="carpentry"/>
+                <element inactive_on_update="false" label="Electrical" value="electrical"/>
+                <element inactive_on_update="false" label="Plumbing" value="plumbing"/>
+                <element inactive_on_update="false" label="Other" value="other"/>
+                <element inactive_on_update="false" label="Housekeeping" sequence="0" value="Housekeeping"/>
+                <element inactive_on_update="false" label="Security" sequence="0" value="Security"/>
+            </choice>
+        </element>
+        <element label="Problem Description" mandatory="true" max_length="8000" name="u_problem_description" type="html"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Required skills" max_length="4000" name="u_required_skills" type="glide_list"/>
+        <element label="Maintenance Type" max_length="32" name="u_maintenance_type" reference="u_cmt_group_mapping" type="reference"/>
+        <element label="Resident signature" max_length="100" name="u_resident_signature" type="string"/>
+        <element label="Building" max_length="32" name="u_building" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Allocated to" max_length="40" name="u_allocated_to" reference="sys_user" type="reference"/>
+        <element label="Preferred visit start" max_length="40" name="u_preferred_visit_start" type="glide_time"/>
+        <element label="Access notes" max_length="200" name="u_access_notes" type="string"/>
+        <element label="Flat number" mandatory="true" max_length="40" name="u_flat_number" type="string"/>
+        <element label="Resident" mandatory="true" max_length="32" name="u_resident" reference="sys_user" type="reference"/>
+        <element label="Cost to resident" max_length="20" name="u_cost_to_resident" type="currency"/>
+        <element choice="1" label="Resolution code" max_length="40" name="u_resolution_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Reschedule" value="reschedule"/>
+                <element inactive_on_update="false" label="Replaced" value="replaced"/>
+                <element inactive_on_update="false" label="no_issue" value="no issue"/>
+                <element inactive_on_update="false" label="Fixed" value="fixed"/>
+                <element inactive_on_update="false" label="Other" value="other"/>
+            </choice>
+        </element>
+        <element label="Preferred visit end" max_length="40" name="u_preferred_visit_end" type="glide_time"/>
+    </element>
+</database>

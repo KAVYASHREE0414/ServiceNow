@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="85a70778b03322107f44bab91a72b06e" sys_domain="global" table="u_cmt_staff_shifts" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-03 05:13:07</sys_created_on>
+            <sys_id>01a70778b03322107f44bab91a72b072</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_staff_shifts" sys_domain="global" view="Default view">85a70778b03322107f44bab91a72b06e</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-03 05:13:07</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_shift_name</element>
+            <position>1</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-03 05:13:07</sys_created_on>
+            <sys_id>85a70778b03322107f44bab91a72b072</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_staff_shifts" sys_domain="global" view="Default view">85a70778b03322107f44bab91a72b06e</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-03 05:13:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_end_time</element>
+            <position>2</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-03 05:13:07</sys_created_on>
+            <sys_id>0da70778b03322107f44bab91a72b072</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_staff_shifts" sys_domain="global" view="Default view">85a70778b03322107f44bab91a72b06e</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-03 05:13:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_days_of_week</element>
+            <position>3</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-03 05:13:07</sys_created_on>
+            <sys_id>81a70778b03322107f44bab91a72b073</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_staff_shifts" sys_domain="global" view="Default view">85a70778b03322107f44bab91a72b06e</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-03 05:13:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-03 05:13:07</sys_created_on>
+            <sys_id>09a70778b03322107f44bab91a72b073</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_staff_shifts" sys_domain="global" view="Default view">85a70778b03322107f44bab91a72b06e</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-03 05:13:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff</element>
+            <position>5</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-03 05:13:08</sys_created_on>
+            <sys_id>8da70778b03322107f44bab91a72b073</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_staff_shifts" sys_domain="global" view="Default view">85a70778b03322107f44bab91a72b06e</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-03 05:13:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_start_time</element>
+            <position>6</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-03 05:13:08</sys_created_on>
+            <sys_id>05a70778b03322107f44bab91a72b074</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_staff_shifts" sys_domain="global" view="Default view">85a70778b03322107f44bab91a72b06e</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-03 05:13:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-03 05:13:08</sys_created_on>
+            <sys_id>89a70778b03322107f44bab91a72b074</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_cmt_staff_shifts" sys_domain="global" view="Default view">85a70778b03322107f44bab91a72b06e</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-03 05:13:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_cmt_staff_shifts</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-03 05:13:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85a70778b03322107f44bab91a72b06e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_cmt_staff_shifts</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_ui_section_85a70778b03322107f44bab91a72b06e</sys_update_name>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-03 05:13:07</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

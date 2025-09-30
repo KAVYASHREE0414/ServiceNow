@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="car">a2a7a77f2c2722107f4411d16edcb242</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-08-31 04:59:35</sys_created_on>
+        <sys_id>d9c72b7f2c2722107f4411d16edcb2ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.car</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_d9c72b7f2c2722107f4411d16edcb2ab</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-08-31 04:59:35</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sc_cat_item_catalog_d9c72b7f2c2722107f4411d16edcb2ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="car">a2a7a77f2c2722107f4411d16edcb242</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>DEPAVATH.NARESH</sys_created_by><sys_created_on>2025-08-31 04:59:35</sys_created_on><sys_id>d9c72b7f2c2722107f4411d16edcb2ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.car</sys_name><sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package><sys_policy/><sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope><sys_update_name>sc_cat_item_catalog_d9c72b7f2c2722107f4411d16edcb2ab</sys_update_name><sys_updated_by>DEPAVATH.NARESH</sys_updated_by><sys_updated_on>2025-08-31 04:59:35</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>976635838</payload_hash>
+        <record_name>Service Catalog.car</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-08-31 04:59:35</sys_created_on>
+        <sys_id>95c72b7f2c2722107f4411d16edcb2af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198fe7ebc1e0000001</sys_recorded_at>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-08-31 04:59:35</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>99c72b7f5427221095df950b314c07ae</update_guid>
+        <update_guid_history>99c72b7f5427221095df950b314c07ae:976635838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.car">e98d23b72c6722107f4411d16edcb296</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-08-31 05:24:43</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>597ef93d50b143d4b80dab2285e36b49</sys_id>
+        <sys_metadata>d9c72b7f2c2722107f4411d16edcb2ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.car</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent display_value="">a2a7a77f2c2722107f4411d16edcb242</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_d9c72b7f2c2722107f4411d16edcb2ab</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_d9c72b7f2c2722107f4411d16edcb2ab">95c72b7f2c2722107f4411d16edcb2af</sys_update_version>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-08-31 05:24:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

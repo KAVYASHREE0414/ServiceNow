@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="INSERT_OR_UPDATE">
+        <lazy_load>false</lazy_load>
+        <name>staff_dashboard.css</name>
+        <rtl_css_file_url/>
+        <source>local</source>
+        <sp_css display_value="staff_dashboard.css">f49d1e2ebd3b22107f443f3bb0ac63a1</sp_css>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>Bachanagoni.Pranitha</sys_created_by>
+        <sys_created_on>2025-09-08 12:39:08</sys_created_on>
+        <sys_id>8bad9e2ebd3b22107f443f3bb0ac63d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>staff_dashboard.css</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_css_include_8bad9e2ebd3b22107f443f3bb0ac63d6</sys_update_name>
+        <sys_updated_by>Bachanagoni.Pranitha</sys_updated_by>
+        <sys_updated_on>2025-09-08 12:39:08</sys_updated_on>
+        <url/>
+    </sp_css_include>
+</record_update>

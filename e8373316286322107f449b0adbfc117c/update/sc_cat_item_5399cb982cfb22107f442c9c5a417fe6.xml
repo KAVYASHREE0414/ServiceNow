@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Hardware">d258b953c611227a0146101fb1be7c31</category>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time/>
+        <description><![CDATA[<p>Battery-operated or wired smoke detectors that comply with safety standards. Helps provide early warning of smoke or fire. Recommended for kitchens, hallways, and bedrooms.</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow display_value="Item Request">76e94877fd6322107f44e5e3c770b2f2</flow_designer_flow>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Smoke Detectors</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>true</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Bud Richman">46c6f9efa9fe198101ddf5eed9adf6e7</owner>
+        <picture>87e98bd82cfb22107f442c9c5a417f72</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=5399cb982cfb22107f442c9c5a417fe6&amp;sysparm_preview=true", "summary");</preview>
+        <price>200</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method>submit</request_method>
+        <roles>snc_internal</roles>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template display_value="Standard items in Service Catalog">dab9529cbd002010f8775d9559d0dab6</sc_template>
+        <short_description>Essential fire safety device for residential units.</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:06:11</sys_created_on>
+        <sys_id>5399cb982cfb22107f442c9c5a417fe6</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Smoke Detectors</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sc_cat_item_5399cb982cfb22107f442c9c5a417fe6</sys_update_name>
+        <sys_updated_by>Rashmika.Masaram</sys_updated_by>
+        <sys_updated_on>2025-09-11 05:56:24</sys_updated_on>
+        <taxonomy_topic display_value="Accessories">0fb45ba7c3053010069aec4b7d40dd40</taxonomy_topic>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>4</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=5399cb982cfb22107f442c9c5a417fe6"/>
+    <fx_price action="delete_multiple" query="id=5399cb982cfb22107f442c9c5a417fe6"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>200</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>5399cb982cfb22107f442c9c5a417fe6</id>
+        <parent/>
+        <reference_amount>200</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:06:11</sys_created_on>
+        <sys_id>bbe9831c2cfb22107f442c9c5a417f08</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-01 16:11:13</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>smoke.jpeg</file_name>
+        <hash>ad1f11b78fa35c77938908289e20262f258426883abccb7c444778c4476591c8</hash>
+        <image_height>194</image_height>
+        <image_width>259</image_width>
+        <size_bytes>5273</size_bytes>
+        <size_compressed>5184</size_compressed>
+        <state/>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:06:08</sys_created_on>
+        <sys_id>87e98bd82cfb22107f442c9c5a417f72</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>bud.richman</sys_updated_by>
+        <sys_updated_on>2025-09-01 16:06:08</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>5399cb982cfb22107f442c9c5a417fe6</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="smoke.jpeg" sys_id="87e98bd82cfb22107f442c9c5a417f72">87e98bd82cfb22107f442c9c5a417f72</sys_attachment>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:06:08</sys_created_on>
+        <sys_id>c7e98bd82cfb22107f442c9c5a417f72</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6900</length>
+        <position>1</position>
+        <sys_attachment display_value="smoke.jpeg" sys_id="87e98bd82cfb22107f442c9c5a417f72">87e98bd82cfb22107f442c9c5a417f72</sys_attachment>
+        <sys_created_by>bud.richman</sys_created_by>
+        <sys_created_on>2025-09-01 16:06:08</sys_created_on>
+        <sys_id>4be98bd82cfb22107f442c9c5a417f72</sys_id>
+    </sys_attachment_doc>
+</record_update>

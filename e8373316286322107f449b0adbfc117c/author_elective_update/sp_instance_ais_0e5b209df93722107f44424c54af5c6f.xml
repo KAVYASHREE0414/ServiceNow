@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">0010d055f9b322107f44424c54af5c32</sp_column>
+        <sp_widget display_value="Copy of Homepage Search">982b2c5df93722107f44424c54af5c6a</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-04 07:07:13</sys_created_on>
+        <sys_id>0e5b209df93722107f44424c54af5c6f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Resident Connect – Smart Living in Your Community</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_instance_ais_0e5b209df93722107f44424c54af5c6f</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-04 17:27:25</sys_updated_on>
+        <title>Resident Connect – Smart Living in Your Community</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=0e5b209df93722107f44424c54af5c6f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_instance_ais_0e5b209df93722107f44424c54af5c6f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_ais"&gt;&lt;sp_instance_ais action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;ai_search_source_filter/&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;disable_all_suggestions&gt;false&lt;/disable_all_suggestions&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;placeholder/&gt;&lt;roles/&gt;&lt;search_application/&gt;&lt;search_results_configuration/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;0010d055f9b322107f44424c54af5c32&lt;/sp_column&gt;&lt;sp_widget display_value="Copy of Homepage Search"&gt;982b2c5df93722107f44424c54af5c6a&lt;/sp_widget&gt;&lt;spell_check_font_size&gt;xl&lt;/spell_check_font_size&gt;&lt;sys_class_name&gt;sp_instance_ais&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DEPAVATH.NARESH&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-04 07:07:13&lt;/sys_created_on&gt;&lt;sys_id&gt;0e5b209df93722107f44424c54af5c6f&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Resident Connect – Smart Living in Your Community&lt;/sys_name&gt;&lt;sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Resident service and visitor management system"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ais_0e5b209df93722107f44424c54af5c6f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DEPAVATH.NARESH&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-04 17:27:25&lt;/sys_updated_on&gt;&lt;title&gt;Resident Connect – Smart Living in Your Community&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_ais&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0e5b209df93722107f44424c54af5c6f"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-838596512</payload_hash>
+        <record_name>Resident Connect – Smart Living in Your Community</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-04 17:27:25</sys_created_on>
+        <sys_id>cf493659f93362107f44424c54af5c4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19915c4d6dc0000001</sys_recorded_at>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-04 17:27:25</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>87493659ce33621068679516c3a4e54a</update_guid>
+        <update_guid_history>87493659ce33621068679516c3a4e54a:-838596512,1949b2dd2a336210fc177e20de23cd55:2058763454,b07979d5dafb22108989a29d9bfb2089:-838596512,e235bd514dfb2210449a2b571cc341de:90546367,c222b15db0bb22109877580ae350383e:-838596512,c65b209dde3722106a572e3b9318fa71:1692512200</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Resident Connect – Smart Living in Your Community">75b38cde94b322107f448691b50f3c69</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 06:48:00</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>76d0dce7628240f0b9a69542f2b96900</sys_id>
+        <sys_metadata>0e5b209df93722107f44424c54af5c6f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resident Connect – Smart Living in Your Community</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_0e5b209df93722107f44424c54af5c6f</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_0e5b209df93722107f44424c54af5c6f">cf493659f93362107f44424c54af5c4a</sys_update_version>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-07 06:48:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

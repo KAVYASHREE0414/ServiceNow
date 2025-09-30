@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Resident and Location" section_id="5bd99f7b2ce322107f4411d16edcb26b" sys_domain="global" table="u_community_maintenance_task" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_resident</element>
+            <position>0</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-11 16:01:35</sys_created_on>
+            <sys_id>82c8ae6ffcf362107f44d350ad2121bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resident and Location" display_value="Resident and Location" name="u_community_maintenance_task" sys_domain="global" view="Default view">5bd99f7b2ce322107f4411d16edcb26b</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-11 16:01:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-11 16:01:35</sys_created_on>
+            <sys_id>cec8ae6ffcf362107f44d350ad2121bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resident and Location" display_value="Resident and Location" name="u_community_maintenance_task" sys_domain="global" view="Default view">5bd99f7b2ce322107f4411d16edcb26b</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-11 16:01:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_flat_number</element>
+            <position>2</position>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-09-11 16:01:35</sys_created_on>
+            <sys_id>c6c8ae6ffcf362107f44d350ad2121be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resident and Location" display_value="Resident and Location" name="u_community_maintenance_task" sys_domain="global" view="Default view">5bd99f7b2ce322107f4411d16edcb26b</sys_ui_section>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-09-11 16:01:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Resident and Location</caption>
+            <header>false</header>
+            <name>u_community_maintenance_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>KAVYASHREE.PUNURU</sys_created_by>
+            <sys_created_on>2025-08-31 03:58:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bd99f7b2ce322107f4411d16edcb26b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_community_maintenance_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+            <sys_update_name>sys_ui_section_5bd99f7b2ce322107f4411d16edcb26b</sys_update_name>
+            <sys_updated_by>KAVYASHREE.PUNURU</sys_updated_by>
+            <sys_updated_on>2025-08-31 03:58:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>standard</category>
+        <client_script><![CDATA[function($scope) {
+    $scope.showResidents = false;
+
+    $scope.toggleResidents = function() {
+        $scope.showResidents = !$scope.showResidents;
+    };
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn {&#13;
+  margin: 10px 0;&#13;
+  font-size: 16px;&#13;
+  padding: 12px;&#13;
+  border-radius: 6px;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{
+	"href": "www.google.com",
+	"button_text": "Go to google"
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>color</field_list>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+    scope.$watch('showResidents', function(newVal) {
+        if (newVal) {
+            element.find('button').text('Hide Staff Profiles ');
+        } else {
+            element.find('button').text('Show Staff Profiles');
+        }
+    });
+}
+]]></link>
+        <name>Copy of resident link-button</name>
+        <option_schema>[{"name":"href","section":"Presentation","label":"Link for button","type":"string"},{"name":"button_text","section":"Presentation","label":"Contents of button","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles>snc_external,snc_internal</roles>
+        <script><![CDATA[(function() {
+    data.residents = [];
+
+    var gr = new GlideRecord('u_staff_profile'); // your table
+    gr.query();
+    while (gr.next()) {
+        data.residents.push({
+            sys_id: gr.getUniqueValue(),
+            name: gr.getDisplayValue('u_user'),       // FIXED
+            address: gr.getDisplayValue('u_role'), // FIXED
+            phone: gr.getDisplayValue('state')          // FIXED
+        });
+    }
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 07:26:45</sys_created_on>
+        <sys_id>959c085e94f322107f448691b50f3ced</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Copy of resident link-button</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_959c085e94f322107f448691b50f3ced</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-07 07:38:02</sys_updated_on>
+        <template><![CDATA[<button class="btn btn-primary" ng-click="toggleResidents()">
+  Show Residents
+</button>
+
+<div ng-show="showResidents" class="table-responsive mt-3">
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>State</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="resident in data.residents">
+        <td>{{ resident.name }}</td>
+        <td>{{ resident.address }}</td>
+        <td>{{ resident.phone }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

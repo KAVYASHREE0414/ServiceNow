@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>users</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>See Your List of Residents Here </short_description>
+        <size>md</size>
+        <sp_column display_value="2">11c74a5df93f22107f44424c54af5cac</sp_column>
+        <sp_page display_value="resident_list">8a504315f97362107f44424c54af5cea</sp_page>
+        <sp_widget display_value="Resident Icon Link">2d24071df97362107f44424c54af5c29</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-04 18:18:46</sys_created_on>
+        <sys_id>4b05479df97362107f44424c54af5ce9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Here</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_instance_link_4b05479df97362107f44424c54af5ce9</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-04 18:26:46</sys_updated_on>
+        <title>Here</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	},
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=4b05479df97362107f44424c54af5ce9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</application>
+        <file_path/>
+        <instance_id>0f2793f3971ba6500b9b74b71153af19</instance_id>
+        <instance_name>sya-aug-3203-0008</instance_name>
+        <name>sp_instance_link_4b05479df97362107f44424c54af5ce9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;users&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;See Your List of Residents Here &lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;11c74a5df93f22107f44424c54af5cac&lt;/sp_column&gt;&lt;sp_page display_value="resident_list"&gt;8a504315f97362107f44424c54af5cea&lt;/sp_page&gt;&lt;sp_widget display_value="Resident Icon Link"&gt;2d24071df97362107f44424c54af5c29&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;DEPAVATH.NARESH&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-04 18:18:46&lt;/sys_created_on&gt;&lt;sys_id&gt;4b05479df97362107f44424c54af5ce9&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Here&lt;/sys_name&gt;&lt;sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Resident service and visitor management system"&gt;e8373316286322107f449b0adbfc117c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_4b05479df97362107f44424c54af5ce9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;DEPAVATH.NARESH&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-04 18:26:46&lt;/sys_updated_on&gt;&lt;title&gt;Here&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	},
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4b05479df97362107f44424c54af5ce9"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-229856945</payload_hash>
+        <record_name>Here</record_name>
+        <reverted_from/>
+        <source>d2e73356286322107f449b0adbfc11c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-04 18:26:47</sys_created_on>
+        <sys_id>20e64711f9b362107f44424c54af5c75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19915fb2e6e0000001</sys_recorded_at>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-04 18:26:47</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>e4e647118ab36210697fed77ad464974</update_guid>
+        <update_guid_history>e4e647118ab36210697fed77ad464974:-229856945,1566cf9d7b736210d9d69dbbdc5af1d7:377559436,0705479dbd7362109bf6b1d7c2741beb:1329421559</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Here">08574711f9b362107f44424c54af5c52</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-04 18:28:39</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>1454897d98d444a8837986b917d98a40</sys_id>
+        <sys_metadata>4b05479df97362107f44424c54af5ce9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Here</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_scope_delete display_value="">927e78898489408482d2fcb346b26a04</sys_scope_delete>
+        <sys_update_name>sp_instance_link_4b05479df97362107f44424c54af5ce9</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_4b05479df97362107f44424c54af5ce9">20e64711f9b362107f44424c54af5c75</sys_update_version>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-04 18:28:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

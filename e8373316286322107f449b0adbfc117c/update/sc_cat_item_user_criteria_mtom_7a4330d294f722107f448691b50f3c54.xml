@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Pipe  (PVC, CPVC, GI Pipes)">df62b45294f722107f448691b50f3c44</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-07 10:15:53</sys_created_on>
+        <sys_id>7a4330d294f722107f448691b50f3c54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pipe  (PVC, CPVC, GI Pipes).Residents Only</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_7a4330d294f722107f448691b50f3c54</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-07 10:15:53</sys_updated_on>
+        <user_criteria display_value="Residents Only">1f9857dc2c3f22107f442c9c5a417fdf</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

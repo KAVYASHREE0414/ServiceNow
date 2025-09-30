@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1c47a9a8a57322107f44045be81579c2" extends="sys_import_set_row" label="CMT staff profiles" max_length="40" name="u_cmt_staff_profiles" type="collection">
+        <element display="true" label="Email" max_length="32" name="u_email" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mobile" label="mobile" max_length="40" name="u_mobile" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=role" label="role" max_length="40" name="u_role" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" mandatory="true" max_length="10" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=group" label="group" max_length="40" name="u_group" type="string"/>
+        <index name="index">
+            <element name="u_email"/>
+        </index>
+    </element>
+</database>

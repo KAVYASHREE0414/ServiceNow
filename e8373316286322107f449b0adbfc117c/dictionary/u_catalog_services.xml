@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d7ac7b1a286322107f449b0adbfc11f3" label="Catalog Services" max_length="40" name="u_catalog_services" type="collection">
+        <element choice="1" label="Priority" max_length="40" name="u_priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="12" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="11" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="13" value="high"/>
+                <element inactive_on_update="false" label="Critical" sequence="14" value="critical"/>
+            </choice>
+        </element>
+        <element label="Completed At" max_length="40" name="u_completed_at" type="glide_date_time"/>
+        <element label="Feedback" max_length="2000" name="u_feedback" type="string"/>
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="u_category" type="choice">
+            <choice/>
+        </element>
+        <element label="Rating" max_length="1" name="u_rating" type="integer"/>
+        <element label="Description" max_length="4000" name="u_description" type="string"/>
+        <element label="Assigned  to" max_length="32" name="u_assigned_to" reference="u_staff_service_provider" reference_qual="u_nameISNOTEMPTY^u_phoneISNOTEMPTY^EQ" reference_qual_condition="u_nameISNOTEMPTY^u_phoneISNOTEMPTY^EQ" type="reference"/>
+        <element label="Scheduled For" max_length="40" name="u_scheduled_for" type="glide_date_time"/>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+    </element>
+</database>

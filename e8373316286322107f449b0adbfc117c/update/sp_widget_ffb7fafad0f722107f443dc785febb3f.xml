@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>/* Hero Section with full background image */&#13;
+.hero-section {&#13;
+  position: relative;&#13;
+  background: url('/sys_image.do?sys_id=67eafefed0f722107f443dc785febb56') no-repeat center center / cover;&#13;
+  color: white;&#13;
+  text-align: center;&#13;
+  height: 100vh;           /* full screen height */&#13;
+  width: 100vw;&#13;
+  margin: 0;&#13;
+  display: flex;&#13;
+  align-items: center;&#13;
+  justify-content: center;&#13;
+  overflow: hidden;&#13;
+  z-index: 0 !important;&#13;
+}&#13;
+&#13;
+/* Dark overlay for readability */&#13;
+/* .hero-overlay {&#13;
+  position: absolute;&#13;
+  top: 0; left: 0;&#13;
+  width: 100%; height: 100%;&#13;
+  background: rgba(0, 0, 0, 0.45);&#13;
+  z-index: 1;&#13;
+} */&#13;
+&#13;
+.hero-overlay {&#13;
+  position: absolute;&#13;
+  top: 0; left: 0;&#13;
+  width: 100%; height: 100%;&#13;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.4));&#13;
+  z-index: 1;&#13;
+}&#13;
+&#13;
+.hero-title,&#13;
+.hero-subtitle,&#13;
+.hero-tagline {&#13;
+  text-shadow: 0px 3px 6px rgba(0,0,0,0.8);&#13;
+}&#13;
+&#13;
+/* Content sits above overlay */&#13;
+.hero-content {&#13;
+  position: relative;&#13;
+  z-index: 2;&#13;
+  max-width: 800px;&#13;
+  padding: 20px;&#13;
+}&#13;
+&#13;
+.hero-title {&#13;
+  font-size: 50px;&#13;
+  font-weight: 700;&#13;
+  margin-bottom: 20px;&#13;
+ &#13;
+}&#13;
+&#13;
+.hero-subtitle {&#13;
+  font-size: 20px;&#13;
+  margin-bottom: 30px;&#13;
+  color: #ecf0f1;&#13;
+}&#13;
+&#13;
+/* Highlights (badges under subtitle) */&#13;
+/* .hero-highlights {&#13;
+  margin-bottom: 30px;&#13;
+}&#13;
+.hero-highlights .highlight {&#13;
+  display: inline-block;&#13;
+  background: rgba(255, 255, 255, 0.1);&#13;
+  padding: 8px 16px;&#13;
+  border-radius: 20px;&#13;
+  margin: 5px;&#13;
+  font-size: 14px;&#13;
+  font-weight: 600;&#13;
+  border: 1px solid rgba(255,255,255,0.2);&#13;
+  transition: all 0.3s ease;&#13;
+}&#13;
+.hero-highlights .highlight:hover {&#13;
+  background: #3498db;&#13;
+  color: white;&#13;
+   border-color: #3498db; &#13;
+} */&#13;
+&#13;
+.hero-highlights .highlight {&#13;
+  display: inline-block;&#13;
+  background: rgba(255, 255, 255, 0.1);&#13;
+  padding: 8px 16px;&#13;
+  border-radius: 20px;&#13;
+  margin: 5px;&#13;
+  font-size: 14px;&#13;
+  font-weight: 600;&#13;
+  border: 2px solid #3498db;   /* fixed border color */&#13;
+  transition: all 0.3s ease;&#13;
+}&#13;
+&#13;
+.hero-highlights .highlight:hover {&#13;
+  background: #3498db;&#13;
+  color: white;&#13;
+  border-color: #3498db;   /* keep consistent */&#13;
+}&#13;
+&#13;
+/* Buttons */&#13;
+.hero-buttons .btn {&#13;
+  margin: 0 10px;&#13;
+  padding: 14px 32px;&#13;
+  font-size: 16px;&#13;
+  border-radius: 30px;&#13;
+  font-weight: 600;&#13;
+  display: inline-block;&#13;
+}&#13;
+&#13;
+.btn-primary {&#13;
+  background: #3498db;&#13;
+  color: white;&#13;
+  border: none;&#13;
+  transition: all 0.3s ease;&#13;
+}&#13;
+.btn-primary:hover {&#13;
+  background: #2980b9;&#13;
+}&#13;
+&#13;
+.btn-outline {&#13;
+  border: 2px solid white;&#13;
+  color: white;&#13;
+  background: transparent;&#13;
+  transition: all 0.3s ease;&#13;
+}&#13;
+.btn-outline:hover {&#13;
+  background: white;&#13;
+  color: #2c3e50;&#13;
+}&#13;
+&#13;
+/* Tagline under buttons */&#13;
+.hero-tagline {&#13;
+  margin-top: 40px;&#13;
+  font-size: 14px;&#13;
+  color: #bdc3c7;&#13;
+  font-style: italic;&#13;
+}&#13;
+&#13;
+&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>hero_section</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>hero Section</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-09 09:12:11</sys_created_on>
+        <sys_id>ffb7fafad0f722107f443dc785febb3f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>hero Section</sys_name>
+        <sys_package display_value="Resident service and visitor management system" source="e8373316286322107f449b0adbfc117c">e8373316286322107f449b0adbfc117c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resident service and visitor management system">e8373316286322107f449b0adbfc117c</sys_scope>
+        <sys_update_name>sp_widget_ffb7fafad0f722107f443dc785febb3f</sys_update_name>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-09 09:50:17</sys_updated_on>
+        <template><![CDATA[<div class="hero-section">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-title">Welcome to the Residents Portal</h1>
+    <p class="hero-subtitle">Your digital gateway to modern community living</p>
+
+    <div class="hero-highlights">
+      <span class="highlight">]]>🏡<![CDATA[ Smart Living</span>
+      <span class="highlight">]]>💬<![CDATA[ 24/7 Support</span>
+      <span class="highlight">]]>🌟<![CDATA[ Member Benefits</span>
+    </div>
+
+    <div class="hero-buttons">
+      <a href="javascript:void(0)" class="btn btn-primary">Explore Services</a>
+      <a href="javascript:void(0)" class="btn btn-outline">Learn More</a>
+    </div>
+
+    <p class="hero-tagline">Scroll down to discover everything your community offers ↓</p>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>ffb7fafad0f722107f443dc785febb3f</id>
+        <sys_created_by>DEPAVATH.NARESH</sys_created_by>
+        <sys_created_on>2025-09-09 09:12:11</sys_created_on>
+        <sys_id>95e7fafad0f722107f443dc785febbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>DEPAVATH.NARESH</sys_updated_by>
+        <sys_updated_on>2025-09-09 09:12:11</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

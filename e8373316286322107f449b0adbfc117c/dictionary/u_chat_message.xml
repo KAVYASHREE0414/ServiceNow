@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="90fb4523fcfb22107f44d350ad2121ee" extends="task" label="Chat Message" max_length="40" name="u_chat_message" type="collection">
+        <element label="to" mandatory="true" max_length="32" name="u_to" reference="sys_user" type="reference"/>
+        <element label="from" mandatory="true" max_length="32" name="u_from" reference="sys_user" type="reference"/>
+        <element label="conversation" mandatory="true" max_length="32" name="u_conversation" reference="u_conversation" type="reference"/>
+        <element label="message" mandatory="true" max_length="1000" name="u_message" type="string"/>
+    </element>
+</database>
