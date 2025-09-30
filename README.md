@@ -21,3 +21,4 @@ Features
 
 Author
 👩‍💻 Kavyashree Punuru  
+<img width="1919" height="873" alt="Screenshot 2025-09-19 084108" src="https://github.com/user-attachments/assets/6c4ef5d2-670e-429f-b220-8190a46b98a1" />
