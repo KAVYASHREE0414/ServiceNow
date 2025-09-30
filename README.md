@@ -1,3 +1,7 @@
+<img width="1324" height="722" alt="Screenshot 2025-09-19 121248" src="https://github.com/user-attachments/assets/ea81930b-bd44-448c-8b9c-391efb7ce9df" />
+<img width="1321" height="726" alt="Screenshot 2025-09-19 121455" src="https://github.com/user-attachments/assets/b609cce8-b36c-4502-b094-4bd3a377a7b9" />
+<img width="959" height="854" alt="Screenshot 2025-09-19 081834" src="https://github.com/user-attachments/assets/83b40428-d4a8-424f-a732-2f3f7125afb7" />
+<img width="1321" height="726" alt="Screenshot 2025-09-19 121455" src="https://github.com/user-attachments/assets/887017d7-c133-424b-b37e-a40d55d42f1a" />
 Resident and Visitor Management System
 
 This is a ServiceNow application that helps manage residents and visitors in a housing or community setup.  
